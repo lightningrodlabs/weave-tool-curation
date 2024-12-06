@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  publish:
+  validate:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
