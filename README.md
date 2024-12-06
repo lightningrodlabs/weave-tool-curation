@@ -1,2 +1,5 @@
 # weave-tool-curation
-Curation list of Tools for the Weave
+
+Curation lists of Tools for the Weave
+
+Go to the respective Moss version folders for instructions.
