@@ -6,6 +6,11 @@ export default defineCurationList({
   contact: {
     website: "https://lightningrodlabs.org",
   },
-  icon: "---",
-  developerCollectiveCurations: [],
+  icon: "https://lightningrodlabs.org/lrl_logo.png",
+  developerCollectiveCurations: [{
+    url: "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/curation.json",
+    tools: {
+      type: "all"
+    }
+  }],
 });
