@@ -1,0 +1,16 @@
+{
+  "name": "@lightningrodlabs/weave-tool-curation-0.13",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --loader ts-node/esm --abort-on-uncaught-exception ./curation.ts",
+    "write-curation-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-curation-list.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@theweave/moss-types": "file:/home/matthias/code/holochain/lightningrodlabs/moss/shared/types",
+    "ts-node": "10.9.2"
+  }
+}
