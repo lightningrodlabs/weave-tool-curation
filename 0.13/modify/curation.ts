@@ -7,7 +7,7 @@ export default defineCurationList({
     website: "https://lightningrodlabs.org",
   },
   icon: "https://lightningrodlabs.org/lrl_logo.png",
-  developerCollectiveCurations: [{
+  developerCollectives: [{
     url: "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/curation.json",
     tools: {
       type: "all"
