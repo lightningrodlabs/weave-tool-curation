@@ -1,9 +1,9 @@
-import { defineDevCollectiveContent } from "@theweave/moss-types";
+import { defineDevCollectiveToolList } from "@theweave/moss-types";
 
-export default defineDevCollectiveContent({
+export default defineDevCollectiveToolList({
+  id: "lightningrodlabs",
   name: "Lightningrod Labs",
   description: "Nurturing The Holochain Ecosystem",
-  id: "lightningrodlabs",
   icon: "https://lightningrodlabs.org/lrl_logo.png",
   contact: {
     website: "https://lightningrodlabs.org",
