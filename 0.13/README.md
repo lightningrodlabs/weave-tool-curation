@@ -10,7 +10,7 @@
 ## Modifying the Tools List
 
 0. Run `npm install`
-1. Go to `./modify/toolListJSON.ts` and change the file as needed
-2. Run `npm run write-lists` which should update `./lists/toolListJSON.json`.
+1. Go to `./modify/tool-list-0.13.ts` and change the file as needed
+2. Run `npm run write-lists` which should update `./lists/tool-list-0.13.json`.
 3. Make a PR with the new change
 
