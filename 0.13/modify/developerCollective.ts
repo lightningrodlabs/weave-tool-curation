@@ -8,7 +8,7 @@ export default defineDevCollectiveContent({
   contact: {
     website: "https://lightningrodlabs.org",
   },
-  apps: [
+  tools: [
     {
       id: "kando",
       versionBranch: "0.11.x",
@@ -27,6 +27,7 @@ export default defineDevCollectiveContent({
             webhappSha256: "asdfasdf",
           },
           changelog: "Same new",
+          releasedAt: 1733836508786,
         },
       ],
     },

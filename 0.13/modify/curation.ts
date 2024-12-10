@@ -8,7 +8,7 @@ export default defineCurationList({
   },
   icon: "https://lightningrodlabs.org/lrl_logo.png",
   developerCollectives: [{
-    url: "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/curation.json",
+    url: "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/developerCollective.json",
     tools: {
       type: "all"
     }

@@ -25,11 +25,11 @@ if (devCollectiveListJSON !== devCollectiveListActual)
   );
 
 // Check that version fields are all valid semver
-devCollectiveListObject.apps.forEach((app) => {
-  app.versions.forEach((versionInfo) => {
+devCollectiveListObject.tools.forEach((tool) => {
+  tool.versions.forEach((versionInfo) => {
     if (!semver.valid(versionInfo.version))
       throw new Error(
-        `Found invalid semver version ${versionInfo.version} for app ${app.id}`
+        `Found invalid semver version ${versionInfo.version} for app ${tool.id}`
       );
   });
 });
