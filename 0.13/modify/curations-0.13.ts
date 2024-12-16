@@ -22,6 +22,13 @@ export default defineCurationLists({
           versionBranch: "0.11.x",
           tags: ["productivity", "tagnr2"],
         },
+        {
+          toolListUrl:
+            "https://drive.switch.ch/index.php/s/YaWnZzVcTH8Wvzd/download",
+          toolId: "matthme.presence",
+          versionBranch: "0.10.x",
+          tags: [],
+        },
       ],
     },
   },

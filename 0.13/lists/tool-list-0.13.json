@@ -25,9 +25,9 @@
                     "version": "0.11.3",
                     "url": "https://github.com/holochain-apps/kando/releases/download/v0.11.3/kando.webhapp",
                     "hashes": {
-                        "happSha256": "9692bcfadb1be6951d1c5569e011bf6806936c6d1179b65e5a8f95eb1518c019",
-                        "webhappSha256": "6ac0c18379b40da032c7991a9d6094b52f9863c6a01e62d86d5c2656ce4e4cfe",
-                        "uiSha256": "c45ccb315be8af0997c74f156035e76bea6132e9b68bdbbed97f9feb987f3cf3"
+                        "happSha256": "sdfasdfasdf",
+                        "uiSha256": "asdfasfdasd",
+                        "webhappSha256": "asdfasdf"
                     },
                     "changelog": "Same new",
                     "releasedAt": 1733836508786
