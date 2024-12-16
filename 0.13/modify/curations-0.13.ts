@@ -17,7 +17,7 @@ export default defineCurationLists({
       tools: [
         {
           toolListUrl:
-            "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/lightningrodlabs.json",
+            "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/tool-list.json",
           toolId: "kando",
           versionBranch: "0.11.x",
           tags: ["productivity", "tagnr2"],
