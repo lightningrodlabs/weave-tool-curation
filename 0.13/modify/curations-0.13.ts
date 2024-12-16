@@ -24,7 +24,7 @@ export default defineCurationLists({
         },
         {
           toolListUrl:
-            "https://drive.switch.ch/index.php/s/YaWnZzVcTH8Wvzd/download",
+            "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/tool-list-0.13.json",
           toolId: "matthme.presence",
           versionBranch: "0.10.x",
           tags: [],
