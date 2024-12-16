@@ -16,7 +16,7 @@ is identified by an `id` and a `versionBranch`, where all versions of a Tool bel
 
 To verify the integrity of the files, the sha256 hashes of the `.webhapp`, `.happ` and the UI are
 required for every Tool version in a Tools list. These get stored in the group DNA of a Moss
-group so that other group members can verify that they download the same Tool as other group
+group so that each group member can verify that they download the same Tool as other group
 members.
 
 To compute these hashes you can use the Weave CLI [`@theweave/cli`](https://www.npmjs.com/package/@theweave/cli) and
@@ -34,12 +34,14 @@ and they need to match with how Moss computes them.
 0. Run `npm install`
 1. Go to `./modify/curations-0.13.ts` and change the file as needed
 2. Run `npm run write-lists` which should update `./lists/curations-0.13.json`.
-3. Make a PR with the new change
+3. run `npm run test` to run basic validity checks for the generated json file.
+4. Make a PR with the new change
 
 ## Modifying the Tools List
 
 0. Run `npm install`
 1. Go to `./modify/tool-list-0.13.ts` and change the file as needed
 2. Run `npm run write-lists` which should update `./lists/tool-list-0.13.json`.
-3. Make a PR with the new change
+3. run `npm run test` to run basic validity checks for the generated json file.
+4. Make a PR with the new change
 
