@@ -5,7 +5,10 @@ import toolListObject from "./modify/tool-list-0.13.ts";
 const curationListJSON = JSON.stringify(curationListObject, undefined, 4);
 const toolListJSONJSON = JSON.stringify(toolListObject, undefined, 4);
 
-const curationListActual = fs.readFileSync("./lists/curations-0.13.json", "utf-8");
+const curationListActual = fs.readFileSync(
+  "./lists/curations-0.13.json",
+  "utf-8"
+);
 const toolListActual = fs.readFileSync("./lists/tool-list-0.13.json", "utf-8");
 
 if (curationListJSON !== curationListActual)
@@ -25,6 +28,11 @@ toolListObject.tools.forEach((tool) => {
         `Found invalid semver version ${versionInfo.version} for app ${tool.id}`
       );
   });
+  try {
+    const _iconUrl = new URL(tool.icon);
+  } catch (e) {
+    throw new Error(`Invalid icon URL for tool '${tool.title}'`);
+  }
 });
 
 // TODO Verify that versionBranch fields are unique for the same tool id
