@@ -14,22 +14,7 @@ export default defineCurationLists({
       name: "Default Curation List",
       description: "Default Curation List of Lightningrod Labs",
       tags: [],
-      tools: [
-        {
-          toolListUrl:
-            "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/tool-list-0.13.json",
-          toolId: "kando",
-          versionBranch: "0.11.x",
-          tags: ["productivity", "tagnr2"],
-        },
-        {
-          toolListUrl:
-            "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/test-0.13/0.13/lists/tool-list-0.13.json",
-          toolId: "matthme.presence",
-          versionBranch: "0.10.x",
-          tags: [],
-        },
-      ],
+      tools: [],
     },
   },
 });
