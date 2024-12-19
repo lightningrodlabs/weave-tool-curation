@@ -2,4 +2,6 @@
 
 Curation lists of Tools for the Weave
 
-Go to the respective Moss version folders for instructions.
+## Instructions
+
+* [Instructions for publishing to Moss 0.13](./0.13/README.md)
