@@ -25,7 +25,7 @@
             ],
             "versions": [
                 {
-                    "version": "0.7.6",
+                    "version": "0.7.7",
                     "hashes": {
                         "happSha256": "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
                         "webhappSha256": "d75b28807052bbf56d0641a51c63fde6d5f6f80a8efe4c782581473c8de4d4bf",

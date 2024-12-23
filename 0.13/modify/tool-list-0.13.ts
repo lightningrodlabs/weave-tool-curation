@@ -21,7 +21,7 @@ export default defineDevCollectiveToolList({
       tags: ["game", "board game", "canvas", "collaboration", "play"],
       versions: [
         {
-          version: "0.7.6",
+          version: "0.7.7",
           hashes: {
             happSha256:
               "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
