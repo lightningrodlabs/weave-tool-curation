@@ -14,7 +14,22 @@ export default defineCurationLists({
       name: "Default Curation List",
       description: "Default Curation List of Lightningrod Labs",
       tags: [],
-      tools: [],
+      tools: [
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "kando",
+          versionBranch: "0.12.x",
+          tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "gamez",
+          versionBranch: "main",
+          tags: ["game", "board game", "canvas", "collaboration", "play"],
+        },
+      ],
     },
   },
 });
