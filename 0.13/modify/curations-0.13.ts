@@ -17,7 +17,7 @@ export default defineCurationLists({
       tools: [
         {
           toolListUrl:
-            "https://raw.githubusercontent.com/lightningrodlabs/weave-tool-curation/refs/heads/main/0.13/lists/tool-list-0.13.json",
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
           toolId: "gamez",
           versionBranch: "main",
           tags: ["game", "board game", "canvas", "collaboration", "play"],
