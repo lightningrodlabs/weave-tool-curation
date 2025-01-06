@@ -15,6 +15,14 @@
             "tools": [
                 {
                     "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+                    "toolId": "notebooks",
+                    "versionBranch": "0.4.x",
+                    "tags": [
+                        ""
+                    ]
+                },
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
                     "toolId": "kando",
                     "versionBranch": "0.12.x",
                     "tags": [

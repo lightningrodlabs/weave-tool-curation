@@ -10,6 +10,31 @@
     },
     "tools": [
         {
+            "id": "notebooks",
+            "versionBranch": "0.4.x",
+            "title": "Notebooks",
+            "subtitle": "Collaborative MarkDown editor",
+            "description": "Real-time collaborative Markdown editing, includes version control.",
+            "icon": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.4.1-rc.0/notebooks_logo.png",
+            "tags": [
+                "markdown",
+                "real-time editor"
+            ],
+            "versions": [
+                {
+                    "version": "0.4.1-rc.0",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.4.1-rc.0/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "79569a97b7c4c8736576668ec428f2f18caad8b8f39c72af6df503ea0bef6193",
+                        "webhappSha256": "2780343e0edb8714247361728acd6c5c03bd9e5bd56be43d45b5910b861ff2b3",
+                        "uiSha256": "d778270c26884728ef4977c1052f91150fa3f024436041b648e7de9e52523b47"
+                    },
+                    "changelog": "Updates for Holochain 0.4 and Moss 0.13",
+                    "releasedAt": 1736192464850
+                }
+            ]
+        },
+        {
             "id": "kando",
             "versionBranch": "0.12.x",
             "title": "KanDo",
