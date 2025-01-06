@@ -31,6 +31,17 @@
                     },
                     "changelog": "Updates for Holochain 0.4 and Moss 0.13",
                     "releasedAt": 1736019237925
+                },
+                {
+                    "version": "0.12.0-rc.1",
+                    "url": "https://github.com/holochain-apps/kando/releases/download/v0.12.0-rc.1/kando.webhapp",
+                    "hashes": {
+                        "happSha256": "fd3a1781fb480d87117af276e5da0d3daa6e99f14e333480ca90f075eeb6455c",
+                        "webhappSha256": "eae1f8efc5de5c225e811123bec6a8a0c479b5089cf35682403078a225a5b85b",
+                        "uiSha256": "4ad0fd8050b7e294e6d5825636585f6875eecdb84730a729f79348e692191337"
+                    },
+                    "changelog": "Asset fixes.",
+                    "releasedAt": 1736110661818
                 }
             ]
         },
