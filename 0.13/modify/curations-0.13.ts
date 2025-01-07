@@ -32,6 +32,13 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "talking-stickies",
+          versionBranch: "0.12.x",
+          tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
           toolId: "kando",
           versionBranch: "0.12.x",
           tags: [""],
