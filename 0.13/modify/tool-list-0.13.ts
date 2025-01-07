@@ -12,6 +12,28 @@ export default defineDevCollectiveToolList({
   },
   tools: [
     {
+      id: "zipzap",
+      versionBranch: "0.3.x",
+      title: "ZipZap",
+      subtitle: "Ephemeral chat",
+      description: "ZipZap is ephemeral chat.  Your messages are never stored.  Chat streams are defined by the people who are in them.",
+      icon: "https://github.com/lightningrodlabs/zipzap/releases/download/v0.3.0-rc.0/zipzap_icon.png",
+      tags: ["markdown", "real-time editor"],
+      versions: [
+        {
+          version: "0.3.0-rc.0",
+          url: "https://github.com/lightningrodlabs/zipzap/releases/download/v0.3.0-rc.0/zipzap.webhapp",
+          hashes: {
+            "happSha256": "57ce77725d91790298c93d4321003e2f52415ddc81a5a8b618c5874b9fd4d49b",
+            "webhappSha256": "ec95e49f74c309a824adc578b3a6c0fe04cfa70903e95cbf676267950ad3fd1d",
+            "uiSha256": "9ac1b82eb457f26cfd3a9bf6114507162154f4f7e0188112c6aac5fa666053a3"
+          },
+          changelog: "Updates for Holochain 0.4 and Moss 0.13",
+          releasedAt: 1736192464850,
+        },
+      ],
+    },
+    {
       id: "notebooks",
       versionBranch: "0.4.x",
       title: "Notebooks",
