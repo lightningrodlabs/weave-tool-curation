@@ -61,7 +61,7 @@ export default defineDevCollectiveToolList({
       title: "TalkingStickies",
       subtitle: "Real-time stickies boards",
       description: "Ideation, retros, brain-storming, note-taking, anything with stickies!",
-      icon: "https://theweave.social/images/kando_icon.png",
+      icon: "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
       tags: ["notes", "stickies", "ideation", "boards"],
       versions: [
         {
