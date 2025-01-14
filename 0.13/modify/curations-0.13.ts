@@ -50,6 +50,13 @@ export default defineCurationLists({
           versionBranch: "main",
           tags: ["game", "board game", "canvas", "collaboration", "play"],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "sweet",
+          versionBranch: "main",
+          tags: ["collaboration", "spreadsheet", "table", "data", "document", "office"],
+        },
       ],
     },
   },
