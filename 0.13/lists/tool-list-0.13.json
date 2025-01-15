@@ -160,6 +160,35 @@
                     "releasedAt": 1734971274
                 }
             ]
+        },
+        {
+            "id": "sweet",
+            "versionBranch": "feature/OT-0.4",
+            "title": "Sweet",
+            "subtitle": "Real-time spreadsheets and documents",
+            "description": "Sweet includes real-time collaborative spreadsheets and documents.",
+            "icon": "https://raw.githubusercontent.com/lightningrodlabs/sweet/refs/heads/feature/OT-0.4/ui/icon.png",
+            "tags": [
+                "collaboration",
+                "spreadsheet",
+                "table",
+                "data",
+                "document",
+                "office"
+            ],
+            "versions": [
+                {
+                    "version": "0.10.4",
+                    "url": "https://github.com/lightningrodlabs/sweet/releases/download/0.10.4/calcy.webhapp",
+                    "hashes": {
+                        "happSha256": "16113b9ece15e1cf794e5f24409162a24dcdb3c18e10af6a64c2d16e56b339e9",
+                        "webhappSha256": "496b0567cabe44694af6f648ea99fcc90319722909a1e5555d46668c4aed7984",
+                        "uiSha256": "30db0bb19775630f8acf6c7584c84e9de307a79c9a721dedd73e7566065e6812"
+                    },
+                    "changelog": "",
+                    "releasedAt": 1736866346798
+                }
+            ]
         }
     ]
 }
