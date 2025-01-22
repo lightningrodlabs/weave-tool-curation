@@ -54,7 +54,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
           toolId: "sweet",
-          versionBranch: "main",
+          versionBranch: "feature/OT-0.4",
           tags: ["collaboration", "spreadsheet", "table", "data", "document", "office"],
         },
       ],
