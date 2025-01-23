@@ -73,7 +73,7 @@ export default defineCurationLists({
         },
         {
           toolListUrl:
-            "https://github.com/matthme/weave-tool-curation/blob/main/0.13/lists/tool-list-0.13.json",
+            "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.13/lists/tool-list-0.13.json",
           toolId: "matthme.presence",
           versionBranch: "0.10.x",
           tags: ["video calls", "screen sharing"],
