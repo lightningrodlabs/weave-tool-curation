@@ -62,7 +62,21 @@ export default defineCurationLists({
             "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
           toolId: "sweet",
           versionBranch: "main",
-          tags: ["collaboration", "spreadsheet", "table", "data", "document", "office"],
+          tags: [
+            "collaboration",
+            "spreadsheet",
+            "table",
+            "data",
+            "document",
+            "office",
+          ],
+        },
+        {
+          toolListUrl:
+            "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.13/lists/tool-list-0.13.json",
+          toolId: "matthme.presence",
+          versionBranch: "0.10.x",
+          tags: ["video calls", "screen sharing"],
         },
       ],
     },
