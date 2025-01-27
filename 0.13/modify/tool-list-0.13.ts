@@ -12,6 +12,28 @@ export default defineDevCollectiveToolList({
   },
   tools: [
     {
+      id: "vines",
+      versionBranch: "1.10.x",
+      title: "Vines",
+      subtitle: "Group conversations and DMs",
+      description: "A conversation capacity for groups in The Weave.",
+      icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+      tags: ["chat"],
+      versions: [
+        {
+          version: "1.10.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.10.0.webhapp",
+          hashes: {
+            "happSha256": "10d5ad294dac0fd5a2de35bd8abb4db3bc15ded7aca27a2c8d091dcf5c51cebf",
+            "webhappSha256": "75f83cf6b56106d106a1095dd9aa0bcbbb45754a887bd8d717d5c8aef7c63a92",
+            "uiSha256": "c25eef5dbe55b2d3187e9a59ed3136b0ecdfe330d11a0232a6d00b3189bcf626"
+          },
+          changelog: "Updates for Holochain 0.4 and Moss 0.13",
+          releasedAt: 1736973182000,
+        },
+      ],
+    },
+    {
       id: "zipzap",
       versionBranch: "0.3.x",
       title: "ZipZap",
@@ -107,7 +129,7 @@ export default defineDevCollectiveToolList({
           },
           changelog: "Asset fixes.",
           releasedAt: 1736110661818,
-        },      
+        },
       ],
     },
     {
@@ -184,7 +206,7 @@ export default defineDevCollectiveToolList({
         },
           changelog: "",
           releasedAt: 1736866346798,
-        },      
+        },
       ],
     },
   ],
