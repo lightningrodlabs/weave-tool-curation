@@ -13,7 +13,7 @@ export default defineDevCollectiveToolList({
   tools: [
     {
       id: "vines",
-      versionBranch: "1.10.x",
+      versionBranch: "1.11.x",
       title: "Vines",
       subtitle: "Group conversations and DMs",
       description: "A conversation capacity for groups in The Weave.",
@@ -21,15 +21,15 @@ export default defineDevCollectiveToolList({
       tags: ["chat"],
       versions: [
         {
-          version: "1.10.0",
-          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.10.0.webhapp",
+          version: "1.11.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.11.0.webhapp",
           hashes: {
-            happSha256: "10d5ad294dac0fd5a2de35bd8abb4db3bc15ded7aca27a2c8d091dcf5c51cebf",
-            webhappSha256: "75f83cf6b56106d106a1095dd9aa0bcbbb45754a887bd8d717d5c8aef7c63a92",
-            uiSha256: "c25eef5dbe55b2d3187e9a59ed3136b0ecdfe330d11a0232a6d00b3189bcf626",
+            happSha256: "1fddfda589f79279e5953c98abc8c515ed790073a1c28065da58d84a1398d809",
+            webhappSha256: "f2a86ba74d30cbfb62bc3e86dd921d69e2d1a2461b85b29c93dbc4a6b1dcea94",
+            uiSha256: "ef2ee91c5bd985752487f88bd97fe4ed67adcecbb0856d663b406f145cb42749"
           },
-          changelog: "Updates for Holochain 0.4 and Moss 0.13",
-          releasedAt: 1736973182000,
+          changelog: "Fixed DMs & notifications received via signals",
+          releasedAt: 1738617365000,
         },
       ],
     },
