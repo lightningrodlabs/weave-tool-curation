@@ -26,7 +26,7 @@ export default defineDevCollectiveToolList({
           hashes: {
             happSha256: "1fddfda589f79279e5953c98abc8c515ed790073a1c28065da58d84a1398d809",
             webhappSha256: "f2a86ba74d30cbfb62bc3e86dd921d69e2d1a2461b85b29c93dbc4a6b1dcea94",
-            uiSha256: "ef2ee91c5bd985752487f88bd97fe4ed67adcecbb0856d663b406f145cb42749"
+            uiSha256: "ef2ee91c5bd985752487f88bd97fe4ed67adcecbb0856d663b406f145cb42749",
           },
           changelog: "Fixed DMs & notifications received via signals",
           releasedAt: 1738617365000,
@@ -229,6 +229,21 @@ export default defineDevCollectiveToolList({
      - Made shadows all share the same z-index so they don't overlap
      - Added provision to disable pointer events on iframes while dragging so the panning doesn't get stuck`,
           releasedAt: 1738676622953,
+        },
+        {
+          version: "0.1.4",
+          url: "https://github.com/zequez/substrate/releases/download/v0.1.4/substrate.webhapp",
+          hashes: {
+            happSha256: "6b6d4c60d4ddc5b82731263519a22597bbfea6d0e4eb57bfd43b16b1e7600f2c",
+            webhappSha256: "a5803bab452a2b72f22f8a331ce03b0d246c08910c945a99eb49b9c4d3d049f7",
+            uiSha256: "ba0523ff9b3756fd1ef9fd89e965355640f7d6cd5b5f5cda8d56e6a7693e2253",
+          },
+          changelog: `- Added WASD keyboard-based movement
+  - You can now select frames and move them or trash them all together
+  - Some code clean up and organization
+  - Improved agents display; show avatars
+  - Added tooltips`,
+          releasedAt: 1739200275760,
         },
       ],
     },

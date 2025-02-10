@@ -239,6 +239,17 @@
                     },
                     "changelog": "- Fixed a bug that caused syncing between peers not to work\n     - You can now add frames to pocket and embed instances of Substrate that are centered around that Frame\n     - You can now remove linked assets from frames\n     - Added provision to prevent inifinite recursion from happening when embedding Substrate within Substrate\n     - Refactored store so it can be initialized outside the UI components structure\n     - Made the canvas (0,0) position be at the center of the screen\n     - Made shadows all share the same z-index so they don't overlap\n     - Added provision to disable pointer events on iframes while dragging so the panning doesn't get stuck",
                     "releasedAt": 1738676622953
+                },
+                {
+                    "version": "0.1.4",
+                    "url": "https://github.com/zequez/substrate/releases/download/v0.1.4/substrate.webhapp",
+                    "hashes": {
+                        "happSha256": "6b6d4c60d4ddc5b82731263519a22597bbfea6d0e4eb57bfd43b16b1e7600f2c",
+                        "webhappSha256": "a5803bab452a2b72f22f8a331ce03b0d246c08910c945a99eb49b9c4d3d049f7",
+                        "uiSha256": "ba0523ff9b3756fd1ef9fd89e965355640f7d6cd5b5f5cda8d56e6a7693e2253"
+                    },
+                    "changelog": "- Added WASD keyboard-based movement\n  - You can now select frames and move them or trash them all together\n  - Some code clean up and organization\n  - Improved agents display; show avatars\n  - Added tooltips",
+                    "releasedAt": 1739200275760
                 }
             ]
         }
