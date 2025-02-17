@@ -250,6 +250,17 @@
                     },
                     "changelog": "- Added WASD keyboard-based movement\n  - You can now select frames and move them or trash them all together\n  - Some code clean up and organization\n  - Improved agents display; show avatars\n  - Added tooltips",
                     "releasedAt": 1739200275760
+                },
+                {
+                    "version": "0.1.5",
+                    "url": "https://github.com/zequez/substrate/releases/download/v0.1.5/substrate.webhapp",
+                    "hashes": {
+                        "happSha256": "6b6d4c60d4ddc5b82731263519a22597bbfea6d0e4eb57bfd43b16b1e7600f2c",
+                        "webhappSha256": "53cbda7c244b2ab4d1006810c825330afe83273f974433ac7d3eb6f67105d00c",
+                        "uiSha256": "800ab9195cc40edb25e49ef3298026c6109de610dc44d3758690fa47f8b9106a"
+                    },
+                    "changelog": "- Added an Excalidraw-UX-inspired toolbar with hand, select, frame and art tools\n  - Secret hot-key Shift+Z to reverse zoom direction\n  - Remove cursor ghost frame\n  - Made frame controls less moving, tinier; for now\n  - Show asset name along with icon with far out zoom\n  - Pixels can now be selected, moved and trashed like frames\n  - You can delete selection with Backspace or Delete key\n  - Art tool has main and alt colors for left/right click\n  - Added configurable right-click-hotkeyed tool\n  - Added hand tool you can pick to pan with left click (and panning also linked to wheel click from any tool)",
+                    "releasedAt": 1739801582029
                 }
             ]
         }

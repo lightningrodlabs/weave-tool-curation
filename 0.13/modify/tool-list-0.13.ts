@@ -245,6 +245,26 @@ export default defineDevCollectiveToolList({
   - Added tooltips`,
           releasedAt: 1739200275760,
         },
+        {
+          version: "0.1.5",
+          url: "https://github.com/zequez/substrate/releases/download/v0.1.5/substrate.webhapp",
+          hashes: {
+            happSha256: "6b6d4c60d4ddc5b82731263519a22597bbfea6d0e4eb57bfd43b16b1e7600f2c",
+            webhappSha256: "53cbda7c244b2ab4d1006810c825330afe83273f974433ac7d3eb6f67105d00c",
+            uiSha256: "800ab9195cc40edb25e49ef3298026c6109de610dc44d3758690fa47f8b9106a",
+          },
+          changelog: `- Added an Excalidraw-UX-inspired toolbar with hand, select, frame and art tools
+  - Secret hot-key Shift+Z to reverse zoom direction
+  - Remove cursor ghost frame
+  - Made frame controls less moving, tinier; for now
+  - Show asset name along with icon with far out zoom
+  - Pixels can now be selected, moved and trashed like frames
+  - You can delete selection with Backspace or Delete key
+  - Art tool has main and alt colors for left/right click
+  - Added configurable right-click-hotkeyed tool
+  - Added hand tool you can pick to pan with left click (and panning also linked to wheel click from any tool)`,
+          releasedAt: 1739801582029,
+        },
       ],
     },
   ],
