@@ -13,6 +13,28 @@ export default defineDevCollectiveToolList({
   tools: [
     {
       id: "vines",
+      versionBranch: "1.12.x",
+      title: "Vines",
+      subtitle: "Group conversations and DMs",
+      description: "A conversation capacity for groups in The Weave.",
+      icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+      tags: ["chat"],
+      versions: [
+        {
+          version: "1.12.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.11.1.webhapp",
+          hashes: {
+            "happSha256": "2c9ab9b8c3eb6c87632f46d45086909ecd475b2f6cf85c663e37bfca8a1ac1ae",
+            "webhappSha256": "cf11598336cf470a800fd8f38a2158339eba6d2c888590f7190d2068bdfc0e03",
+            "uiSha256": "6ab730c77af8d09a241e2fd4e2dfcf212e92adc63e3cdaf9997aaeb69e049f7c"
+          },
+          changelog: "Fixed and added cross-group-view & view message edit history",
+          releasedAt: 1739562332000,
+        },
+      ],
+    },
+    {
+      id: "vines",
       versionBranch: "1.11.x",
       title: "Vines",
       subtitle: "Group conversations and DMs",
@@ -30,17 +52,6 @@ export default defineDevCollectiveToolList({
           },
           changelog: "Fixed DMs & notifications received via signals",
           releasedAt: 1738617365000,
-        },
-        {
-          version: "1.11.1",
-          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.11.1.webhapp",
-          hashes: {
-            "happSha256": "2c9ab9b8c3eb6c87632f46d45086909ecd475b2f6cf85c663e37bfca8a1ac1ae",
-            "webhappSha256": "cf11598336cf470a800fd8f38a2158339eba6d2c888590f7190d2068bdfc0e03",
-            "uiSha256": "6ab730c77af8d09a241e2fd4e2dfcf212e92adc63e3cdaf9997aaeb69e049f7c"
-          },
-          changelog: "Fixed and added cross-group-view & view message edit history",
-          releasedAt: 1739562331000,
         },
       ],
     },
