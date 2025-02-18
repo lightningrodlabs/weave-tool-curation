@@ -43,3 +43,17 @@ if (Array.from(new Set(idsAndBranches)).length !== idsAndBranches.length)
   throw new Error(
     "Tool list contains at least two Tools that have the same id and versionBranch. This is not allowed."
   );
+
+// Verify that happ sha256 are the same for tools in the same versionBranch
+toolListObject.tools.forEach((toolInfo) => {
+  if (
+    Array.from(
+      new Set(
+        toolInfo.versions.map((versionInfo) => versionInfo.hashes.happSha256)
+      )
+    ).length > 1
+  )
+    throw new Error(
+      `happSha256 are not unique for tool ${toolInfo.title} and verisonBranch ${toolInfo.versionBranch}`
+    );
+});
