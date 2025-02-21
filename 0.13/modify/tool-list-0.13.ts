@@ -311,5 +311,31 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "acorn",
+      versionBranch: "main",
+      title: "Acorn",
+      subtitle: "State-of-Affairs Trees for Project Management",
+      description:
+        "Project mangament redefined for distributed teams. Agile project management made simple. Open-source. Peer-to-peer. Perfect for remote teams.",
+      icon: "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png",
+      tags: ["project-management"],
+      versions: [
+        {
+          version: "11.1.0",
+          url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.1.0-alpha/acorn-moss.webhapp",
+          hashes: {
+            happSha256:
+              "f784e034942274e09fc7720a63765e139101831531e4d04e8cb84f4f02cfa746",
+            webhappSha256:
+              "c7c4389711988e04060ca5b1b7094394067c8a1f056d8ecfebd94e95420f9552",
+            uiSha256:
+              "d4b3ca820ee7bde2197daac60de2b746c26912527a8bc079abfa06ca66bf1100",
+          },
+          changelog: "Bumped to Holochain 0.4.0. Now compatible with Moss.",
+          releasedAt: 1740120779000,
+        },
+      ],
+    },
   ],
 });
