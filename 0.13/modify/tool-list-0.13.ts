@@ -313,7 +313,7 @@ export default defineDevCollectiveToolList({
     },
     {
       id: "acorn",
-      versionBranch: "main",
+      versionBranch: "11.x.x",
       title: "Acorn",
       subtitle: "State-of-Affairs Trees for Project Management",
       description:
