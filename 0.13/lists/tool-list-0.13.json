@@ -328,8 +328,8 @@
                     "url": "https://github.com/lightningrodlabs/acorn/releases/download/v11.1.0-alpha/acorn-moss.webhapp",
                     "hashes": {
                         "happSha256": "f784e034942274e09fc7720a63765e139101831531e4d04e8cb84f4f02cfa746",
-                        "webhappSha256": "c7c4389711988e04060ca5b1b7094394067c8a1f056d8ecfebd94e95420f9552",
-                        "uiSha256": "d4b3ca820ee7bde2197daac60de2b746c26912527a8bc079abfa06ca66bf1100"
+                        "webhappSha256": "0c5fd802bbe254efd255edff1302e50f307f893d6e1418a2e92b1202077396a7",
+                        "uiSha256": "f27463b7616f1eb9bb6b1c933d67ddb5bf5a2745b991c48b218ebca723750305"
                     },
                     "changelog": "Bumped to Holochain 0.4.0. Now compatible with Moss.",
                     "releasedAt": 1740120779000
