@@ -174,6 +174,17 @@ export default defineDevCollectiveToolList({
           changelog: "Asset fixes.",
           releasedAt: 1736110661818,
         },
+        {
+          version: "0.12.0",
+          url: "https://github.com/holochain-apps/kando/releases/download/v0.12.0/kando.webhapp",
+          hashes: {
+            happSha256: "fd3a1781fb480d87117af276e5da0d3daa6e99f14e333480ca90f075eeb6455c",
+            webhappSha256: "7f5da5a7630552ad7399164344716add12133ed70e99fb105723c59fc69a995e",
+            uiSha256: "528b0817f741dabb9ecf2deeb825c171b035a7ed6a04bde8a66aa0d5ffa8c97f",
+          },
+          changelog: "Update syn core",
+          releasedAt: 1740419133729,
+        },
       ],
     },
     {
