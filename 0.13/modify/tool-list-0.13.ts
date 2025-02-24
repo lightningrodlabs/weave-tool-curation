@@ -141,6 +141,17 @@ export default defineDevCollectiveToolList({
           changelog: "Updates for Holochain 0.4 and Moss 0.13",
           releasedAt: 1736287085974,
         },
+        {
+          version: "0.12.0",
+          url: "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0/talking-stickies.webhapp",
+          hashes: {
+            happSha256: "6e5543dfe9e38f8818d95ca4fb808f435b4dad81ed7051a89e42734f3ab72d45",
+            webhappSha256: "c90effbb4f294740d1aace3d1eb25306442c7c08f522187912824c58a6a16d5e",
+            uiSha256: "a9b543b876d93ab4401f608657861d3df197cfe69c6516f7cbc8649e764d6c95",
+          },
+          changelog: "Updates to final non-RC versions an syn core update",
+          releasedAt: 1740423060713,
+        },
       ],
     },
     {
