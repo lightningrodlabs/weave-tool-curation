@@ -318,7 +318,7 @@
             "title": "Acorn",
             "subtitle": "State-of-Affairs Trees for Project Management",
             "description": "Project mangament redefined for distributed teams. Agile project management made simple. Open-source. Peer-to-peer. Perfect for remote teams.",
-            "icon": "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png",
+            "icon": "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png?raw=true",
             "tags": [
                 "project-management"
             ],
