@@ -333,6 +333,17 @@
                     },
                     "changelog": "Bumped to Holochain 0.4.0. Now compatible with Moss.",
                     "releasedAt": 1740120779000
+                },
+                {
+                    "version": "11.1.2",
+                    "url": "https://github.com/lightningrodlabs/acorn/releases/download/v11.1.2-alpha/acorn-moss.webhapp",
+                    "hashes": {
+                        "happSha256": "f784e034942274e09fc7720a63765e139101831531e4d04e8cb84f4f02cfa746",
+                        "webhappSha256": "811c7ec4d08513ad37a0494e0df5bb647a130c392c094e65f3e4db85ac676b0e",
+                        "uiSha256": "972ad7d67489dd33ec5e14d74bf89de2dcb38282ed24d978d85798e2796e45f4"
+                    },
+                    "changelog": "fixed bug preventing projects from being deleted or left.",
+                    "releasedAt": 1741954511000
                 }
             ]
         }
