@@ -186,6 +186,29 @@ export default defineDevCollectiveToolList({
       tags: ["game", "board game", "canvas", "collaboration", "play"],
       versions: [
         {
+          version: "0.8.0",
+          hashes: {
+              "happSha256": "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
+              "webhappSha256": "76c74761e134acaa7bfc241b8a158457dc635438d0dfdaae1199af23a2c62a11",
+              "uiSha256": "9e6ea97a6a10c6e1dc72d7de0977a2db111d5d404681d89e1a3cd25f5e450350"
+          },
+          url: "https://github.com/holochain-apps/gamez/releases/download/v0.8.0/gamez.webhapp",
+          changelog: `
+- Improved people bar on game space to show session and players on a seamless element (removed the view-session-participants button) ⏱ 1:30hs
+- Made element configuration a library-mode only feature ⏱ 45min
+- Added instructions on game space ⏱ 30min
+- Removed lock from library items; hide the preset if there is another edited with the same name. Added create and edit buttons next to each other on library items.  ⏱ 30min
+- Show something on player pieces when empty  ⏱ 15min
+- Bugfix: Pieces cannot be moved back to piece source; while we're at it, change the piece source to look like the player pieces source ⏱ 2:45hs
+- Create mini-preview component to use on home screen instead of icons ⏱ 2:45
+- Added WAL asset selection from element instead of having to use the config menu ⏱ 30min
+- Updated home screen with bigger mini views and tweaked layout ⏱ 1:30hs
+- Make presets behaviours more consitent; they are now indistingishible from library items on the DHT; you can archive them and remove them ⏱ 1:30hs
+- Updated Holochain libraries (and others while I was at it) and ensure the .webhapp file can be loaded into the Holochain launcher ⏱ 30min
+          `,
+          releasedAt: 1742039201,
+        },
+        {
           version: "0.7.8",
           hashes: {
             happSha256: "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
