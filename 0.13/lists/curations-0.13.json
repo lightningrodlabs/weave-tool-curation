@@ -80,7 +80,7 @@
                 {
                     "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
                     "toolId": "gamez",
-                    "versionBranch": "main",
+                    "versionBranch": "0.8.x",
                     "tags": [
                         "game",
                         "board game",
