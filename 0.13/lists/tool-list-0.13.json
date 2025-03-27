@@ -234,6 +234,17 @@
             ],
             "versions": [
                 {
+                    "version": "0.8.3",
+                    "hashes": {
+                        "happSha256": "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
+                        "webhappSha256": "1cf0a043f4f0f508df984b80b56f48d3638c0b2ccfb50035950bc67f43aa8442",
+                        "uiSha256": "8a04024af181dc4e6e225c08ab4ae98f1431495d61484fc19b03b8bf9c35d04c"
+                    },
+                    "url": "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.3/gamez.webhapp",
+                    "changelog": "\n          - 🎈 Fix: Issue with dragging of player piece source\n          - 🧹 Clean: Internal refactoring and code clean up, specially around screen->container->space viewport calculations\n          ",
+                    "releasedAt": 1743077288
+                },
+                {
                     "version": "0.8.2",
                     "hashes": {
                         "happSha256": "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
