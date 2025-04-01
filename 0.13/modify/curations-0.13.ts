@@ -57,6 +57,13 @@ export default defineCurationLists({
           versionBranch: "main",
           tags: ["collaboration", "spreadsheet", "table", "data", "document", "office"],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "converge",
+          versionBranch: "main",
+          tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
+        },
       ],
     },
   },

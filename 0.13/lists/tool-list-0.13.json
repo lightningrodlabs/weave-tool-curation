@@ -189,6 +189,37 @@
                     "releasedAt": 1736866346798
                 }
             ]
+        },
+        {
+            "id": "converge",
+            "versionBranch": "main",
+            "title": "Converge",
+            "subtitle": "A group decision-making tool",
+            "description": "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
+            "icon": "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png",
+            "tags": [
+                "collaboration",
+                "problem-solving",
+                "brainstorming",
+                "convergent facilitation",
+                "nvc",
+                "dcan",
+                "governance",
+                "decision making"
+            ],
+            "versions": [
+                {
+                    "version": "0.10.4",
+                    "url": "https://github.com/lightningrodlabs/converge/releases/download/0.1.1/converge.webhapp",
+                    "hashes": {
+                        "happSha256": "81f5ad2313f163a0a77c6e6829eb08370ad5723214e742e30ad885da000e85ca",
+                        "webhappSha256": "167befb86c6b17e4eecb34a66bfbc01bb92940326d239074de75c5509497a064",
+                        "uiSha256": "d6a2406634250841bd7e65fe04b89e13b9c33a41652324b1ec736a5a93be62e4"
+                    },
+                    "changelog": "",
+                    "releasedAt": 1743513634
+                }
+            ]
         }
     ]
 }
