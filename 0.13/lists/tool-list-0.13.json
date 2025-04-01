@@ -427,7 +427,7 @@
             "title": "Converge",
             "subtitle": "A group decision-making tool",
             "description": "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
-            "icon": "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png",
+            "icon": "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
             "tags": [
                 "collaboration",
                 "problem-solving",

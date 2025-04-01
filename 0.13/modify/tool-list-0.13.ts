@@ -561,7 +561,7 @@ export default defineDevCollectiveToolList({
       title: "Converge",
       subtitle: "A group decision-making tool",
       description: "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
-      icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png",
+      icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
       tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
       versions: [
         {
@@ -574,7 +574,7 @@ export default defineDevCollectiveToolList({
           },
           changelog: "",
           releasedAt: 1743513634,
-        },      
+        },
       ],
     },
   ],
