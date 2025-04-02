@@ -12,6 +12,32 @@ export default defineDevCollectiveToolList({
   },
   tools: [
     {
+      id: "where",
+      versionBranch: "1.0.x",
+      title: "Where",
+      subtitle: "Tooling for group self-awareness on holochain",
+      description: "Groups, especially remote colaborative groups, often lack contextual information about collaborators that makes working together harder.  Co-locating oneself across a number of spaces in the context of a group (or groups) provides an important avenue for improving both sense-making and working together.  **Where** provides a generalized pattern for creating shared maps for groups to see the emergent \"whereness\" of each other across self-evolved sets of maps.",
+      icon: "https://github.com/lightningrodlabs/where/releases/download/we-applet-rc/logo.svg",
+      tags: [""],
+      versions: [
+        {
+          version: "1.0.0",
+          url: "https://github.com/lightningrodlabs/where/releases/download/we-applet-rc/where-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "e34faae02a4126212904a52af8371c5701006822e1d1fcacbe15d8475c675777",
+            webhappSha256:
+              "6fa5d19a0520e51eb6933be6576da0a4961ed551ef4e29dc074e07889b181410",
+            uiSha256:
+              "dd57f3bdddc580dab49596e01dd4d3c5067b072b57342c9d87c8dde94aa2a029",
+          },
+          changelog:
+            "Updated to hdk 4.1",
+          releasedAt: 1743626343000,
+        },
+      ],
+    },
+    {
       id: "vines",
       versionBranch: "1.14.x",
       title: "Vines",
