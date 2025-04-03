@@ -87,6 +87,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1739562342000,
         },
       ],
+      deprecation: "Newer version available.",
     },
     {
       id: "vines",
@@ -113,6 +114,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1739562332000,
         },
       ],
+      deprecation: "Newer version available.",
     },
     {
       id: "vines",
@@ -138,6 +140,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1738617365000,
         },
       ],
+      deprecation: "Newer version available.",
     },
     {
       id: "zipzap",
