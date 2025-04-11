@@ -35,6 +35,30 @@
         },
         {
             "id": "vines",
+            "versionBranch": "1.15.x",
+            "title": "Vines",
+            "subtitle": "Group conversations and DMs",
+            "description": "A conversation capacity for groups in The Weave.",
+            "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+            "tags": [
+                "chat"
+            ],
+            "versions": [
+                {
+                    "version": "1.15.0",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.15.0.webhapp",
+                    "hashes": {
+                        "happSha256": "7b593486d04236b2d63b36b5ee73a9fb62e2abc653305b403c647c491756fd5a",
+                        "webhappSha256": "47abdb59cd5d57ca7e64ac5d6863d6a78232e7a8592ddf7a63f1eb66d3cb45d0",
+                        "uiSha256": "4d6c71ac83739bcf87e7847d571970ea3cd684bbebe87cfac3cd2a83a4bbc443"
+                    },
+                    "changelog": "Added send button. Renamed Topic to category and added default category. Tool button at bottom of side bar. Fixed DM input.",
+                    "releasedAt": 1743627343000
+                }
+            ]
+        },
+        {
+            "id": "vines",
             "versionBranch": "1.14.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
