@@ -16,7 +16,8 @@ export default defineDevCollectiveToolList({
       versionBranch: "1.0.x",
       title: "Where",
       subtitle: "Tooling for group self-awareness on holochain",
-      description: "Groups, especially remote colaborative groups, often lack contextual information about collaborators that makes working together harder.  Co-locating oneself across a number of spaces in the context of a group (or groups) provides an important avenue for improving both sense-making and working together.  **Where** provides a generalized pattern for creating shared maps for groups to see the emergent \"whereness\" of each other across self-evolved sets of maps.",
+      description:
+        'Groups, especially remote colaborative groups, often lack contextual information about collaborators that makes working together harder.  Co-locating oneself across a number of spaces in the context of a group (or groups) provides an important avenue for improving both sense-making and working together.  **Where** provides a generalized pattern for creating shared maps for groups to see the emergent "whereness" of each other across self-evolved sets of maps.',
       icon: "https://lightningrodlabs.org/projects/where_logo.png",
       tags: [""],
       versions: [
@@ -31,8 +32,7 @@ export default defineDevCollectiveToolList({
             uiSha256:
               "dd57f3bdddc580dab49596e01dd4d3c5067b072b57342c9d87c8dde94aa2a029",
           },
-          changelog:
-            "Updated to hdk 4.1",
+          changelog: "Updated to hdk 4.1",
           releasedAt: 1743626343000,
         },
       ],
@@ -295,6 +295,23 @@ export default defineDevCollectiveToolList({
       icon: "https://github.com/holochain-apps/gamez/releases/download/v0.7.7/icon.png",
       tags: ["game", "board game", "canvas", "collaboration", "play"],
       versions: [
+        {
+          version: "0.8.5",
+          hashes: {
+            happSha256:
+              "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
+            webhappSha256:
+              "ebd0605766ddf23d6b18d7031630e3527d29bb4dfa6cb365520b77710673ba29",
+            uiSha256:
+              "61f3b23b61590c9f117b29f73e0bb4e0dd31b723a56acd472dfb4c4fefdb0830",
+          },
+          url: "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.5/gamez.webhapp",
+          changelog: `
+          # UI 0.8.5
+- 🎈 Fix: Resolved issue where presets would disappear from game library if games were created directly from there
+          `,
+          releasedAt: 1744634374,
+        },
         {
           version: "0.8.4",
           hashes: {
@@ -615,17 +632,30 @@ export default defineDevCollectiveToolList({
       versionBranch: "main",
       title: "Converge",
       subtitle: "A group decision-making tool",
-      description: "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
+      description:
+        "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
       icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
-      tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
+      tags: [
+        "collaboration",
+        "problem-solving",
+        "brainstorming",
+        "convergent facilitation",
+        "nvc",
+        "dcan",
+        "governance",
+        "decision making",
+      ],
       versions: [
         {
           version: "0.10.4",
           url: "https://github.com/lightningrodlabs/converge/releases/download/0.1.1/converge.webhapp",
           hashes: {
-            "happSha256": "81f5ad2313f163a0a77c6e6829eb08370ad5723214e742e30ad885da000e85ca",
-            "webhappSha256": "167befb86c6b17e4eecb34a66bfbc01bb92940326d239074de75c5509497a064",
-            "uiSha256": "d6a2406634250841bd7e65fe04b89e13b9c33a41652324b1ec736a5a93be62e4"
+            happSha256:
+              "81f5ad2313f163a0a77c6e6829eb08370ad5723214e742e30ad885da000e85ca",
+            webhappSha256:
+              "167befb86c6b17e4eecb34a66bfbc01bb92940326d239074de75c5509497a064",
+            uiSha256:
+              "d6a2406634250841bd7e65fe04b89e13b9c33a41652324b1ec736a5a93be62e4",
           },
           changelog: "",
           releasedAt: 1743513634,

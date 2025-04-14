@@ -285,6 +285,17 @@
             ],
             "versions": [
                 {
+                    "version": "0.8.5",
+                    "hashes": {
+                        "happSha256": "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
+                        "webhappSha256": "ebd0605766ddf23d6b18d7031630e3527d29bb4dfa6cb365520b77710673ba29",
+                        "uiSha256": "61f3b23b61590c9f117b29f73e0bb4e0dd31b723a56acd472dfb4c4fefdb0830"
+                    },
+                    "url": "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.5/gamez.webhapp",
+                    "changelog": "\n          # UI 0.8.5\n- 🎈 Fix: Resolved issue where presets would disappear from game library if games were created directly from there\n          ",
+                    "releasedAt": 1744634374
+                },
+                {
                     "version": "0.8.4",
                     "hashes": {
                         "happSha256": "6335eca61415e769c22934d354614e581e65eb4728be0eff2f447c3d729c1f6d",
