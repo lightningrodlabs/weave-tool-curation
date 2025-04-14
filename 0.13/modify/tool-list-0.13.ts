@@ -310,7 +310,7 @@ export default defineDevCollectiveToolList({
           # UI 0.8.5
 - 🎈 Fix: Resolved issue where presets would disappear from game library if games were created directly from there
           `,
-          releasedAt: 1744634374,
+          releasedAt: 1744634374000,
         },
         {
           version: "0.8.4",
@@ -327,7 +327,7 @@ export default defineDevCollectiveToolList({
           - 🎛 You can now rotate elements again, with snapping at 15 degree angles
 - 🎉 You can now copy-paste with Cmd+C/Cmd+V
           `,
-          releasedAt: 1743342917,
+          releasedAt: 1743342917000,
         },
         {
           version: "0.8.3",
@@ -344,7 +344,7 @@ export default defineDevCollectiveToolList({
           - 🎈 Fix: Issue with dragging of player piece source
           - 🧹 Clean: Internal refactoring and code clean up, specially around screen->container->space viewport calculations
           `,
-          releasedAt: 1743077288,
+          releasedAt: 1743077288000,
         },
         {
           version: "0.8.2",
@@ -421,7 +421,7 @@ export default defineDevCollectiveToolList({
 - Updated Holochain libraries (and others while I was at it) and ensure the .webhapp file can be loaded into the Holochain launcher ⏱ 30min
 - Release UI 0.8 ⏱ 30min
           `,
-          releasedAt: 1742832061,
+          releasedAt: 1742832061000,
         },
       ],
     },
@@ -455,7 +455,7 @@ export default defineDevCollectiveToolList({
           - Added logs for turn, move, join, left and remove elements
           - Added the possibility of getting notifications for different log types
           `,
-          releasedAt: 1735674381,
+          releasedAt: 1735674381000,
         },
         {
           version: "0.7.7",
@@ -476,7 +476,7 @@ export default defineDevCollectiveToolList({
 - Hide self view and participants on Weave context
 - Updated to Weave 0.13.0-rc, Holochain 0.4, and Syn 0.400.0-rc.2
           `,
-          releasedAt: 1734971274,
+          releasedAt: 1734971274000,
         },
       ],
     },
@@ -658,7 +658,7 @@ export default defineDevCollectiveToolList({
               "d6a2406634250841bd7e65fe04b89e13b9c33a41652324b1ec736a5a93be62e4",
           },
           changelog: "",
-          releasedAt: 1743513634,
+          releasedAt: 1743513634000,
         },
       ],
     },

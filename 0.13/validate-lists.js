@@ -27,6 +27,15 @@ toolListObject.tools.forEach((tool) => {
       throw new Error(
         `Found invalid semver version ${versionInfo.version} for app ${tool.id}`
       );
+
+    if (
+      versionInfo.releasedAt < 1711978174000 ||
+      versionInfo.releasedAt > 2690198974000
+    ) {
+      throw new Error(
+        `Invalid releasedAt value ${versionInfo.releasedAt} for app ${tool.id} and version ${versionInfo.version}. Timestamps must be in milliseconds unix epoch time.`
+      );
+    }
   });
   try {
     const _iconUrl = new URL(tool.icon);

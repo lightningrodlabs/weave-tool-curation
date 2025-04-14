@@ -293,7 +293,7 @@
                     },
                     "url": "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.5/gamez.webhapp",
                     "changelog": "\n          # UI 0.8.5\n- 🎈 Fix: Resolved issue where presets would disappear from game library if games were created directly from there\n          ",
-                    "releasedAt": 1744634374
+                    "releasedAt": 1744634374000
                 },
                 {
                     "version": "0.8.4",
@@ -304,7 +304,7 @@
                     },
                     "url": "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.4/gamez.webhapp",
                     "changelog": "\n          - 🎛 You can now rotate elements again, with snapping at 15 degree angles\n- 🎉 You can now copy-paste with Cmd+C/Cmd+V\n          ",
-                    "releasedAt": 1743342917
+                    "releasedAt": 1743342917000
                 },
                 {
                     "version": "0.8.3",
@@ -315,7 +315,7 @@
                     },
                     "url": "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.3/gamez.webhapp",
                     "changelog": "\n          - 🎈 Fix: Issue with dragging of player piece source\n          - 🧹 Clean: Internal refactoring and code clean up, specially around screen->container->space viewport calculations\n          ",
-                    "releasedAt": 1743077288
+                    "releasedAt": 1743077288000
                 },
                 {
                     "version": "0.8.2",
@@ -326,7 +326,7 @@
                     },
                     "url": "https://github.com/holochain-apps/gamez/releases/download/UI-v0.8.2/gamez.webhapp",
                     "changelog": "\n          # UI 0.8.2\n- 🎈 Fix: Mini view now renders correctly on the first render\n- 🎈 Fix: Piece Source dragged now are rendered with the correct zooming\n- 🎈 Fix: Modal prompt for naming spaces now auto-focus on input and is dismissed with ESC\n- 🧹 Clean: Remove icon selection from space configurator since the Mini View is now used on the home screen\n- 🧹 Clean: A lot of internal code clean up\n- 🎛 Tweak: The activity log is not filled now on Library items, and when exporing a space the activity log is purged\n- 🎛 Tweak: On Play or View mode all elements are fit on the screen (with some padding) and then panning and zooming is locked\n- 🎛 Tweak: When there aren't any active games on the home screen, show a message instead\n- 🎛 Tweak: Config Menu\n  - Now instead of showing disabled elements it hides them\n  - The locking system has a different non-editable view for Play mode\n  - If there aren't any Config Menu items available on Play Mode, it won't show up\n- 🎉 New: The Selection System\n  - Big overhaul on how dragging and events are handled on the Surface component\n  - You can now select elements as you would expect (drag a square, or click, shift+click to toggle, shift+drag to add to selection)\n  - Dragging selected elements will move all elements selected\n  - Moving a single element does not select it\n- 🧨 Overhaul: The Resizing System\n  - Resizing was redone; now you can resize from any edge or corner\n  - You can Shift+Resize to keep aspect ratio\n  - You can Alt+Resize to resize symetrically\n  - The resizing overlay shows for selected elements only\n- 🎉 New: Clear Space Modes\n  - A space is in either edit mode, view mode or play mode\n  - Library items are on edit mode\n  - Active games are on view mode if you haven't joined the game, and play mode if you have\n  - Archived spaces are on view mode\n  - On active games you can switch temporarily to Edit Mode\n  - On Edit Mode you can modify the elements locks and actions ignore the locking mechanisms\n  - On Play Mode the actions available to elements are determined by the elements Can Configuration, which can only be modified from Edit Mode.\n  - Lock System -> Can Configuration\n    - The Can Configuration is part of elements and controls:\n      - Moving\n      - Resizing\n      - Rotating\n      - Adding/removing attachments\n      - Modifying the element configuration\n      - Removing and duplicating\n    - The Can Configuration applies to Play Mode only; on edit mode you can modify it, but you are not bound by it\n    - The Can Configuration can be accessed from the context menu of elements\n- ❌ Disabled: The rotation system is temporarily non-functional until next release\n\n# UI 0.8.1\n - Improved initial clients loading\n - Implemented more direct asset selection for \"search\", \"creatables\" and \"pocket\"\n - Overhauling of the lock system; now named instead on the positive: \"can system\". The locks apply only on game mode, and on edit mode everything is allowed and locks can be changed. The ConfigMenu only shows the things that are allowed if any. By default you can attach assets and move on newly created elements. On piece source elements you can additionally delete them.\n\n# UI 0.8.0\n\n- Improved people bar on game space to show session and players on a seamless element (removed the view-session-participants button) ⏱ 1:30hs\n- Made element configuration a library-mode only feature ⏱ 45min\n- Added instructions on game space ⏱ 30min\n- Removed lock from library items; hide the preset if there is another edited with the same name. Added create and edit buttons next to each other on library items.  ⏱ 30min\n- Show something on player pieces when empty  ⏱ 15min\n- Bugfix: Pieces cannot be moved back to piece source; while we're at it, change the piece source to look like the player pieces source ⏱ 2:45hs\n- Create mini-preview component to use on home screen instead of icons ⏱ 2:45\n- Added WAL asset selection from element instead of having to use the config menu ⏱ 30min\n- Updated home screen with bigger mini views and tweaked layout ⏱ 1:30hs\n- Make presets behaviour more consistent; they are now indistinguishable from library items on the DHT; you can archive them and remove them ⏱ 1:30hs\n- Updated Holochain libraries (and others while I was at it) and ensure the .webhapp file can be loaded into the Holochain launcher ⏱ 30min\n- Release UI 0.8 ⏱ 30min\n          ",
-                    "releasedAt": 1742832061
+                    "releasedAt": 1742832061000
                 }
             ]
         },
@@ -354,7 +354,7 @@
                     },
                     "url": "https://github.com/holochain-apps/gamez/releases/download/v0.7.8/gamez.webhapp",
                     "changelog": "\n          - Updated flake to latest version\n          - Moved Weave initialization outside UI framework, and start the UI only after the window becomes visible\n          - Adjust config menu position so it's always fully visible when opened\n          - Added the possibility of adding assets to the space that aren't embedded, and added a toggle to show/hide the embed\n          - Added some checks to maybe prevent panning from getting stuck\n          - Fixed some breaking changes related to calling the Weave API that changed after the last update\n          - Added logs for turn, move, join, left and remove elements\n          - Added the possibility of getting notifications for different log types\n          ",
-                    "releasedAt": 1735674381
+                    "releasedAt": 1735674381000
                 },
                 {
                     "version": "0.7.7",
@@ -365,7 +365,7 @@
                     },
                     "url": "https://github.com/holochain-apps/gamez/releases/download/v0.7.7/gamez.webhapp",
                     "changelog": "- Fixed WALs not loading when you first open a space\n- Removed top bar on game space screen\n- Removed ability to join games in library items; allow anyone to edit\n- Adding UX indication that you are editing a library item\n- Replaced hand-rolled tooltip directive with svooltip\n- Hide self view and participants on Weave context\n- Updated to Weave 0.13.0-rc, Holochain 0.4, and Syn 0.400.0-rc.2\n          ",
-                    "releasedAt": 1734971274
+                    "releasedAt": 1734971274000
                 }
             ]
         },
@@ -510,7 +510,7 @@
                         "uiSha256": "d6a2406634250841bd7e65fe04b89e13b9c33a41652324b1ec736a5a93be62e4"
                     },
                     "changelog": "",
-                    "releasedAt": 1743513634
+                    "releasedAt": 1743513634000
                 }
             ]
         }
