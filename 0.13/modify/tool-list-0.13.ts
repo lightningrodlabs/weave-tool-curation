@@ -625,6 +625,21 @@ export default defineDevCollectiveToolList({
             "fixed bug preventing projects from being deleted or left.",
           releasedAt: 1741954511000,
         },
+        {
+          version: "11.1.3",
+          url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.1.3-alpha/acorn-moss.webhapp",
+          hashes: {
+            happSha256:
+              "f784e034942274e09fc7720a63765e139101831531e4d04e8cb84f4f02cfa746",
+            webhappSha256:
+              "b7e0b23a435c583afdf2503d219f3c322920df6593c5c2541dc8f01eccebd62e",
+            uiSha256:
+              "9c277816a6fe78ceb46269cb04093eed3e4c61c4299548736d09b36e11dc44ff",
+          },
+          changelog:
+            "Acorn now defines assets to moss and can attach other assets within Acorn.",
+          releasedAt: 1744688803000,
+        },
       ],
     },
     {
