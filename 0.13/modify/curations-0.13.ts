@@ -18,6 +18,27 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "snapmail",
+          versionBranch: "1.0.x",
+          tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "files",
+          versionBranch: "1.0.x",
+          tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "place",
+          versionBranch: "1.0.x",
+          tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
           toolId: "where",
           versionBranch: "1.0.x",
           tags: [""],
