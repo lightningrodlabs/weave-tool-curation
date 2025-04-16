@@ -12,6 +12,81 @@ export default defineDevCollectiveToolList({
   },
   tools: [
     {
+      id: "snapmail",
+      versionBranch: "1.0.x",
+      title: "Snapmail",
+      subtitle: "email-like messaging",
+      description: '',
+      icon: "https://github.com/glassbeadsoftware/snapmail/releases/download/we-applet-rc/icon.png",
+      tags: ["mail", "chat"],
+      versions: [
+        {
+          version: "1.0.0",
+          url: "https://github.com/glassbeadsoftware/snapmail/releases/download/we-applet-rc/snapmail-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "4db3fa2f7e1e340110b84aaf79abc10646a36002e5663d18748cd217368375ce",
+            webhappSha256:
+              "a91f92cc9b52903d6e5487d1fabde20c07c8c8895521dab0fabd0aadf6889120",
+            uiSha256:
+              "b9d956b9ce35997a1727f42629e6dbbe8e35f7e21fde6c9a0f61f0ed5206ad96",
+          },
+          changelog: "Updated to hdk 4.1",
+          releasedAt: 1744809407000,
+        },
+      ],
+    },
+    {
+      id: "files",
+      versionBranch: "1.0.x",
+      title: "Files",
+      subtitle: "File sharing and file sending",
+      description: '',
+      icon: "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/icon.png",
+      tags: ["file", "storage"],
+      versions: [
+        {
+          version: "1.0.0",
+          url: "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/files-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "864fc97d9bd2648da05e55512d668ca4c6acace3cf5effc473a440270be3df11",
+            webhappSha256:
+              "7d50c4803c581db3720ff7f24f42c674e84c3464e8fcf584f2d587ef22bec15a",
+            uiSha256:
+              "5532a419ed56c53506ee08a4b59aad7b87350f64131e44d08c40a77758148306",
+          },
+          changelog: "Updated to hdk 4.1",
+          releasedAt: 1744809407000,
+        },
+      ],
+    },
+    {
+      id: "place",
+      versionBranch: "1.0.x",
+      title: "Place",
+      subtitle: "Holochain version of reddit-place (pixel wars)",
+      description: '',
+      icon: "https://github.com/lightningrodlabs/place/releases/download/we-applet-rc/logo.png",
+      tags: ["game"],
+      versions: [
+        {
+          version: "1.0.0",
+          url: "https://github.com/lightningrodlabs/place/releases/download/we-applet-rc/place-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "a3ee013179fd799caa9134366fe3990694ba81b2dca5ecff9836af95795c8c86",
+            webhappSha256:
+              "4703b983e4cd1a7813c5a770439c2c6defee24a68a341dccdeb09c955d7b650c",
+            uiSha256:
+              "e4fe0e0e48e808370f73224478e944f28253b9e3fb3b7f484737cf9f52c95f00",
+          },
+          changelog: "Updated to hdk 4.1",
+          releasedAt: 1744809407000,
+        },
+      ],
+    },
+    {
       id: "where",
       versionBranch: "1.0.x",
       title: "Where",
