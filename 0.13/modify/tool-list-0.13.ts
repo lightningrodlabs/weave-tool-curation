@@ -763,5 +763,35 @@ export default defineDevCollectiveToolList({
         }
       ],
     },
+    {
+      id: "whosin",
+      versionBranch: "feature/calendaring",
+      title: "Who's In?",
+      subtitle: "Scheduling events and tracking agreements",
+      description: " Who's In? enables users to propose events, shared tasks and agreements. With it, anyone can suggest a joint action or event, which other people can agree to on the contingency that every necessary role is filled. This allows group action to grow from idea to reality without anyone having to worry about its viability.",
+      icon: "https://github.com/lightningrodlabs/whos-in/blob/0.1.2/we_dev/whosin.png?raw=true",
+      tags: [
+        "collaboration",
+        "scheduling",
+        "calendar",
+        "events",
+        "task management",
+        "governance",
+        "collective action"
+      ],
+      versions: [
+        {
+          version: "0.1.2",
+          url: "https://github.com/lightningrodlabs/whos-in/releases/download/0.1.2/whosin.webhapp",
+          hashes: {
+            "happSha256": "3d360afe752960a6b45931310f0e9ffc604dd4b977a63c9bd7db6ce2b555269a",
+            "webhappSha256": "b0b986037bfc70b6fa994995d698f96d6b2996c2d7de399399e35b50e5fa59a8",
+            "uiSha256": "5417a7baea5fb12bc80d063785861f346fdb4982ca86be5dea7b08a45d726350"
+          },
+          changelog: "Initial release",
+          releasedAt: 1745000686113
+        }
+      ]
+    }
   ],
 });
