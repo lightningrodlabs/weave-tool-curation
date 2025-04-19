@@ -637,6 +637,17 @@
                     },
                     "changelog": "Initial release",
                     "releasedAt": 1745000686113
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https://github.com/lightningrodlabs/whos-in/releases/download/0.1.2/whosin-0.1.2-b.webhapp",
+                    "hashes": {
+                        "happSha256": "3d360afe752960a6b45931310f0e9ffc604dd4b977a63c9bd7db6ce2b555269a",
+                        "webhappSha256": "1f47644bd995bfe9150b97d6bf70628d7df7b70ff0eaafc9b99f95511d6e335e",
+                        "uiSha256": "60996ccc07fdf4309247b30079c5565dc5eda02aca3600eb55f5f52845f7ea07"
+                    },
+                    "changelog": "Fixed a bug that prevented event creation in Moss",
+                    "releasedAt": 1745082843252
                 }
             ]
         }
