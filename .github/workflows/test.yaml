@@ -24,3 +24,10 @@ jobs:
           npm install
           npm run test
           cd ..
+
+      - name: "Test Moss 0.14 lists"
+        run: |
+          cd ./0.14
+          npm install
+          npm run test
+          cd ..
