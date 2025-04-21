@@ -1,4 +1,4 @@
-# Curation List for Moss 0.13
+# Curation List for Moss 0.14
 
 This folder contains a curations list and a Tools list.
 
@@ -32,16 +32,16 @@ and they need to match with how Moss computes them.
 ## Modifying the Curation List
 
 0. Run `npm install`
-1. Go to `./modify/curations-0.13.ts` and change the file as needed
-2. Run `npm run write-lists` which should update `./lists/curations-0.13.json`.
+1. Go to `./modify/curations-0.14.ts` and change the file as needed
+2. Run `npm run write-lists` which should update `./lists/curations-0.14.json`.
 3. run `npm run test` to run basic validity checks for the generated json file.
 4. Make a PR with the new change
 
 ## Modifying the Tools List
 
 0. Run `npm install`
-1. Go to `./modify/tool-list-0.13.ts` and change the file as needed
-2. Run `npm run write-lists` which should update `./lists/tool-list-0.13.json`.
+1. Go to `./modify/tool-list-0.14.ts` and change the file as needed
+2. Run `npm run write-lists` which should update `./lists/tool-list-0.14.json`.
 3. run `npm run test` to run basic validity checks for the generated json file.
 4. Make a PR with the new change
 
