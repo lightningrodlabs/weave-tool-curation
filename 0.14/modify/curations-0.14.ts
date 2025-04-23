@@ -23,10 +23,20 @@ export default defineCurationLists({
           tags: ["video calls", "screen sharing"],
         },
         {
-          toolListUrl: "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "converge",
           versionBranch: "0.2.x",
-          tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
+          tags: [
+            "collaboration",
+            "problem-solving",
+            "brainstorming",
+            "convergent facilitation",
+            "nvc",
+            "dcan",
+            "governance",
+            "decision making",
+          ],
         },
         {
           toolListUrl:
@@ -34,7 +44,13 @@ export default defineCurationLists({
           toolId: "whosin",
           versionBranch: "main-0.5",
           tags: [
-            "collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"
+            "collaboration",
+            "scheduling",
+            "calendar",
+            "events",
+            "task management",
+            "governance",
+            "collective action",
           ],
         },
         {
@@ -43,7 +59,13 @@ export default defineCurationLists({
           toolId: "kando",
           versionBranch: "0.13.x",
           tags: [
-            "collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"
+            "collaboration",
+            "scheduling",
+            "calendar",
+            "events",
+            "task management",
+            "governance",
+            "collective action",
           ],
         },
         {
