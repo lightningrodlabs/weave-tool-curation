@@ -37,6 +37,17 @@
                     },
                     "changelog": "Initial release",
                     "releasedAt": 1745336855862
+                },
+                {
+                    "version": "0.2.1",
+                    "url": "https://github.com/lightningrodlabs/converge/releases/download/0.2.1/converge.webhapp",
+                    "hashes": {
+                        "happSha256": "2ba61f8be6cf2966dc94cd1b68740bdde0165c12430d87fc095952cd9d7ab608",
+                        "webhappSha256": "8a7e78f2631af70c271e33daa0746f13eccef5bbec5efe5f37443e414811d418",
+                        "uiSha256": "0466a46c04595ae04e503d3406a86fc80f14811640e12baace99622374db7092"
+                    },
+                    "changelog": "Day 1 patch",
+                    "releasedAt": 1745442741695
                 }
             ]
         },
