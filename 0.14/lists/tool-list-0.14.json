@@ -67,6 +67,17 @@
                     },
                     "changelog": "Initial release",
                     "releasedAt": 1745336855862
+                },
+                {
+                    "version": "0.2.1",
+                    "url": "https://github.com/lightningrodlabs/whos-in/releases/download/0.2.1/whosin.webhapp",
+                    "hashes": {
+                        "happSha256": "d0f36d3f49a03f41f2f52559e7f4726b244111cb3f456367ac2ac0d92201e064",
+                        "webhappSha256": "e4144adcaa319487981f0a059a2bd334480d6eaabfcba217e7097d8edee81532",
+                        "uiSha256": "f6f178d732373be911c65d96beb6318e4d903daa6c3db84425236e0e5f54dfe2"
+                    },
+                    "changelog": "Day 1 patch",
+                    "releasedAt": 1745429999504
                 }
             ]
         }
