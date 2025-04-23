@@ -41,6 +41,20 @@
                         "governance",
                         "collective action"
                     ]
+                },
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+                    "toolId": "kando",
+                    "versionBranch": "0.13.x",
+                    "tags": [
+                        "collaboration",
+                        "scheduling",
+                        "calendar",
+                        "events",
+                        "task management",
+                        "governance",
+                        "collective action"
+                    ]
                 }
             ]
         }
