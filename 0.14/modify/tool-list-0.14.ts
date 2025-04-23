@@ -45,7 +45,7 @@ export default defineDevCollectiveToolList({
     },
     {
       id: "whosin",
-      versionBranch: "0.2.x",
+      versionBranch: "main-0.5",
       title: "Who's In?",
       subtitle: "Scheduling events and tracking agreements",
       description: " Who's In? enables users to propose events, shared tasks and agreements. With it, anyone can suggest a joint action or event, which other people can agree to on the contingency that every necessary role is filled. This allows group action to grow from idea to reality without anyone having to worry about its viability.",
