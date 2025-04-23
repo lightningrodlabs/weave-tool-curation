@@ -105,6 +105,31 @@
                     "releasedAt": 1745418989425
                 }
             ]
+        },
+        {
+            "id": "notebooks",
+            "versionBranch": "0.5.x",
+            "title": "Notebooks",
+            "subtitle": "Collaborative MarkDown editor",
+            "description": "Real-time collaborative Markdown editing, includes version control.",
+            "icon": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.5.0-rc.0/notebooks_logo.png",
+            "tags": [
+                "markdown",
+                "real-time editor"
+            ],
+            "versions": [
+                {
+                    "version": "0.5.0-rc.0",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.5.0-rc.0/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "f29768624cc250bffd06d416f7c9f0e191bfbfda4fd03f2c3498c48ce30bc174",
+                        "webhappSha256": "15cb2f1738bd0dc48995e4768bd33e7dbe298251653e03033e44116b6682f141",
+                        "uiSha256": "2b8c69debfa7ab81f911237307d63c0586b1676f6d29bb87e188bb84c18f9bb5"
+                    },
+                    "changelog": "Updates for Holochain 0.5 and Moss 0.14",
+                    "releasedAt": 1745418989425
+                }
+            ]
         }
     ]
 }
