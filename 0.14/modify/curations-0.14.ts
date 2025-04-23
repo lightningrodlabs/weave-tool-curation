@@ -14,7 +14,24 @@ export default defineCurationLists({
       name: "Default Curation List",
       description: "Default Curation List of Lightningrod Labs",
       tags: [],
-      tools: [],
+      tools: [
+        {
+          toolListUrl:
+          "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "converge",
+          versionBranch: "main-0.5",
+          tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "whosin",
+          versionBranch: "main-0.5",
+          tags: [
+            "collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"
+          ],
+        },
+      ],
     },
   },
 });
