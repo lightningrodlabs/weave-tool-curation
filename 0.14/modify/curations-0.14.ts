@@ -40,6 +40,13 @@ export default defineCurationLists({
             "collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"
           ],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "notebooks",
+          versionBranch: "0.5.x",
+          tags: [""],
+        },
       ],
     },
   },
