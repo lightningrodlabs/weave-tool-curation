@@ -13,7 +13,7 @@ export default defineDevCollectiveToolList({
   tools: [
     {
       id: "converge",
-      versionBranch: "main",
+      versionBranch: "main-0.5",
       title: "Converge",
       subtitle: "A group decision-making tool",
       description:
