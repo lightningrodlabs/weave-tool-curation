@@ -11,7 +11,7 @@
     "tools": [
         {
             "id": "converge",
-            "versionBranch": "main",
+            "versionBranch": "main-0.5",
             "title": "Converge",
             "subtitle": "A group decision-making tool",
             "description": "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
