@@ -75,6 +75,13 @@ export default defineCurationLists({
           versionBranch: "0.5.x",
           tags: [""],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.13/tool-list-0.13.json",
+          toolId: "talking-stickies",
+          versionBranch: "0.13.x",
+          tags: [""],
+        },
       ],
     },
   },
