@@ -89,6 +89,13 @@ export default defineCurationLists({
           versionBranch: "0.13.x",
           tags: [""],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "spreadsheets",
+          versionBranch: "0.1.x",
+          tags: [""],
+        },
       ],
     },
   },
