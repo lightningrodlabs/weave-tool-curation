@@ -17,7 +17,7 @@ export default defineCurationLists({
       tools: [
         {
           toolListUrl:
-            "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.14/lists/tool-list-0.14.json",
+          "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "files",
           versionBranch: "1.1.x",
           tags: ["file sharing"],
