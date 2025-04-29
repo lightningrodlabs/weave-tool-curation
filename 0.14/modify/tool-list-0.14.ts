@@ -218,7 +218,7 @@ export default defineDevCollectiveToolList({
       subtitle: "Real-time collaborative spreadsheets",
       description:
         "Spreadsheets for real-time collaborative editing.",
-      icon: "https://github.com/lightningrodlabs/sweet/blob/spreadsheets-only/weave/calcy.svg?raw=true",
+      icon: "https://github.com/lightningrodlabs/sweet/blob/spreadsheets-only/weave/xylem.png?raw=true",
       tags: ["spreadsheet", "collaboration", "real-time"],
       versions: [
         {
