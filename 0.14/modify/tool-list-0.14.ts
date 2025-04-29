@@ -211,5 +211,31 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "spreadsheets",
+      versionBranch: "0.1.x",
+      title: "Spreadsheets",
+      subtitle: "Real-time collaborative spreadsheets",
+      description:
+        "Spreadsheets for real-time collaborative editing.",
+      icon: "https://github.com/lightningrodlabs/sweet/releases/download/spreadsheets-0.1.0/calcy.png",
+      tags: ["spreadsheet", "collaboration", "real-time"],
+      versions: [
+        {
+          version: "0.1.0",
+          url: "https://github.com/lightningrodlabs/sweet/releases/download/spreadsheets-0.1.0/calcy.webhapp",
+          hashes: {
+            happSha256:
+              "3084158209487c171aa9cb1f78ada630d47aad67689312bd84bfe82b92ca673c",
+            webhappSha256:
+              "2c62dbf7318be8d84f047e82f7bb3744ac63382c3fbb2d8e8af7ce9128112104",
+            uiSha256:
+              "5d5461e7a01247b8c9ec9e7b994be2834384f2197295733ad1d52e9f54a68e66",
+          },
+          changelog: "First release",
+          releasedAt: 1745938625478,
+        },
+      ],
+    },
   ],
 });
