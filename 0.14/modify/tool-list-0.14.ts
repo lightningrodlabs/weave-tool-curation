@@ -83,6 +83,20 @@ export default defineDevCollectiveToolList({
           changelog: "Day 1 patch",
           releasedAt: 1745442741695,
         },
+        {
+          version: "0.2.2",
+          url: "https://github.com/lightningrodlabs/converge/releases/download/0.2.2/converge.webhapp",
+          hashes: {
+            happSha256:
+              "2ba61f8be6cf2966dc94cd1b68740bdde0165c12430d87fc095952cd9d7ab608",
+            webhappSha256:
+              "458fe15875c9011a63d4b0fe94d2e769646b09c27b4c11bf09ec24cdddd21032",
+            uiSha256:
+              "f4dc2f8f91b4e6b6fb295aefddcaa87bda1fa4636aa3a3abf0d145f2ecb258a9",
+          },
+          changelog: "Improve UX and fix bugs",
+          releasedAt: 1746036685246,
+        },
       ],
     },
     {
