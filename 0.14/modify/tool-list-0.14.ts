@@ -237,5 +237,31 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "datatub",
+      versionBranch: "0.10.x",
+      title: "DataTub",
+      subtitle: "Airtable-like data management",
+      description:
+        "Data management, collaboration, and custom displays.",
+      icon: "https://github.com/lightningrodlabs/tables/blob/v0.10.3/weave/datatub.png?raw=true",
+      tags: ["data", "management", "collaboration"],
+      versions: [
+        {
+          version: "0.10.3",
+          url: "https://github.com/lightningrodlabs/tables/releases/download/v0.10.3/tables.webhapp",
+          hashes: {
+            happSha256:
+              "21526e04cad5cd6c336266fdaf71d7b79a9a84d8ad1ba198f3270868962a1457",
+            webhappSha256:
+              "3f796eff3ca8627f538e89a6e17b1fc0321d8c9a81d533110da4d40f05fbdc0f",
+            uiSha256:
+              "10ad5885a6f6f77cc7a9a1ad7908d063674552ddab6fde0e2d5c9f90eefe07ae",
+          },
+          changelog: "First release",
+          releasedAt: 1746034699618,
+        },
+      ],
+    },
   ],
 });
