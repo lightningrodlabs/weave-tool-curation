@@ -12,6 +12,32 @@ export default defineDevCollectiveToolList({
   },
   tools: [
     {
+      id: "vines",
+      versionBranch: "1.16.x",
+      title: "Vines",
+      subtitle: "Group conversations and DMs",
+      description: "A conversation capacity for groups in The Weave.",
+      icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+      tags: ["chat"],
+      versions: [
+        {
+          version: "1.16.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.16.0.webhapp",
+          hashes: {
+            happSha256:
+              "0d243f35f410cc15787584b2a16ec0577fdfc8adc08958d44dc7674f7c25f165",
+            webhappSha256:
+              "5e964bb5ebea66a5c70f73c423be88b5801dd006a061fad01cd88b712a9c72a1",
+            uiSha256:
+              "a2f2503dfdd570b8b2e8eaa27ff63cf2a627204ccc66e375f4d4ad8bb63294e6",
+          },
+          changelog:
+            "Upgrade to HDK 0.5.1",
+          releasedAt: 1746036455000,
+        },
+      ],
+    },
+    {
       id: "files",
       versionBranch: "1.1.x",
       title: "Files",
