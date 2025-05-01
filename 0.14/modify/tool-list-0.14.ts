@@ -25,7 +25,7 @@ export default defineDevCollectiveToolList({
           url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.16.0.webhapp",
           hashes: {
             happSha256:
-              "0d243f35f410cc15787584b2a16ec0577fdfc8adc08958d44dc7674f7c25f165",
+              "315c830f5fb90bd7609d489fdb9f2aacf1c7e28760c2c5504acd7207e5d00a99",
             webhappSha256:
               "5e964bb5ebea66a5c70f73c423be88b5801dd006a061fad01cd88b712a9c72a1",
             uiSha256:
