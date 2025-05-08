@@ -31,8 +31,7 @@ export default defineDevCollectiveToolList({
             uiSha256:
               "a2f2503dfdd570b8b2e8eaa27ff63cf2a627204ccc66e375f4d4ad8bb63294e6",
           },
-          changelog:
-            "Upgrade to HDK 0.5.1",
+          changelog: "Upgrade to HDK 0.5.1",
           releasedAt: 1746036455000,
         },
       ],
@@ -256,8 +255,7 @@ export default defineDevCollectiveToolList({
       versionBranch: "0.1.x",
       title: "Spreadsheets",
       subtitle: "Real-time collaborative spreadsheets",
-      description:
-        "Spreadsheets for real-time collaborative editing.",
+      description: "Spreadsheets for real-time collaborative editing.",
       icon: "https://github.com/lightningrodlabs/sweet/blob/spreadsheets-only/weave/xylem.png?raw=true",
       tags: ["spreadsheet", "collaboration", "real-time"],
       versions: [
@@ -282,8 +280,7 @@ export default defineDevCollectiveToolList({
       versionBranch: "0.10.x",
       title: "DataTub",
       subtitle: "Airtable-like data management",
-      description:
-        "Data management, collaboration, and custom displays.",
+      description: "Data management, collaboration, and custom displays.",
       icon: "https://github.com/lightningrodlabs/tables/blob/v0.10.3/weave/datatub.png?raw=true",
       tags: ["data", "management", "collaboration"],
       versions: [
@@ -300,6 +297,34 @@ export default defineDevCollectiveToolList({
           },
           changelog: "First release",
           releasedAt: 1746034699618,
+        },
+      ],
+    },
+    {
+      id: "gamez",
+      versionBranch: "0.9.x",
+      title: "Gamez",
+      subtitle: "Freeform space to create and play board games together",
+      description: "Freeform space to create and play board games together",
+      icon: "https://github.com/holochain-apps/gamez/releases/download/v0.7.7/icon.png",
+      tags: ["game", "board game", "canvas", "collaboration", "play"],
+      versions: [
+        {
+          version: "0.9.1",
+          hashes: {
+            happSha256:
+              "55bffe7494c4e00b942b96d723e4f7bb1b7decd155eac4a717e6ba1646a771ac",
+            webhappSha256:
+              "e4bb9bf3ae701770c3bca941f8d72b1ca0c8be12c60e1d56cb4a064ea4cb0c3a",
+            uiSha256:
+              "e42eac63d0f2dac97db6857ede80385a5ca3c9d72d9507360e3a156f50113b7e",
+          },
+          url: "https://github.com/holochain-apps/gamez/releases/download/v0.9.1/gamez.webhapp",
+          changelog: `
+          # 0.9.1
+- Update to Moss 0.14
+          `,
+          releasedAt: 1746661573000,
         },
       ],
     },
