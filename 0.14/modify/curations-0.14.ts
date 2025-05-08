@@ -24,7 +24,7 @@ export default defineCurationLists({
         },
         {
           toolListUrl:
-          "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "files",
           versionBranch: "1.1.x",
           tags: ["file sharing"],
@@ -110,6 +110,13 @@ export default defineCurationLists({
           versionBranch: "0.10.x",
           visiblity: "low",
           tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "gamez",
+          versionBranch: "0.9.x",
+          tags: ["game", "board game", "canvas", "collaboration", "play"],
         },
       ],
     },
