@@ -121,6 +121,18 @@
                     "tags": [
                         ""
                     ]
+                },
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+                    "toolId": "gamez",
+                    "versionBranch": "0.9.x",
+                    "tags": [
+                        "game",
+                        "board game",
+                        "canvas",
+                        "collaboration",
+                        "play"
+                    ]
                 }
             ]
         }
