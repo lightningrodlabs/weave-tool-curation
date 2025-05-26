@@ -10,6 +10,30 @@
     },
     "tools": [
         {
+            "id": "acorn",
+            "versionBranch": "11.x.x",
+            "title": "Acorn",
+            "subtitle": "State-of-Affairs Trees for Project Management",
+            "description": "Project mangament redefined for distributed teams. Agile project management made simple. Open-source. Peer-to-peer. Perfect for remote teams.",
+            "icon": "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png?raw=true",
+            "tags": [
+                "project-management"
+            ],
+            "versions": [
+                {
+                    "version": "11.2.2",
+                    "url": "https://github.com/lightningrodlabs/acorn/releases/download/v11.2.2-alpha/acorn-moss.webhapp",
+                    "hashes": {
+                        "happSha256": "4dac45c260ccfd8132de82ccb1c2aedb5a0a0e57ce6843a101d03d0cea6fd5bb",
+                        "webhappSha256": "4c59f7de8f666d9100f2a36ffd1dea94fd9909aa95c7ad79ccc78d73b6ea4cb6",
+                        "uiSha256": "5066db2f6497507d5f21670a5e012f34528172b66b8625a889249af2b6a98310"
+                    },
+                    "changelog": "Bumped to Holochain 0.5.0. Includes fully functioning outcome and project asset views.",
+                    "releasedAt": 1748303313000
+                }
+            ]
+        },
+        {
             "id": "vines",
             "versionBranch": "1.17.x",
             "title": "Vines",
