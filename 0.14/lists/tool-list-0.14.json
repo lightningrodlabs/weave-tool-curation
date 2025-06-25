@@ -55,7 +55,8 @@
                     "changelog": "Bumped to Holochain 0.5.0. Includes fully functioning outcome and project asset views.",
                     "releasedAt": 1748303313000
                 }
-            ]
+            ],
+            "deprecation": "Superseded by version 11.3.x"
         },
         {
             "id": "vines",

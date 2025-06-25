@@ -64,6 +64,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1748303313000,
         },
       ],
+      deprecation: "Superseded by version 11.3.x"
     },
     {
       id: "vines",
