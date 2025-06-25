@@ -19,7 +19,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "acorn",
-          versionBranch: "11.x.x",
+          versionBranch: "11.3.x",
           tags: ["project-management"],
         },
         {
@@ -32,16 +32,10 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
-          toolId: "vines",
-          versionBranch: "1.16.x",
-          tags: ["chat"],
-        },
-        {
-          toolListUrl:
-            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "files",
           versionBranch: "1.1.x",
           tags: ["file sharing"],
+          visiblity: "low",
         },
         {
           toolListUrl:
@@ -116,14 +110,15 @@ export default defineCurationLists({
           toolId: "spreadsheets",
           versionBranch: "0.1.x",
           tags: [""],
+          visiblity: "low"
         },
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "datatub",
           versionBranch: "0.10.x",
-          visiblity: "low",
           tags: [""],
+          visiblity: "low",
         },
         {
           toolListUrl:
