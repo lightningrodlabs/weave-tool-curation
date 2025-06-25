@@ -13,6 +13,33 @@ export default defineDevCollectiveToolList({
   tools: [
     {
       id: "acorn",
+      versionBranch: "11.3.x",
+      title: "Acorn",
+      subtitle: "State-of-Affairs Trees for Project Management",
+      description:
+        "Project mangament redefined for distributed teams. Agile project management made simple. Open-source. Peer-to-peer. Perfect for remote teams.",
+      icon: "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png?raw=true",
+      tags: ["project-management"],
+      versions: [
+        {
+          version: "11.3.1",
+          url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.3.1-alpha/acorn.webhapp",
+          hashes: {
+            happSha256:
+              "13c32dcd151150ebfcf1d23ec31d0a664a75898cbd00e83c5b659d2e21184227",
+            webhappSha256:
+              "948cac0497cc9402c71e11aaa6195b1eb24762384d6a67472b7f0c465140ed15",
+            uiSha256:
+              "0e9221607612ff68367ed19db92a6970b4d07d0ba63966c26d5e9c13f362819b",
+          },
+          changelog:
+            "Bumped to Holochain 0.5.3-rc.0. Refactored profiles storage logic and bugfixes.",
+          releasedAt: 1750864787128,
+        },
+      ],
+    },
+    {
+      id: "acorn",
       versionBranch: "11.x.x",
       title: "Acorn",
       subtitle: "State-of-Affairs Trees for Project Management",
@@ -37,6 +64,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1748303313000,
         },
       ],
+      deprecation: "Superseded by version 11.3.x"
     },
     {
       id: "vines",
@@ -87,6 +115,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1746036455000,
         },
       ],
+      deprecation: "Superseded by Vines version 1.17.x"
     },
     {
       id: "files",
