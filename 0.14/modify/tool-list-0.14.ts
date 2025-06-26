@@ -23,7 +23,7 @@ export default defineDevCollectiveToolList({
       versions: [
         {
           version: "11.3.2",
-          url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.3.1-alpha/acorn.webhapp",
+          url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.3.2-alpha/acorn.webhapp",
           hashes: {
             happSha256:
               "13c32dcd151150ebfcf1d23ec31d0a664a75898cbd00e83c5b659d2e21184227",
