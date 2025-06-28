@@ -22,6 +22,21 @@ export default defineDevCollectiveToolList({
       tags: ["project-management"],
       versions: [
         {
+          version: "11.3.3",
+          url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.3.3-alpha/acorn.webhapp",
+          hashes: {
+            happSha256:
+              "13c32dcd151150ebfcf1d23ec31d0a664a75898cbd00e83c5b659d2e21184227",
+            webhappSha256:
+              "4d8e45c1458637c390f75b38080d2f2aa17e8539c6b6ff1e1d6f0488f426d77e",
+            uiSha256:
+              "0368774a660f4171ca54c42a96e9ac6f33851bf70f9e676faf9e85057a4c274b",
+          },
+          changelog:
+            "Fixed a bug that would have acorn crash when opening the expanded view for an outcome.",
+          releasedAt: 1750923171479,
+        },
+        {
           version: "11.3.2",
           url: "https://github.com/lightningrodlabs/acorn/releases/download/v11.3.2-alpha/acorn.webhapp",
           hashes: {
@@ -79,7 +94,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1748303313000,
         },
       ],
-      deprecation: "Superseded by version 11.3.x"
+      deprecation: "Superseded by version 11.3.x",
     },
     {
       id: "vines",
@@ -130,7 +145,7 @@ export default defineDevCollectiveToolList({
           releasedAt: 1746036455000,
         },
       ],
-      deprecation: "Superseded by Vines version 1.17.x"
+      deprecation: "Superseded by Vines version 1.17.x",
     },
     {
       id: "files",
