@@ -106,6 +106,20 @@ export default defineDevCollectiveToolList({
       tags: ["chat"],
       versions: [
         {
+          version: "1.17.1",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.17.1.webhapp",
+          hashes: {
+            happSha256:
+              "3ae2deab923cc0cca6f88b26ec11db4468c13dc071dca2b9f2c57871c5d841a4",
+            webhappSha256:
+              "0aa0c953f9b9925a946d338e8d94681d7037e22db8919ad498401aa6af7b3087",
+            uiSha256:
+              "a4b237e25d646a192b8eab5ce4a440ecd55e5189b2b1f8310aabc51d8c0564ac",
+          },
+          changelog: "Bug fixes",
+          releasedAt: 1751659604932,
+        },
+        {
           version: "1.17.0",
           url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.17.0.webhapp",
           hashes: {
