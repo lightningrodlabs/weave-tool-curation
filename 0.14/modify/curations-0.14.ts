@@ -127,6 +127,14 @@ export default defineCurationLists({
           versionBranch: "0.9.x",
           tags: ["game", "board game", "canvas", "collaboration", "play"],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "ziptest",
+          versionBranch: "0.3.x",
+          tags: ["testing"],
+          visiblity: "low",
+        },
       ],
     },
   },

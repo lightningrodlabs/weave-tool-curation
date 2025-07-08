@@ -467,5 +467,35 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "ziptest",
+      versionBranch: "0.3.x",
+      title: "ZipTest",
+      subtitle: "Simple performance testing",
+      description: "Send batches of signals and watch acks com back.  Create entries and watch how long it takes for them to propagate.",
+      icon: "https://github.com/holochain/ziptest/releases/download/ziptest-v0.3.0/ziptest_icon.png",
+      tags: ["testing"],
+      versions: [
+        {
+          version: "0.9.1",
+          hashes: {
+            happSha256:
+              "7112e2caf50e17b4840579dda98136618eb9c0275923c02b49ec708fdfd1aa6b",
+            webhappSha256:
+              "d584c34e9d7283ae500de3ae9fbac6b9d8564c635b60b61c9e9c8411e44ce3e7",
+            uiSha256:
+              "73260ca3edfd8d8231172ccd12ba3014ce5ba7ba09d6c740f2b041fb9a2c079e",
+          },
+          url: "https://github.com/holochain/ziptest/releases/download/ziptest-v0.3.0/ziptest.webhapp",
+          changelog: `
+# 0.3.0
+- Update to Holochain 0.5.3
+- Update to Moss 0.14
+- Fix Network Stats UI
+          `,
+          releasedAt: 1751997633937,
+        },
+      ],
+    },
   ],
 });
