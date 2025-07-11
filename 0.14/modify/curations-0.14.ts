@@ -44,6 +44,15 @@ export default defineCurationLists({
           versionBranch: "0.11.x",
           tags: ["video calls", "screen sharing"],
         },
+
+        {
+          toolListUrl:
+            "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.14/lists/tool-list-0.14.json",
+          toolId: "matthme.rhymez",
+          versionBranch: "0.1.x",
+          tags: ["chat", "messages", "message", "threads", "channels"],
+          visiblity: "low",
+        },
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
@@ -110,7 +119,7 @@ export default defineCurationLists({
           toolId: "spreadsheets",
           versionBranch: "0.1.x",
           tags: [""],
-          visiblity: "low"
+          visiblity: "low",
         },
         {
           toolListUrl:
