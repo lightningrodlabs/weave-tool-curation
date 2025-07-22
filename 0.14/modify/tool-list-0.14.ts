@@ -520,6 +520,20 @@ export default defineDevCollectiveToolList({
           changelog: "First release",
           releasedAt: 1753190148834,
         },
+        {
+          version: "0.5.1",
+          url: "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/releases/download/v0.5.0/acfn-b.webhapp",
+          hashes: {
+            happSha256:
+              "9e2ec7c344b9d78ac3e40899b0b9d9a71d6edb98cb254998dbf177f6dee49096",
+            webhappSha256:
+              "fafb9da310fdc16a8450171431143281b8060ea414464a703459ec758005a527",
+            uiSha256:
+              "cf4d22abd4bed66c67beafc889f9de67da9a144c2df06e664b153c452de888e6",
+          },
+          changelog: "Bug fixes and improvements",
+          releasedAt: 1753197734985,
+        },
       ],
     },
   ],
