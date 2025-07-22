@@ -144,6 +144,14 @@ export default defineCurationLists({
           tags: ["testing"],
           visiblity: "low",
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "acfn",
+          versionBranch: "0.5.x",
+          tags: ['testing', 'supply chain', 'hREA'],
+          visiblity: "low",
+        },
       ],
     },
   },
