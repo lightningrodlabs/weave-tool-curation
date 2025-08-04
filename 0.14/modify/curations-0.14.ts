@@ -51,7 +51,6 @@ export default defineCurationLists({
           toolId: "matthme.rhymez",
           versionBranch: "0.1.x",
           tags: ["chat", "messages", "message", "threads", "channels"],
-          visiblity: "low",
         },
         {
           toolListUrl:
