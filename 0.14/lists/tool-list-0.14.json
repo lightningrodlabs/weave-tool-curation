@@ -507,6 +507,17 @@
                     },
                     "changelog": "Bug fixes and improvements",
                     "releasedAt": 1754996049079
+                },
+                {
+                    "version": "0.5.4",
+                    "url": "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/releases/download/v0.5.0/acfn-e.webhapp",
+                    "hashes": {
+                        "happSha256": "9e2ec7c344b9d78ac3e40899b0b9d9a71d6edb98cb254998dbf177f6dee49096",
+                        "webhappSha256": "a73155b3e8ceeff2fd77831ed4b4633eb38fff70eb82a7c9492d9ba384370b20",
+                        "uiSha256": "c95fe391eae48598d67d2136f89f33f0674bc67f2ddba9b9fec4bd21c3a99ea0"
+                    },
+                    "changelog": "Bug fixes and improvements",
+                    "releasedAt": 1755525900729
                 }
             ]
         }
