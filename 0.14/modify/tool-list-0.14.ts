@@ -323,7 +323,7 @@ export default defineDevCollectiveToolList({
       versions: [
         {
           version: "0.14.0",
-          url: "https://github.com/holochain-apps/kando/releases/download/v0.14.0/kando.webhappp",
+          url: "https://github.com/holochain-apps/kando/releases/download/v0.14.0/kando.webhapp",
           hashes: {
             happSha256:
               "3d156f802dbcad7364c7fa7aa9d72ba253fa40dd806db56f18fc6a2883cb6ce2",
