@@ -313,6 +313,32 @@ export default defineDevCollectiveToolList({
     },
     {
       id: "kando",
+      versionBranch: "0.14.x",
+      title: "KanDo",
+      subtitle: "Real-time KanBan boards",
+      description:
+        "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+      icon: "https://theweave.social/images/kando_icon.png",
+      tags: ["kanban", "project management"],
+      versions: [
+        {
+          version: "0.14.0",
+          url: "https://github.com/holochain-apps/kando/releases/download/v0.14.0/kando.webhappp",
+          hashes: {
+            happSha256:
+              "3d156f802dbcad7364c7fa7aa9d72ba253fa40dd806db56f18fc6a2883cb6ce2",
+            webhappSha256:
+              "4bad8ad1b8b364ad36a66a4a4a5d11fe44f0cbfe11cda8a9e5a62026f2355799",
+            uiSha256:
+              "de74436c30d4c0a0283acbed281285568ff5a400d0ee8376fea96354b4cc5b97",
+          },
+          changelog: "Updates for Holochain 0.5 and Moss 0.14",
+          releasedAt: 1756994700649,
+        },
+      ],
+    },
+    {
+      id: "kando",
       versionBranch: "0.13.x",
       title: "KanDo",
       subtitle: "Real-time KanBan boards",
@@ -472,7 +498,8 @@ export default defineDevCollectiveToolList({
       versionBranch: "0.3.x",
       title: "ZipTest",
       subtitle: "Simple performance testing",
-      description: "Send batches of signals and watch acks com back.  Create entries and watch how long it takes for them to propagate.",
+      description:
+        "Send batches of signals and watch acks com back.  Create entries and watch how long it takes for them to propagate.",
       icon: "https://github.com/holochain/ziptest/releases/download/ziptest-v0.3.0/ziptest_icon.png",
       tags: ["testing"],
       versions: [
@@ -502,9 +529,10 @@ export default defineDevCollectiveToolList({
       versionBranch: "0.5.x",
       title: "Carbon Farm Network App",
       subtitle: "Custom supply chain management using hREA",
-      description: "The Carbon Farm Network App is a custom supply chain management app built on the hREA framework. It allows users to plan, track and facilitate transactions within the network.",
+      description:
+        "The Carbon Farm Network App is a custom supply chain management app built on the hREA framework. It allows users to plan, track and facilitate transactions within the network.",
       icon: "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/blob/afd20c2b27ff177f2d703e3b4fbbb3191a346146/logo.png?raw=true",
-      tags: ['testing', 'supply chain', 'hREA'],
+      tags: ["testing", "supply chain", "hREA"],
       versions: [
         {
           version: "0.5.0",

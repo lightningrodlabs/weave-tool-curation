@@ -272,6 +272,31 @@
         },
         {
             "id": "kando",
+            "versionBranch": "0.14.x",
+            "title": "KanDo",
+            "subtitle": "Real-time KanBan boards",
+            "description": "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+            "icon": "https://theweave.social/images/kando_icon.png",
+            "tags": [
+                "kanban",
+                "project management"
+            ],
+            "versions": [
+                {
+                    "version": "0.14.0",
+                    "url": "https://github.com/holochain-apps/kando/releases/download/v0.14.0/kando.webhappp",
+                    "hashes": {
+                        "happSha256": "3d156f802dbcad7364c7fa7aa9d72ba253fa40dd806db56f18fc6a2883cb6ce2",
+                        "webhappSha256": "4bad8ad1b8b364ad36a66a4a4a5d11fe44f0cbfe11cda8a9e5a62026f2355799",
+                        "uiSha256": "de74436c30d4c0a0283acbed281285568ff5a400d0ee8376fea96354b4cc5b97"
+                    },
+                    "changelog": "Updates for Holochain 0.5 and Moss 0.14",
+                    "releasedAt": 1756994700649
+                }
+            ]
+        },
+        {
+            "id": "kando",
             "versionBranch": "0.13.x",
             "title": "KanDo",
             "subtitle": "Real-time KanBan boards",
