@@ -17,6 +17,14 @@ export default defineCurationLists({
       tools: [
         {
           toolListUrl:
+              "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "files",
+          versionBranch: "1.2.x",
+          tags: ["file sharing"],
+          visiblity: "low",
+        },
+        {
+          toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "acorn",
           versionBranch: "11.3.x",
