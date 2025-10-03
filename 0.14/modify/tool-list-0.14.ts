@@ -193,7 +193,7 @@ export default defineDevCollectiveToolList({
             webhappSha256:
                 "cce304c73f6b41a114d889c577662bf12b4ea3be19224ed862d8ec3e41dcfed0",
             uiSha256:
-                "cce304c73f6b41a114d889c577662bf12b4ea3be19224ed862d8ec3e41dcfed0",
+                "83edaa84b06a176050ec412691337ec277a51d82701c5b0bfdf25984b1963e93",
           },
           changelog: "Updates for Holochain 0.5.6 and Moss 0.14.4",
           releasedAt: 1759438277000,
