@@ -20,31 +20,61 @@ if (toolListJSONJSON !== toolListActual)
     "Invalid developer collective Tools list. List does not match the list defined in ./lists/tool-list-0.14.ts"
   );
 
-// Check that version fields are all valid semver
+
+let webhappUrls = new Set();
+
+// Check each tool
 toolListObject.tools.forEach((tool) => {
+  // Check Icon URL
+  try {
+    const _iconUrl = new URL(tool.icon);
+  } catch (e) {
+    throw new Error(`Invalid icon URL for tool '${tool.title}' `);
+  }
+  // Check each version
   tool.versions.forEach((versionInfo) => {
+    // Check version field is valid semver
     if (!semver.valid(versionInfo.version))
       throw new Error(
-        `Found invalid semver version ${versionInfo.version} for app ${tool.id}`
+        `Found invalid semver version ${versionInfo.version} for tool '${tool.title} ${tool.versionBranch}'`
       );
 
+    // Check releasedAt timestamp
     if (
       versionInfo.releasedAt < 1711978174000 ||
       versionInfo.releasedAt > 2690198974000
     ) {
       throw new Error(
-        `Invalid releasedAt value ${versionInfo.releasedAt} for app ${tool.id} and version ${versionInfo.version}. Timestamps must be in milliseconds unix epoch time.`
+        `Invalid releasedAt timestamp ${versionInfo.releasedAt} for tool '${tool.title} ${versionInfo.version}'.
+         Timestamps must be in milliseconds unix epoch time.`
       );
     }
+
+    // Check webhapp URL
+    if (webhappUrls.has(versionInfo.url)) {
+      throw new Error(`Duplicate use of webhapp url ${versionInfo.url} for tool '${tool.title} ${versionInfo.version}'`);
+    }
+    webhappUrls.add(versionInfo.url);
+    if (!versionInfo.url.toLowerCase().endsWith(".webhapp")) {
+      throw new Error(`Invalid webhapp URL for tool '${tool.title} ${versionInfo.version}'`);
+    }
+    try {
+      const _url = new URL(versionInfo.url);
+    } catch (e) {
+      throw new Error(`Invalid webhapp URL for tool '${tool.title} ${versionInfo.version}'`);
+    }
+
+    // Make sure each hash is different
+    if (versionInfo.hashes.happSha256 === versionInfo.hashes.webhappSha256
+        || versionInfo.hashes.happSha256 === versionInfo.hashes.uiSha256
+        || versionInfo.hashes.uiSha256 === versionInfo.hashes.webhappSha256) {
+      throw new Error(`Found identical hashes for tool '${tool.title} ${versionInfo.version}'`);
+    }
+
   });
-  try {
-    const _iconUrl = new URL(tool.icon);
-  } catch (e) {
-    throw new Error(`Invalid icon URL for tool '${tool.title}'`);
-  }
 });
 
-// TODO Verify that versionBranch fields are unique for the same tool id
+// Verify that versionBranch fields are unique for the same tool id
 const idsAndBranches = toolListObject.tools.map(
   (tool) => `${tool.id}#${tool.versionBranch}`
 );
@@ -66,3 +96,4 @@ toolListObject.tools.forEach((toolInfo) => {
       `happSha256 are not unique for tool ${toolInfo.title} and verisonBranch ${toolInfo.versionBranch}`
     );
 });
+
