@@ -101,6 +101,17 @@
                     },
                     "changelog": "Simpler UI and peer status badge",
                     "releasedAt": 1759438377000
+                },
+                {
+                    "version": "1.18.1",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.18.1.webhapp",
+                    "hashes": {
+                        "happSha256": "9b2e891ba0fcefbca73272bf85c398842c8e90d2a0b38ff87d06a6b19063508e",
+                        "webhappSha256": "950027cd33a8ed1302b6f111738acc0f30532ed012617b1f0cc71bb55799bdad",
+                        "uiSha256": "21f26d369b2110d0a2d107196219e2add5c0c31c29ffcb38d9da56c7e9ff35d0"
+                    },
+                    "changelog": "Several minor UI tweaks and bug fixes",
+                    "releasedAt": 1760632016132
                 }
             ]
         },
