@@ -363,6 +363,17 @@
                     },
                     "changelog": "Add connection status",
                     "releasedAt": 1760447690530
+                },
+                {
+                    "version": "0.14.2",
+                    "url": "https://github.com/holochain-apps/kando/releases/download/v0.14.1/kando-b.webhapp",
+                    "hashes": {
+                        "happSha256": "3d156f802dbcad7364c7fa7aa9d72ba253fa40dd806db56f18fc6a2883cb6ce2",
+                        "webhappSha256": "b5d57e397e18520e8294af2ffaa4e7b61c65ad617c5cde49909751a6c514c474",
+                        "uiSha256": "6ff23e382029f4e3537a1f598c98660f64ad6acf4f2963b50266e183f225ac26"
+                    },
+                    "changelog": "Adjust connection status display",
+                    "releasedAt": 1761050581377
                 }
             ]
         },
