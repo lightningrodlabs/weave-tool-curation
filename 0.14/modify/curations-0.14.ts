@@ -124,6 +124,14 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
+          toolId: "notebooks-dev",
+          versionBranch: "0.5.x",
+          tags: [""],
+          visiblity: "low",
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.14/tool-list-0.14.json",
           toolId: "talking-stickies",
           versionBranch: "0.13.x",
           tags: [""],

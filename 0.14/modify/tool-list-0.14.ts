@@ -480,6 +480,32 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "notebooks-dev",
+      versionBranch: "0.5.x",
+      title: "Notebooks Dev",
+      subtitle: "Collaborative MarkDown editor",
+      description:
+        "Real-time collaborative Markdown editing, includes version control.",
+      icon: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.5.0-rc.1/notebooks_logo.png",
+      tags: ["markdown", "real-time editor"],
+      versions: [
+        {
+          version: "0.5.0-rc.1",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.5.0-rc.1/notebooks.webhapp",
+          hashes: {
+            happSha256:
+              "affafbd0c3028ba55565f04f4ac839ce0239cead31e5dbc7cc47fa112ab1a932",
+            webhappSha256:
+              "712c8043ed12392b9a024cbbe8d6d95e47ddb3592bcbde4094f51861e2ac9119",
+            uiSha256:
+              "ad282a67a599ccaa4703fb7603071b1033f9727f3403b12f8bcda583e7442d15",
+          },
+          changelog: "Add session status",
+          releasedAt: 1761134457821,
+        },
+      ],
+    },
+    {
       id: "talking-stickies",
       versionBranch: "0.13.x",
       title: "TalkingStickies",
