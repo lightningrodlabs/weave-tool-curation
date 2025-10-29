@@ -449,6 +449,17 @@
                     },
                     "changelog": "Add session status",
                     "releasedAt": 1761134457821
+                },
+                {
+                    "version": "0.5.0-rc.2",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.5.0-rc.2/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "affafbd0c3028ba55565f04f4ac839ce0239cead31e5dbc7cc47fa112ab1a932",
+                        "webhappSha256": "211eb395d44abc4411df74ebe9d2d34ae0c6d9097b274ef8e8a2caeaf32056fd",
+                        "uiSha256": "8881da034a03b29942ab1ebf5c9a633b318fd797234dba07b6309a3480c9a408"
+                    },
+                    "changelog": "Use Automerge v3",
+                    "releasedAt": 1761742328875
                 }
             ]
         },
