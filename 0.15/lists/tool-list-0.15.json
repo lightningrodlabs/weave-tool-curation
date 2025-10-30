@@ -10,6 +10,30 @@
     },
     "tools": [
         {
+            "id": "vines",
+            "versionBranch": "1.19.x",
+            "title": "Vines",
+            "subtitle": "Group conversations and DMs",
+            "description": "A conversation capacity for groups in The Weave.",
+            "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+            "tags": [
+                "chat"
+            ],
+            "versions": [
+                {
+                    "version": "1.19.0",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.19.0.webhapp",
+                    "hashes": {
+                        "happSha256": "c0d2a7862d063c3ca987daa0b39883010bf433d50d117e306544d4ae872ea07b",
+                        "webhappSha256": "0a337873805073fe8fcf6e37cdebd578b8d41d47edffbe4bc87e337e87ccc3f9",
+                        "uiSha256": "a631298bfb36162692aabb4388ed324bdfa7ca96e6f40e89036e042b33d81c2c"
+                    },
+                    "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
+                    "releasedAt": 1761847402299
+                }
+            ]
+        },
+        {
             "id": "files",
             "versionBranch": "1.3.x",
             "title": "Files",
@@ -29,7 +53,7 @@
                         "webhappSha256": "ddc74873f56ae481087bc4f37131a2ae9e3c737f240d72a4503d998866b908bc",
                         "uiSha256": "1a4eb3a80e38e0875780cea0172f83bae5236d50081f1b11a7a466a366b86a87"
                     },
-                    "changelog": "Updates for Holochain 0.6.0 and Moss 0.15.0",
+                    "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
                     "releasedAt": 1761841029030
                 }
             ]
