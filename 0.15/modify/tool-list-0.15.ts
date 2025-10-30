@@ -11,5 +11,30 @@ export default defineDevCollectiveToolList({
     },
   },
   tools: [
+    {
+      id: "files",
+      versionBranch: "1.3.x",
+      title: "Files",
+      subtitle: "File sharing & sending",
+      description: "",
+      icon: "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/icon.png",
+      tags: ["file", "storage"],
+      versions: [
+        {
+          version: "1.3.0",
+          url: "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/files-we_applet-1.3.0.webhapp",
+          hashes: {
+            happSha256:
+              "c1a5d70e83f0212ce4b236cdb579be6ae76450143ebea5571ac897bf15502e8a",
+            webhappSha256:
+              "ddc74873f56ae481087bc4f37131a2ae9e3c737f240d72a4503d998866b908bc",
+            uiSha256:
+              "1a4eb3a80e38e0875780cea0172f83bae5236d50081f1b11a7a466a366b86a87",
+          },
+          changelog: "Updates for Holochain 0.6.0 and Moss 0.15.0",
+          releasedAt: 1761841029030,
+        },
+      ],
+    },
   ],
 });

@@ -15,6 +15,13 @@ export default defineCurationLists({
       description: "Default Curation List of Lightningrod Labs",
       tags: [],
       tools: [
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "files",
+          versionBranch: "1.3.x",
+          tags: ["file sharing"],
+        },
       ],
     },
   },
