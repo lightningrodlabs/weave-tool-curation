@@ -33,8 +33,23 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "notebooks",
-          versionBranch: "0.6.0",
+          versionBranch: "0.6.x",
           tags: ["collaborative text editing"],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "kando",
+          versionBranch: "0.15.x",
+          tags: [
+            "collaboration",
+            "scheduling",
+            "calendar",
+            "events",
+            "task management",
+            "governance",
+            "collective action",
+          ],
         },
       ],
     },
