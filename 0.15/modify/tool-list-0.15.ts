@@ -63,7 +63,7 @@ export default defineDevCollectiveToolList({
     },
     {
       id: "notebooks",
-      versionBranch: "0.6.0",
+      versionBranch: "0.6.x",
       title: "Notebooks",
       subtitle: "Collaborative MarkDown editor",
       description: "Real-time collaborative Markdown editing, includes version control.",
@@ -78,10 +78,34 @@ export default defineDevCollectiveToolList({
             webhappSha256: "bef9e1b8a2a2663a752b7579e89ed3034fabb23cd9899db561c76a981b2cd9d3",
             uiSha256: "e8bd69d6fe49e85b8e2225b0d8edfe0685c7810dddf52c25b5bfff430922c288"
           },
-          "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
-          "releasedAt": 1761911255717
+          changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
+          releasedAt: 1761911255717
         }
       ]
-    }
+    },
+    {
+      id: "kando",
+      versionBranch: "0.15.x",
+      title: "KanDo",
+      subtitle: "Real-time KanBan boards",
+      description:
+        "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+      icon: "https://theweave.social/images/kando_icon.png",
+      tags: ["kanban", "project management"],
+      versions: [
+        {
+          version: "0.15.0",
+          url: "https://github.com/holochain-apps/kando/releases/download/v0.15.0/kando.webhapp",
+          hashes: {
+              "happSha256": "29cfb3ab4ad150af34f282636d239b7c5f8dbb309d37f2c28f0de991716e5ebb",
+              "webhappSha256": "49841640ba104eb653862ade0c46c325e4a5924b3a12405f7fa9abf616627f5a",
+              "uiSha256": "7b5788067a6188e01fcbc9ab9cb30db081dc35a54a4f5669ed1f7a46cb0b5a3f"
+          },
+          changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
+          releasedAt: 1761920196929
+        }
+
+      ],
+    },
   ],
 });
