@@ -50,6 +50,7 @@ jobs:
           cp ./0.15/lists/curations-0.15.json ./static/0.15
           cp ./0.15/lists/tool-list-0.15.json ./static/0.15
       - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: static
 
