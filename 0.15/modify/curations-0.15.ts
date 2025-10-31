@@ -29,6 +29,13 @@ export default defineCurationLists({
           versionBranch: "1.3.x",
           tags: ["file sharing"],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "notebooks",
+          versionBranch: "0.6.0",
+          tags: ["collaborative text editing"],
+        },
       ],
     },
   },
