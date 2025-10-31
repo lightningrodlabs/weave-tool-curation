@@ -20,22 +20,22 @@ export default defineDevCollectiveToolList({
       icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
       tags: ["chat"],
       versions: [
-    {
-      version: "1.19.0",
-      url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.19.0.webhapp",
-      hashes: {
-        happSha256:
-          "c0d2a7862d063c3ca987daa0b39883010bf433d50d117e306544d4ae872ea07b",
-        webhappSha256:
-          "0a337873805073fe8fcf6e37cdebd578b8d41d47edffbe4bc87e337e87ccc3f9",
-        uiSha256:
-          "a631298bfb36162692aabb4388ed324bdfa7ca96e6f40e89036e042b33d81c2c",
-      },
-      changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
-      releasedAt: 1761847402299,
-    }
-  ]
-  },
+        {
+          version: "1.19.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.19.0.webhapp",
+          hashes: {
+            happSha256:
+              "c0d2a7862d063c3ca987daa0b39883010bf433d50d117e306544d4ae872ea07b",
+            webhappSha256:
+              "0a337873805073fe8fcf6e37cdebd578b8d41d47edffbe4bc87e337e87ccc3f9",
+            uiSha256:
+              "a631298bfb36162692aabb4388ed324bdfa7ca96e6f40e89036e042b33d81c2c",
+          },
+          changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
+          releasedAt: 1761847402299,
+        }
+      ]
+    },
     {
       id: "files",
       versionBranch: "1.3.x",
@@ -61,5 +61,27 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "notebooks",
+      versionBranch: "0.6.0",
+      title: "Notebooks",
+      subtitle: "Collaborative MarkDown editor",
+      description: "Real-time collaborative Markdown editing, includes version control.",
+      icon: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.0/notebooks_logo.png",
+      tags: ["markdown", "real-time editor"],
+      versions: [
+        {
+          version: "0.6.0",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.0/notebooks.webhapp",
+          hashes: {
+            happSha256: "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+            webhappSha256: "bef9e1b8a2a2663a752b7579e89ed3034fabb23cd9899db561c76a981b2cd9d3",
+            uiSha256: "e8bd69d6fe49e85b8e2225b0d8edfe0685c7810dddf52c25b5bfff430922c288"
+          },
+          "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
+          "releasedAt": 1761911255717
+        }
+      ]
+    }
   ],
 });
