@@ -80,6 +80,17 @@
                     },
                     "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
                     "releasedAt": 1761911255717
+                },
+                {
+                    "version": "0.6.1",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.1/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+                        "webhappSha256": "56ac6d6c2fc6dfef375de3f9f552998c9363b2ede5ab660a23e8bbde5c015484",
+                        "uiSha256": "02439cf4621b7174f0c27e9278223c6fcb02ea197880218074913ed5dc2ed4d2"
+                    },
+                    "changelog": "Reduce excess commits",
+                    "releasedAt": 1763033737307
                 }
             ]
         },
