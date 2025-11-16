@@ -22,7 +22,7 @@ members.
 To compute these hashes you can use the Weave CLI [`@theweave/cli`](https://www.npmjs.com/package/@theweave/cli) and
 run the following command:
 ```
-weave hash-webhapp [path or URL to your Tool's webhapp file]
+weave hash-webhapp [version] [path or URL to your Tool's webhapp file]
 ```
 
 > [!IMPORTANT]
