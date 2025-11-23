@@ -162,11 +162,11 @@ export default defineDevCollectiveToolList({
         }
 
       ],
-      deprecation: "Superseded by version 0.15.1",
+      deprecation: "Superseded by version 0.16.x",
     },
     {
       id: "kando",
-      versionBranch: "0.15.y",
+      versionBranch: "0.16.x",
       title: "KanDo",
       subtitle: "Real-time KanBan boards",
       description:
@@ -175,15 +175,15 @@ export default defineDevCollectiveToolList({
       tags: ["kanban", "project management"],
       versions: [
         {
-          version: "0.15.1",
-          url: "https://github.com/holochain-apps/kando/releases/download/v0.15.1/kando.webhapp",
+          version: "0.16.0",
+          url: "https://github.com/holochain-apps/kando/releases/download/v0.16.0/kando.webhapp",
           hashes: {
-              happSha256: "3d9cbc75aa15f07a1e55cd762b54a44f11eaa753a74337c33b5df869d715bd71",
-              webhappSha256: "51947598dcfe7f30ee3cad22aed3d1e089fb5f2cd48aa4d8525f33d3eb280f6e",
-              uiSha256: "6b657dbed7eefe6d813cf1f109fd32ad2b09e1dc2c72202267bf7d5cacb14e4c"
+            happSha256: "3d9cbc75aa15f07a1e55cd762b54a44f11eaa753a74337c33b5df869d715bd71",
+            webhappSha256: "7731e840163701c2efcabf9a33aaa03f0b11a95e16d887d6d0b08948780e8506",
+            uiSha256: "e23a2c8165830c7cb0f082aa344eb3c6679d8bbc14a35825ad7d3ad8be569715"
           },
           changelog: "Updates for syn 0.6.0-rc.0 and HC final 0.6.0",
-          releasedAt: 1763916964734,
+          releasedAt: 1763918195421,
           },
       ],
     },

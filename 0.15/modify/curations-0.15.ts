@@ -54,7 +54,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "kando",
-          versionBranch: "0.15.y",
+          versionBranch: "0.15.x",
           tags: [
             "collaboration",
             "scheduling",
@@ -69,7 +69,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "kando",
-          versionBranch: "0.15.x",
+          versionBranch: "0.16.x",
           tags: [
             "collaboration",
             "scheduling",
