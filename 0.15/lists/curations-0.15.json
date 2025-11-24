@@ -69,7 +69,7 @@
                 },
                 {
                     "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
-                    "toolId": "kando",
+                    "toolId": "kando16",
                     "versionBranch": "0.16.x",
                     "tags": [
                         "collaboration",
@@ -88,6 +88,17 @@
                     "tags": [
                         "video calls",
                         "screen sharing"
+                    ]
+                },
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+                    "toolId": "spreadsheets",
+                    "versionBranch": "0.2.x",
+                    "tags": [
+                        "collaboration",
+                        "spreadsheets",
+                        "data management",
+                        "real-time"
                     ]
                 }
             ]

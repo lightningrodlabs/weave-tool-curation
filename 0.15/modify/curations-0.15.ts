@@ -68,7 +68,7 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
-          toolId: "kando",
+          toolId: "kando16",
           versionBranch: "0.16.x",
           tags: [
             "collaboration",
@@ -86,6 +86,18 @@ export default defineCurationLists({
           toolId: "matthme.presence",
           versionBranch: "0.12.x",
           tags: ["video calls", "screen sharing"],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "spreadsheets",
+          versionBranch: "0.2.x",
+          tags: [
+            "collaboration",
+            "spreadsheets",
+            "data management",
+            "real-time",
+          ],
         },
       ],
     },
