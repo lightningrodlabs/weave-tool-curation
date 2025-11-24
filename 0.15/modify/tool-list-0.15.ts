@@ -165,7 +165,7 @@ export default defineDevCollectiveToolList({
       deprecation: "Superseded by version 0.16.x",
     },
     {
-      id: "kando",
+      id: "kando16",
       versionBranch: "0.16.x",
       title: "KanDo",
       subtitle: "Real-time KanBan boards",
@@ -185,6 +185,28 @@ export default defineDevCollectiveToolList({
           changelog: "Updates for syn 0.6.0-rc.0 and HC final 0.6.0",
           releasedAt: 1763918195421,
           },
+      ],
+    },
+    {
+      id: "spreadsheets",
+      versionBranch: "0.2.x",
+      title: "Spreadsheets",
+      subtitle: "Real-time collaborative spreadsheets",
+      description: "Spreadsheets for real-time collaborative editing.",
+      icon: "https://github.com/lightningrodlabs/sweet/blob/spreadsheets-only/weave/xylem.png?raw=true",
+      tags: ["spreadsheet", "collaboration", "real-time"],
+      versions: [
+        {
+          version: "0.2.0",
+          url: "https://github.com/lightningrodlabs/sweet/releases/download/spreadsheets-0.2.0/calcy.webhapp",
+          "hashes": {
+              "happSha256": "6f3a8a4c997edcdde7dd49130ccba294835477eeb8b6ccf3edc04f4a70730448",
+              "webhappSha256": "d64025bd0d3b26e62baf0f06e48f5aad3207c3b07452554e1783669cda19f33d",
+              "uiSha256": "0f6d1b30306c06eccbeb306ad24937e1dffdaa43babb8e81aeffb41aba159c96"
+          },
+          changelog: "First release",
+          releasedAt: 1764003953652,
+        },
       ],
     },
   ],
