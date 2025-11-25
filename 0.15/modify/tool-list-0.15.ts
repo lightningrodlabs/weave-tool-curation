@@ -198,7 +198,7 @@ export default defineDevCollectiveToolList({
       tags: ["notes", "stickies", "ideation", "boards"],
       versions: [
         {
-          version: "0.14.0  ",
+          version: "0.14.0",
           url: "https://github.com/holochain-apps/talking-stickies/releases/download/v0.14.0/talking-stickies.webhapp",
           hashes: {
             happSha256:
