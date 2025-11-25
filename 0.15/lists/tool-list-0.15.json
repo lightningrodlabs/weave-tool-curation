@@ -169,7 +169,7 @@
             "deprecation": "Superseded by version 0.16.x"
         },
         {
-            "id": "kando16",
+            "id": "kando",
             "versionBranch": "0.16.x",
             "title": "KanDo",
             "subtitle": "Real-time KanBan boards",
@@ -184,12 +184,12 @@
                     "version": "0.16.0",
                     "url": "https://github.com/holochain-apps/kando/releases/download/v0.16.0/kando.webhapp",
                     "hashes": {
-                        "happSha256": "3d9cbc75aa15f07a1e55cd762b54a44f11eaa753a74337c33b5df869d715bd71",
-                        "webhappSha256": "7731e840163701c2efcabf9a33aaa03f0b11a95e16d887d6d0b08948780e8506",
-                        "uiSha256": "e23a2c8165830c7cb0f082aa344eb3c6679d8bbc14a35825ad7d3ad8be569715"
+                        "happSha256": "cc2fed238d4fee07c3fe31bddac7f9cffe5b2b6e917e960edcb1f595e808f19b",
+                        "webhappSha256": "50e2439a0021689cfc5d2685290bdc7c21eca4ad9bc464ff9218e1e6b9a19ab0",
+                        "uiSha256": "f8758dfb8e237bc9bedb138e30caac4e681426d6e4a51d98ec0b4c460397846c"
                     },
                     "changelog": "Updates for syn 0.6.0-rc.0 and HC final 0.6.0",
-                    "releasedAt": 1763918195421
+                    "releasedAt": 1764038163359
                 }
             ]
         },
