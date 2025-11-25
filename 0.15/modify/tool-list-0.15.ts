@@ -187,6 +187,32 @@ export default defineDevCollectiveToolList({
           },
       ],
     },
+{
+      id: "talking-stickies",
+      versionBranch: "0.14.x",
+      title: "TalkingStickies",
+      subtitle: "Real-time stickies boards",
+      description:
+        "Ideation, retros, brain-storming, note-taking, anything with stickies!",
+      icon: "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
+      tags: ["notes", "stickies", "ideation", "boards"],
+      versions: [
+        {
+          version: "0.14.0  ",
+          url: "https://github.com/holochain-apps/talking-stickies/releases/download/v0.14.0/talking-stickies.webhapp",
+          hashes: {
+            happSha256:
+              "dc89d3614862da93c835d7fa64c748478057a0645ffad24229511bd5201343c0",
+            webhappSha256:
+              "480672000a913b35001bab46ebd591c0a7f002ff34af42d48875631c57edd6d6",
+            uiSha256:
+              "3399694069dcb516ea7a9f7839795cf2430e44e6e4f29f83848589025327f597",
+          },
+          changelog: "Updates for Holochain 0.6 and Moss 0.15",
+          releasedAt: 1764038833331,
+        },
+      ],
+    },
     {
       id: "spreadsheets",
       versionBranch: "0.2.x",
