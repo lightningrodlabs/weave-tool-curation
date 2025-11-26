@@ -106,6 +106,14 @@ export default defineCurationLists({
             "real-time",
           ],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "emergence",
+          versionBranch: "0.5.x",
+          tags: ["conference", "events", "scheduling", "notes", "collaboration"],
+          visiblity: "low",
+        },
       ],
     },
   },
