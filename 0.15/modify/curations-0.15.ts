@@ -112,6 +112,7 @@ export default defineCurationLists({
           toolId: "emergence",
           versionBranch: "0.5.x",
           tags: ["conference", "events", "scheduling", "notes", "collaboration"],
+          visiblity: "low",
         },
       ],
     },

@@ -119,7 +119,8 @@
                         "scheduling",
                         "notes",
                         "collaboration"
-                    ]
+                    ],
+                    "visiblity": "low"
                 }
             ]
         }
