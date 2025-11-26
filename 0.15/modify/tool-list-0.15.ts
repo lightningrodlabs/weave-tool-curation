@@ -235,5 +235,27 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "emergence",
+      versionBranch: "0.5.x",
+      title: "Emergence",
+      subtitle: "Conference and event management",
+      description: "Conference and event management with session scheduling, space management, and collaborative notes.",
+      icon: "https://github.com/holochain-apps/emergence/releases/download/v0.5.0/emergence_icon.png",
+      tags: ["conference", "events", "scheduling", "notes", "collaboration"],
+      versions: [
+        {
+          version: "0.5.0",
+          url: "https://github.com/holochain-apps/emergence/releases/download/v0.5.0/emergence.webhapp",
+          hashes: {
+            happSha256: "983006410cbeab772ffd50bd138a9d1aeba08c1f58517b9cad58704464771efe",
+            webhappSha256: "55683b572143475e9831c5c4641e8af637bf0818a17197bd1413658cb0fde6aa",
+            uiSha256: "5c1eac98b0abf6e195d9a50b126afa6b8eb51253a82367a81d3bf00de3875a2b"
+          },
+          changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
+          releasedAt: 1764123873254,
+        },
+      ],
+    },
   ],
 });
