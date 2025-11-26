@@ -136,6 +136,17 @@ export default defineDevCollectiveToolList({
           },
           changelog: "Reduce excess commits",
           releasedAt: 1763033737307
+        },
+        {
+          version: "0.6.2",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.2/notebooks.webhapp",
+          hashes: {
+              happSha256: "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+              webhappSha256: "a59a35cd36e13edf35affb60196c19aadafe6c4e30cc9d3dac9b0714c528c085",
+              uiSha256: "6725c2d74ade19ba05e0c560300c1fbac2c446814e935a1eeca09ad9f017f8f3"
+          },
+          changelog: "Further commit reductions",
+          releasedAt: 1764168450138
         }
       ]
     },
