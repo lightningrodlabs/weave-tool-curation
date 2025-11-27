@@ -114,6 +114,14 @@ export default defineCurationLists({
           tags: ["conference", "events", "scheduling", "notes", "collaboration"],
           visiblity: "low",
         },
+        {
+          toolListUrl:
+            "https://raw.githubusercontent.com/unytco/unyt-moss/refs/heads/main/0.15/lists/tool-list-0.15.json",
+          toolId: "unyt",
+          versionBranch: "0.1.x",
+          tags: ["community-currency", "accounting", "mutual-credit", "payment systems"],
+          visiblity: "low",
+        },
       ],
     },
   },
