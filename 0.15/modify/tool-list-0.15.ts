@@ -268,5 +268,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "acfn",
+      versionBranch: "0.6.x",
+      title: "Carbon Farm Network App",
+      subtitle: "Custom supply chain management using hREA",
+      description:
+        "The Carbon Farm Network App is a custom supply chain management app built on the hREA framework. It allows users to plan, track and facilitate transactions within the network.",
+      icon: "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/blob/afd20c2b27ff177f2d703e3b4fbbb3191a346146/logo.png?raw=true",
+      tags: ["testing", "supply chain", "hREA"],
+      versions: [
+        {
+          version: "0.6.0",
+          url: "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/releases/download/v0.6.0/acfn.webhapp",
+          hashes: {
+              happSha256: "ff263df407945703b42a8dc63d53e80b2ea293abd3544bfa4af6df1f81f16855",
+              webhappSha256: "38abae2edaa4e8deb10e77f97898bab13382aba0d45b9e6c7e4eff999d2901d1",
+              uiSha256: "793279ee1ead62a93495911983b389a4e4944c59adc474b0f76a9794d9af8c13"
+          },
+          changelog: "First release",
+          releasedAt: 1764690389192,
+        },
+      ]
+    },
   ],
 });
