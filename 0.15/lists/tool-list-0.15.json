@@ -310,6 +310,32 @@
                     "releasedAt": 1764690389192
                 }
             ]
+        },
+        {
+            "id": "slate",
+            "versionBranch": "0.4.x",
+            "title": "Slate",
+            "subtitle": "Real-time collaborative whiteboard",
+            "description": "A real-time collaborative whiteboard for sketching, drawing, and brainstorming together.",
+            "icon": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.0/icon.png",
+            "tags": [
+                "collaboration",
+                "real-time",
+                "drawing"
+            ],
+            "versions": [
+                {
+                    "version": "0.5.0",
+                    "url": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.0/slate.webhapp",
+                    "hashes": {
+                        "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+                        "webhappSha256": "f4590732a81a9df77b9d4028ccbcc55677cfe52fb9291e80179f17d866a4536f",
+                        "uiSha256": "23bd97ef2e5e305db5a6313eba1b9d12b8e46221db92d6e82aea53ff794c91cf"
+                    },
+                    "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
+                    "releasedAt": 1764949451809
+                }
+            ]
         }
     ]
 }

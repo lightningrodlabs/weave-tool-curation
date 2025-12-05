@@ -73,12 +73,8 @@
                     "versionBranch": "0.16.x",
                     "tags": [
                         "collaboration",
-                        "scheduling",
-                        "calendar",
-                        "events",
-                        "task management",
-                        "governance",
-                        "collective action"
+                        "real-time",
+                        "task management"
                     ]
                 },
                 {
@@ -144,6 +140,16 @@
                         "hREA"
                     ],
                     "visiblity": "low"
+                },
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+                    "toolId": "slate",
+                    "versionBranch": "0.4.x",
+                    "tags": [
+                        "collaboration",
+                        "real-time",
+                        "drawing"
+                    ]
                 }
             ]
         }

@@ -72,12 +72,8 @@ export default defineCurationLists({
           versionBranch: "0.16.x",
           tags: [
             "collaboration",
-            "scheduling",
-            "calendar",
-            "events",
+            "real-time",
             "task management",
-            "governance",
-            "collective action",
           ],
         },
         {
@@ -129,6 +125,17 @@ export default defineCurationLists({
           versionBranch: "0.6.x",
           tags: ['testing', 'supply chain', 'hREA'],
           visiblity: "low",
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "slate",
+          versionBranch: "0.4.x",
+          tags: [
+            "collaboration",
+            "real-time",
+            "drawing"
+          ],
         },
       ],
     },
