@@ -305,7 +305,7 @@ export default defineDevCollectiveToolList({
       ],
       versions: [
         {
-          version: "0.5.0",
+          version: "0.4.0",
           url: "https://github.com/lightningrodlabs/slate/releases/download/v0.4.0/slate.webhapp",
           hashes: {
             happSha256: "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
@@ -314,6 +314,32 @@ export default defineDevCollectiveToolList({
           },
           changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
           releasedAt: 1764949451809,
+        },
+      ],
+    },
+    {
+      id: "gamez",
+      versionBranch: "0.9.x",
+      title: "Gamez",
+      subtitle: "Customizable tabletop games",
+      description: "A platform for creating and playing customizable tabletop games with friends.",
+      icon: "https://github.com/holochain-apps/gamez/releases/download/v0.9.2/icon.png",
+      tags: [
+        "games",
+        "entertainment",
+        "tabletop"
+      ],
+      versions: [
+        {
+          version: "0.9.2",
+          url: "https://github.com/holochain-apps/gamez/releases/download/v0.9.2/gamez.webhapp",
+          hashes: {
+              happSha256: "63f99687127a3d6c8e8684c8a95874360fe40ea7aebe6d1bcbaafb9c4bee9e5c",
+              webhappSha256: "15c7980886794c4e81d2b792bed77940b262a3382170f8cbd27247c62486d93c",
+              uiSha256: "2ef19a90210440c22b2c95a1de439c24cd745b4050959bec8e697dd3d1baec2a"
+          },
+          changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
+          releasedAt: 1764957314443,
         },
       ],
     },

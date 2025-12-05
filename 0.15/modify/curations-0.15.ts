@@ -137,6 +137,17 @@ export default defineCurationLists({
             "drawing"
           ],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "gamez",
+          versionBranch: "0.9.x",
+          tags: [
+            "games",
+            "entertainment",
+            "tabletop"
+          ],
+        },
       ],
     },
   },
