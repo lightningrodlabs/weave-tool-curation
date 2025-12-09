@@ -148,6 +148,37 @@ export default defineCurationLists({
             "tabletop"
           ],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "converge",
+          versionBranch: "0.2.x",
+          tags: [
+            "collaboration",
+            "problem-solving",
+            "brainstorming",
+            "convergent facilitation",
+            "nvc",
+            "dcan",
+            "governance",
+            "decision making",
+          ],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "whosin",
+          versionBranch: "0.2.x",
+          tags: [
+            "collaboration",
+            "scheduling",
+            "calendar",
+            "events",
+            "task management",
+            "governance",
+            "collective action",
+          ],
+        },
       ],
     },
   },
