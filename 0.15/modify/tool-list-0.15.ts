@@ -343,5 +343,68 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "converge",
+      versionBranch: "0.2.x",
+      title: "Converge",
+      subtitle: "A group decision-making tool",
+      description:
+        "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
+      icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
+      tags: [
+        "collaboration",
+        "problem-solving",
+        "brainstorming",
+        "convergent facilitation",
+        "nvc",
+        "dcan",
+        "governance",
+        "decision making",
+      ],
+      versions: [
+        {
+          "version": "0.2.3",
+          "url": "https://github.com/lightningrodlabs/converge/releases/download/0.2.3/converge.webhapp",
+          "hashes": {
+              "happSha256": "b6b87c548540498b06a2b4d087eedafd01de81938b85a5ca0ebffce33e2f0e0a",
+              "webhappSha256": "2c6f176e3b631e71ed420f037efd7f585d900b2ea2ee01e5a368204c359c010e",
+              "uiSha256": "e6ec5b6bf0f88e01e9d813ea7130929acd96588b11cec41b917abc8e168e0be8"
+          },
+          "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
+          "releasedAt": 1765280123965
+        }
+      ]
+    },
+    {
+      id: "whosin",
+      versionBranch: "0.2.x",
+      title: "Who's In?",
+      subtitle: "Scheduling events and tracking agreements",
+      description:
+        "Who's In? enables users to propose events, shared tasks and agreements. With it, anyone can suggest a joint action or event, which other people can agree to on the contingency that every necessary role is filled. This allows group action to grow from idea to reality without anyone having to worry about its viability.",
+      icon: "https://github.com/lightningrodlabs/whos-in/blob/0.1.2/we_dev/whosin.png?raw=true",
+      tags: [
+        "collaboration",
+        "scheduling",
+        "calendar",
+        "events",
+        "task management",
+        "governance",
+        "collective action",
+      ],
+      versions: [
+        {
+          "version": "0.2.2",
+          "url": "https://github.com/lightningrodlabs/whos-in/releases/download/0.2.2/whosin.webhapp",
+          "hashes": {
+            "happSha256": "5c9b45ce578f1a6cfddcd8c231ccbe6bf21aac8322178f7b561d6cb529d309e1",
+            "webhappSha256": "eeca1c0ed46be1d21b6ff1c13ce44a7e648d286a3290344a158c725897b54990",
+            "uiSha256": "65ab9eadba8c65c82922a96943e42c6e64058dcee3d34702dec9af21f8bd1033"
+        },
+          "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
+          "releasedAt": 1765215811636
+      }
+      ]
+    },
   ],
 });
