@@ -379,7 +379,7 @@
             "versionBranch": "0.2.x",
             "title": "Converge",
             "subtitle": "A group decision-making tool",
-            "description": "Converge provides structure for decision-making that shifts the focus from outcomes to criteria.",
+            "description": "A platform for decision-making that shifts the focus from outcomes to criteria.",
             "icon": "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
             "tags": [
                 "collaboration",
@@ -410,7 +410,7 @@
             "versionBranch": "0.2.x",
             "title": "Who's In?",
             "subtitle": "Scheduling events and tracking agreements",
-            "description": "Who's In? enables users to propose events, shared tasks and agreements. With it, anyone can suggest a joint action or event, which other people can agree to on the contingency that every necessary role is filled. This allows group action to grow from idea to reality without anyone having to worry about its viability.",
+            "description": "Distributed event planning, task management, and agreement tracking.",
             "icon": "https://github.com/lightningrodlabs/whos-in/blob/0.1.2/we_dev/whosin.png?raw=true",
             "tags": [
                 "collaboration",
@@ -432,6 +432,32 @@
                     },
                     "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
                     "releasedAt": 1765215811636
+                }
+            ]
+        },
+        {
+            "id": "datatub",
+            "versionBranch": "0.10.x",
+            "title": "DataTub",
+            "subtitle": "Airtable-like data management",
+            "description": "Data management, collaboration, and custom displays.",
+            "icon": "https://github.com/lightningrodlabs/tables/blob/v0.10.3/weave/datatub.png?raw=true",
+            "tags": [
+                "data",
+                "management",
+                "collaboration"
+            ],
+            "versions": [
+                {
+                    "version": "0.10.4",
+                    "url": "https://github.com/lightningrodlabs/tables/releases/download/v0.10.4/tables.webhapp",
+                    "hashes": {
+                        "happSha256": "2fcdd2a7bb7189179e2898d122153bda05c56e12063179a8ee997feeb76b5de9",
+                        "webhappSha256": "026e762cd806b58f35643dc09118aefdf54161ab419531109b0592b323c0ed71",
+                        "uiSha256": "e9199d361cf4ccd0b2548c1b629ad82fbc758774cd6e58cb2eac61c69da6db9d"
+                    },
+                    "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
+                    "releasedAt": 1765376395946
                 }
             ]
         }
