@@ -11,6 +11,30 @@
     "tools": [
         {
             "id": "vines",
+            "versionBranch": "1.21.x",
+            "title": "Vines",
+            "subtitle": "Group conversations and DMs",
+            "description": "A conversation capacity for groups in The Weave.",
+            "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+            "tags": [
+                "chat"
+            ],
+            "versions": [
+                {
+                    "version": "1.21.0",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/v1.21.0/vines-we_applet-1.21.0.webhapp",
+                    "hashes": {
+                        "happSha256": "2670e560c448471665fd4ad8f79e0d45c040019b25cb7f661957dff58d44ea12",
+                        "webhappSha256": "c8dc846cfba5c69b5b1fabea678d5ca1c9deffab91a205bebf692a3731d6b2f3",
+                        "uiSha256": "35c70081f6f09ff3b1c2da6d841042aee88e6e3d0e46eff4f7a087d2543672a1"
+                    },
+                    "changelog": "Holochain 0.6.0 & Android-compatible",
+                    "releasedAt": 1765557166280
+                }
+            ]
+        },
+        {
+            "id": "vines",
             "versionBranch": "1.20.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
