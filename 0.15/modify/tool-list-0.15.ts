@@ -449,6 +449,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
           "releasedAt": 1765280123965
+        },
+        {
+          "version": "0.2.4",
+          "url": "https://github.com/lightningrodlabs/converge/releases/download/0.2.4/converge.webhapp",
+          "hashes": {
+              "happSha256": "b6b87c548540498b06a2b4d087eedafd01de81938b85a5ca0ebffce33e2f0e0a",
+              "webhappSha256": "8ed036423ead9507271ad9509bac35bcac020ec473ca31ce034b631b5a1b1abe",
+              "uiSha256": "8b785f67d2d7390de3275c8a4603928d02dbfec24f4b75cbbf5725a14b78f21b"
+          },
+          "changelog": "Add background updating",
+          "releasedAt": 1765813220355
         }
       ]
     },
