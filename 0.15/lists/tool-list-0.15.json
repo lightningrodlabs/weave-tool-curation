@@ -236,6 +236,17 @@
                     },
                     "changelog": "Updates for syn 0.6.0-rc.0 and HC final 0.6.0",
                     "releasedAt": 1764038163359
+                },
+                {
+                    "version": "0.16.1",
+                    "url": "https://github.com/holochain-apps/kando/releases/download/v0.16.1/kando.webhapp",
+                    "hashes": {
+                        "happSha256": "cc2fed238d4fee07c3fe31bddac7f9cffe5b2b6e917e960edcb1f595e808f19b",
+                        "webhappSha256": "b7cacbe2bc52d6d4427cb84b83d53bd1be26d725201926b407d82e4ab097da91",
+                        "uiSha256": "595cb02343205e32e044726bfda94fedc5609279e5ec2da13565449f3e60ad84"
+                    },
+                    "changelog": "Fix participant list",
+                    "releasedAt": 1765796678924
                 }
             ]
         },
@@ -263,6 +274,33 @@
                     },
                     "changelog": "Updates for Holochain 0.6 and Moss 0.15",
                     "releasedAt": 1764038833331
+                }
+            ]
+        },
+        {
+            "id": "talking-stickies",
+            "versionBranch": "0.15.x",
+            "title": "TalkingStickies",
+            "subtitle": "Real-time stickies boards",
+            "description": "Ideation, retros, brain-storming, note-taking, anything with stickies!",
+            "icon": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
+            "tags": [
+                "notes",
+                "stickies",
+                "ideation",
+                "boards"
+            ],
+            "versions": [
+                {
+                    "version": "0.15.0",
+                    "url": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.15.0/talking-stickies.webhapp",
+                    "hashes": {
+                        "happSha256": "1c6e35da1ccf4ec67ab1d4a9bb0b6739d5d94b0f3b252b615c2f87f9de19df6d",
+                        "webhappSha256": "f3868d4c7247fedd2aa496fb9cb2bb0eccdf53b4d0dcd3a89476f9a6782a414a",
+                        "uiSha256": "9e67d0a34ed0869f383764d215d4a17b52c724597102eb5e2a0aa00976b5d3e5"
+                    },
+                    "changelog": "Fix participant list",
+                    "releasedAt": 1765796662104
                 }
             ]
         },
@@ -369,6 +407,17 @@
                     },
                     "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
                     "releasedAt": 1764949451809
+                },
+                {
+                    "version": "0.4.1",
+                    "url": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.1/slate.webhapp",
+                    "hashes": {
+                        "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+                        "webhappSha256": "9ae709d1dfd04cb7f1af826bba069fa911463b6f13793a9308ad25a7170587e7",
+                        "uiSha256": "098a6358e3f8724955e63c901e01ba148c869136e8056d6f2197359d6feaad56"
+                    },
+                    "changelog": "Fix participant list",
+                    "releasedAt": 1765796599046
                 }
             ]
         },

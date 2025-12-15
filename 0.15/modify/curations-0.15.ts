@@ -64,12 +64,8 @@ export default defineCurationLists({
           versionBranch: "0.15.x",
           tags: [
             "collaboration",
-            "scheduling",
-            "calendar",
-            "events",
+            "real-time",
             "task management",
-            "governance",
-            "collective action",
           ],
         },
         {
@@ -88,6 +84,13 @@ export default defineCurationLists({
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "talking-stickies",
           versionBranch: "0.14.x",
+          tags: [""],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "talking-stickies",
+          versionBranch: "0.15.x",
           tags: [""],
         },
         {
