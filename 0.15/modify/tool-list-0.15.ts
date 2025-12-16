@@ -181,6 +181,17 @@ export default defineDevCollectiveToolList({
           changelog: "Add rich text editor",
           releasedAt: 1765370095205
         },
+        {
+          "version": "0.6.4",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.4/notebooks.webhapp",
+          "hashes": {
+              "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+              "webhappSha256": "3987fde51be6e2f42f44dc2523078166d858a3ee112499463080e60a012c43f1",
+              "uiSha256": "5753c98c048553f005e172b729a9f1072fef19496927e5fb0b285e13cc838ee0"
+          },
+          "changelog": "Local-only fetching",
+          "releasedAt": 1765910043884
+        }
       ]
     },
     {
@@ -238,6 +249,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Fix participant list",
           "releasedAt": 1765796678924
+        },
+        {
+          "version": "0.16.2",
+          url: "https://github.com/holochain-apps/kando/releases/download/v0.16.2/kando.webhapp",
+          "hashes": {
+              "happSha256": "cc2fed238d4fee07c3fe31bddac7f9cffe5b2b6e917e960edcb1f595e808f19b",
+              "webhappSha256": "9681a1708c8a85f3df8571ac98c044c56087e33bd20fbdbd295a7d7357d15837",
+              "uiSha256": "2e6af9cc5d915e025f1982876c3b86f79357ed4fe094ff7b84948658e9b184b5"
+          },
+          "changelog": "Local-only fetching",
+          "releasedAt": 1765909853883
         }
       ],
     },
@@ -287,6 +309,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Fix participant list",
           "releasedAt": 1765796662104
+        },
+        {
+          "version": "0.15.1",
+          "url": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.15.1/talking-stickies.webhapp",
+          "hashes": {
+              "happSha256": "1c6e35da1ccf4ec67ab1d4a9bb0b6739d5d94b0f3b252b615c2f87f9de19df6d",
+              "webhappSha256": "ef25f067a0cb98b4510e5de8993de934b1bfda8ddeebae2b5c3efe2ab4127f3f",
+              "uiSha256": "105bc9767e883dfa98a048eaea6815077a8ced3014055ff24d1ae57139e7400e"
+          },
+          "changelog": "Local-only fetching",
+          "releasedAt": 1765910981103
         }
       ],
     },
@@ -310,6 +343,17 @@ export default defineDevCollectiveToolList({
           changelog: "First release",
           releasedAt: 1764003953652,
         },
+        {
+          "version": "0.2.1",
+          "url": "https://github.com/lightningrodlabs/sweet/releases/download/spreadsheets-0.2.1/calcy.webhapp",
+          "hashes": {
+              "happSha256": "6f3a8a4c997edcdde7dd49130ccba294835477eeb8b6ccf3edc04f4a70730448",
+              "webhappSha256": "9a8a1cf25f8a0f3e959b953da538393e7c6ac325916f296d202b3ba0399a3596",
+              "uiSha256": "d866f3a15967d2022066410a5be3d753a57b6523f7f091dd2fc3a60c138d7af2"
+          },
+          "changelog": "Local-only fetching",
+          "releasedAt": 1765910712599
+        }
       ],
     },
     {
@@ -514,6 +558,17 @@ export default defineDevCollectiveToolList({
           changelog: "Update for Holochain 0.6.0 and Moss 0.15.0",
           releasedAt: 1765376395946,
         },
+        {
+          "version": "0.10.5",
+          url: "https://github.com/lightningrodlabs/tables/releases/download/v0.10.5/tables.webhapp",
+          "hashes": {
+              "happSha256": "2fcdd2a7bb7189179e2898d122153bda05c56e12063179a8ee997feeb76b5de9",
+              "webhappSha256": "822b592f163bc9ad93a58d95f738f0f45251dce04f925c036314cbdd45692cf1",
+              "uiSha256": "4f4f1f91c7511dd2677d538cc00f67c38ab614d3e7e5beb48c9968bcedeb67cc"
+          },
+          "changelog": "Local only fetching",
+          "releasedAt": 1765908505126
+      }
       ],
     },
   ],
