@@ -399,6 +399,17 @@
                     },
                     "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
                     "releasedAt": 1764123873254
+                },
+                {
+                    "version": "0.5.1",
+                    "url": "https://github.com/holochain-apps/emergence/releases/download/v0.5.1/emergence.webhapp",
+                    "hashes": {
+                        "happSha256": "983006410cbeab772ffd50bd138a9d1aeba08c1f58517b9cad58704464771efe",
+                        "webhappSha256": "dd647b208372140963c202251ddb13060473fd485f935ba891a6776fd71f511a",
+                        "uiSha256": "aa3e3865b657e3d04b53c0cab0dfa0e3b185c86d6cea08204405fcad935c9a80"
+                    },
+                    "changelog": "Now uses weave api 0.6.3 toolInstaller for setting initial steward.",
+                    "releasedAt": 1765999757412
                 }
             ]
         },
