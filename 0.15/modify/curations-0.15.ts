@@ -130,6 +130,14 @@ export default defineCurationLists({
         },
         {
           toolListUrl:
+            "https://raw.githubusercontent.com/unytco/unyt-moss/refs/heads/main/0.15/lists/tool-list-0.15.json",
+          toolId: "unyt",
+          versionBranch: "0.48.x",
+          tags: ["community-currency", "accounting", "mutual-credit", "payment systems"],
+          visiblity: "low",
+        },
+        {
+          toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "acfn",
           versionBranch: "0.6.x",
