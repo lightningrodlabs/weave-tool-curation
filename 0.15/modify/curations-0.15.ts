@@ -51,6 +51,13 @@ export default defineCurationLists({
           tags: ["chat"],
         },
         {
+            toolListUrl:
+                "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+            toolId: "files",
+            versionBranch: "1.4.x",
+            tags: ["file sharing"],
+        },
+        {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "files",
