@@ -236,6 +236,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Local-only fetching",
           "releasedAt": 1765910043884
+        },
+        {
+          "version": "0.6.5",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.5/notebooks.webhapp",
+          "hashes": {
+            "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+            "webhappSha256": "0bf4fa504e745ddb66f3b9043b2f3c00c9eba8dc90238e9ccd30f5fec03e00c7",
+            "uiSha256": "670a6a6eb88a0c8fd958afd20aaa00cc661499b5cbde1afc5700f7ce8f639e8f"
+          },
+          "changelog": "Improved collaborative cursor positioning",
+          "releasedAt": 1767646421746
         }
       ]
     },
