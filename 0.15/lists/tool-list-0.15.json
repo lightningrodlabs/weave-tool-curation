@@ -93,15 +93,15 @@
             ],
             "versions": [
                 {
-                    "version": "12.0.0-rc.0",
-                    "url": "https://github.com/lightningrodlabs/acorn/releases/download/happ-v12.0.0-rc.0/acorn.webhapp",
+                    "version": "12.0.0",
+                    "url": "https://github.com/lightningrodlabs/acorn/releases/download/happ-v12.0.0/acorn.webhapp",
                     "hashes": {
-                        "happSha256": "2769b4e625ae834c0df486895b84426e6723ca1297b10ee8955fb5f69e2c327a",
-                        "webhappSha256": "e2c12b86a6bf0143529206167bc4069c60ba0850ea0f2bdc82d69468bde21d23",
-                        "uiSha256": "fb1c4c8ae8dfd93348a41826a361fe2d828774f3085dc280eaa84751b185c338"
+                        "happSha256": "54245ec729ae283b19b8d7390ffd3bbadcb634f072d1bb93dde1f919d8d0edaf",
+                        "webhappSha256": "9bb73d1cc0e48ded3fad1d780af684741ba712ae46a5255527a4f7083e55d8e3",
+                        "uiSha256": "dc299529e420e4509fddf5d77dc94608177d60b7d266ad0dc143cb93fe26b000"
                     },
                     "changelog": "Update to holochain 0.6.0",
-                    "releasedAt": 1763309307116
+                    "releasedAt": 1767748853491
                 }
             ]
         },
