@@ -533,6 +533,17 @@
                     },
                     "changelog": "Fix participant list",
                     "releasedAt": 1765796599046
+                },
+                {
+                    "version": "0.4.2",
+                    "url": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.2/slate.webhapp",
+                    "hashes": {
+                        "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+                        "webhappSha256": "8da8defa5e744aa19ca3f49722821d5b2568405d41567ef6cb994a44b2af983d",
+                        "uiSha256": "2661f1a1e3e1ec12a29e71e6330823ac458005c6a09fd1992958f54d5d3cbe90"
+                    },
+                    "changelog": "Improve collaborative editing",
+                    "releasedAt": 1767793389835
                 }
             ]
         },
