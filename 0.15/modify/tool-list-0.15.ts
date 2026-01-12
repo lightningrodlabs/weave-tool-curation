@@ -586,6 +586,38 @@ export default defineDevCollectiveToolList({
       ]
     },
     {
+      id: "converge",
+      versionBranch: "0.3.x",
+      title: "Converge",
+      subtitle: "A group decision-making tool",
+      description:
+        "A platform for decision-making that shifts the focus from outcomes to criteria.",
+      icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
+      tags: [
+        "collaboration",
+        "problem-solving",
+        "brainstorming",
+        "convergent facilitation",
+        "nvc",
+        "dcan",
+        "governance",
+        "decision making",
+      ],
+      versions: [
+        {
+          "version": "0.3.0",
+          "url": "https://github.com/lightningrodlabs/converge/releases/download/0.3.0/converge.webhapp",
+          "changelog": "Fixes & improvements",
+          "hashes": {
+            "happSha256": "3a965d591dcc49ff97fdb4e2d1b4f9d193fe9092a260c9242eff9ad5527c6a2f",
+            "webhappSha256": "e65c69e22559e841eff8d8afcc6359f105a91c5ddeb2fe23b48c196b736dd311",
+            "uiSha256": "7ff2e4487af481e21f0f0ea4f82c6d680449efb5e44a5b86a49b4a007d0eae66"
+          },
+          "releasedAt": 1768227721179
+        }
+      ]
+    },
+    {
       id: "whosin",
       versionBranch: "0.2.x",
       title: "Who's In?",
@@ -610,10 +642,21 @@ export default defineDevCollectiveToolList({
             "happSha256": "5c9b45ce578f1a6cfddcd8c231ccbe6bf21aac8322178f7b561d6cb529d309e1",
             "webhappSha256": "eeca1c0ed46be1d21b6ff1c13ce44a7e648d286a3290344a158c725897b54990",
             "uiSha256": "65ab9eadba8c65c82922a96943e42c6e64058dcee3d34702dec9af21f8bd1033"
-        },
+          },
           "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
           "releasedAt": 1765215811636
-      }
+        },
+        {
+          "version": "0.2.3",
+          "url": "https://github.com/lightningrodlabs/whos-in/releases/download/0.2.3/whosin.webhapp",
+          "hashes": {
+            "happSha256": "5c9b45ce578f1a6cfddcd8c231ccbe6bf21aac8322178f7b561d6cb529d309e1",
+            "webhappSha256": "84444c3b7f2007d87c5e1bb3354ba09ada9be453a5fef7777af4ba4eeccf10a1",
+            "uiSha256": "fcb6dcc57d143b53ab11200f225e35965ea5f978127b8be6b64afcfa676ebb48"
+          },
+          "changelog": "Fixes & improvements",
+          "releasedAt": 1768227857175
+        }
       ]
     },
     {
