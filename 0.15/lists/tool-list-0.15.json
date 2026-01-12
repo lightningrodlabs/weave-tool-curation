@@ -30,6 +30,17 @@
                     },
                     "changelog": "Fixed Upload File bug",
                     "releasedAt": 1766178073631
+                },
+                {
+                    "version": "1.22.1",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.22.1.webhapp",
+                    "hashes": {
+                        "happSha256": "c39b6a94b6337ca08f3ec60ecfebbbf8ff84156bf5960dd0458ec194f8d3e41b",
+                        "webhappSha256": "85207b2a435899ccd3c7fde7a17b5ed2a6b5cd53f4a8119d33dd9b5d1ac1e1e4",
+                        "uiSha256": "f2969ab162d6c8d9dc3fa007dfd8b12b257aa77417c88b479c68f0051ff654bd"
+                    },
+                    "changelog": "Fixed startup speed",
+                    "releasedAt": 1768252599832
                 }
             ]
         },
