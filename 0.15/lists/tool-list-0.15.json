@@ -555,6 +555,17 @@
                     },
                     "changelog": "Improve collaborative editing",
                     "releasedAt": 1767793389835
+                },
+                {
+                    "version": "0.4.3",
+                    "url": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.3/slate.webhapp",
+                    "hashes": {
+                        "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+                        "webhappSha256": "4226a40c5e2addaf4c89bbf88c94cda92d2385e0ce11296958ded1681b143901",
+                        "uiSha256": "8ad392d369f00dc5fb64277f7bd3b1e0aeee0130b064e918cfdf20b1abb0290f"
+                    },
+                    "changelog": "Improve syncing performance",
+                    "releasedAt": 1768399408983
                 }
             ]
         },
