@@ -259,6 +259,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Improved collaborative cursor positioning",
           "releasedAt": 1767646421746
+        },
+        {
+          "version": "0.6.6",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.6/notebooks.webhapp",
+          "hashes": {
+            "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+            "webhappSha256": "3842b3bfd4bd920080e6542247ae9cdbda8e9103ae8162537360580d64e4a167",
+            "uiSha256": "42afc71a4771296b808c00f4f226dbecfc697805fb88b3b7905353305aecd5a7"
+          },
+          "changelog": "Rich text image support, stop flashing cursors, add adjustable markdown editor width.",
+          "releasedAt": 1768483358320
         }
       ]
     },
