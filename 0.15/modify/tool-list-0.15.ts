@@ -270,6 +270,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Rich text image support, stop flashing cursors, add adjustable markdown editor width.",
           "releasedAt": 1768483358320
+        },
+        {
+          "version": "0.6.7",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.7/notebooks.webhapp",
+          "hashes": {
+            "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+            "webhappSha256": "259d04e824d5175a634915acd161e8d4f9cf43fe389b1e8b443bd9c3e48f9ff1",
+            "uiSha256": "be22ff1343d221af72144d9300c4caed0342cbd95a24bc30fb04503b3fd74fdc"
+          },
+          "changelog": "Bug fixes and performance improvements",
+          "releasedAt": 1769605659846
         }
       ]
     },
@@ -547,6 +558,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Improve syncing performance",
           "releasedAt": 1768399408983
+        },
+        {
+          "version": "0.4.4",
+          url: "https://github.com/lightningrodlabs/slate/releases/download/v0.4.4/slate.webhapp",
+          "hashes": {
+            "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+            "webhappSha256": "7e328d6a62410fda8b7da6158f4e1c89d76c1b493adfc0a77446e409b5e65ee0",
+            "uiSha256": "177a25a0960834f415b4e9111220723c4a9351ea71a5f5ee15042cc2d256894c"
+          },
+          "changelog": "Bug fixes and performance improvements",
+          "releasedAt": 1769605678200
         }
       ],
     },
@@ -723,7 +745,19 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Local only fetching",
           "releasedAt": 1765908505126
-      }
+        },
+        {
+          "version": "0.10.6",
+          url: "https://github.com/lightningrodlabs/tables/releases/download/v0.10.6/tables.webhapp",
+          "hashes": {
+            "happSha256": "2fcdd2a7bb7189179e2898d122153bda05c56e12063179a8ee997feeb76b5de9",
+            "webhappSha256": "b0d0e7bb09c3c19c70b491ca367e9c36a9a5ad60d5777d1475a3acc08a3ea915",
+            "uiSha256": "2504bc3c7e606ecd45c9adba160f47f9e930bdc36a8631cda46379376dfcb001"
+          },
+          "changelog": "Major UI improvements",
+          "releasedAt": 1769605958798
+
+        }
       ],
     },
   ],
