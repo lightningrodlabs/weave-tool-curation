@@ -41,6 +41,17 @@ export default defineDevCollectiveToolList({
                   },
                   "changelog": "Fixed startup speed",
                   "releasedAt": 1768252599832
+              },
+              {
+                  "version": "1.22.2",
+                  "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.22.2.webhapp",
+                  "hashes": {
+                      "happSha256": "c39b6a94b6337ca08f3ec60ecfebbbf8ff84156bf5960dd0458ec194f8d3e41b",
+                      "webhappSha256": "94b2fdbbc503bf36452ec0334373cba09983f9f52ae4d0aa7d2d822c18d89b46",
+                      "uiSha256": "a550abd7b76eea1b44b3a66833fc40db40e42850fe9604960824524b20ff3ccf"
+                  },
+                  "changelog": "Network health panel and more startup improvements",
+                  "releasedAt": 1769724243116
               }
 
           ]
