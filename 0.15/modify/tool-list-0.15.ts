@@ -771,5 +771,30 @@ export default defineDevCollectiveToolList({
         }
       ],
     },
+    {
+      id: "matthme.presence",
+      versionBranch: "0.13.x",
+      title: "Presence",
+      subtitle: "Video Calls",
+      description: "Peer-to-peer video calls with screen sharing.",
+      icon: "https://github.com/matthme/presence/blob/main/ui/icon.png?raw=true",
+      tags: ["video calls", "screen sharing"],
+      versions: [
+        {
+          version: "0.13.2",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.13.2/presence.webhapp",
+          hashes: {
+            happSha256:
+              "701bef3e891afb091434db5a0416b537bf16bf0004c023dccb96f012a14e771a",
+            webhappSha256:
+              "6e968e205eaeb14f0905fb7ff9dc8bab26b6bcf33e9c35f521452ec41c40649b",
+            uiSha256:
+              "d44e1374c0266a8b1c881aaca556c39f35cb32c554f9626d56bc11b36e911666",
+          },
+          changelog: "- updates to for moss 0.15.3 and Holochain 0.6.1\n- adds options for viewing agents: circle/rectangle, and hide-self\n- improvements to webrtc connections",
+          releasedAt: 1770754591462,
+        },
+      ],
+    },
   ],
 });
