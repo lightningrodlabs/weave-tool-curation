@@ -52,6 +52,17 @@
                     },
                     "changelog": "Network health panel and more startup improvements",
                     "releasedAt": 1769724243116
+                },
+                {
+                    "version": "1.22.3",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.22.3.webhapp",
+                    "hashes": {
+                        "happSha256": "c39b6a94b6337ca08f3ec60ecfebbbf8ff84156bf5960dd0458ec194f8d3e41b",
+                        "webhappSha256": "273798547162e54b42baed5cee138f0f1fd0727c8501d8c3fc36c41e1846cd67",
+                        "uiSha256": "435b0cbcfd1a7bd6bd0738fa359c7cf4b267fd7eba03c950a971675ca1e018c6"
+                    },
+                    "changelog": "Update for Holochain 0.6.1 and Moss 0.15.3. Added localizations for de, es, it, ja, nl, pt, tr.",
+                    "releasedAt": 1770831624179
                 }
             ]
         },
