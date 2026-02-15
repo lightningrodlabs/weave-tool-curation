@@ -235,6 +235,14 @@ export default defineCurationLists({
           tags: [""],
           visiblity: "low",
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "farmhack",
+          versionBranch: "0.1.x",
+          tags: ["tools", "library", "experimental"],
+          visiblity: "low",
+        },
       ],
     },
   },
