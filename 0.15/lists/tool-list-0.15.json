@@ -836,6 +836,32 @@
                     "releasedAt": 1770754591462
                 }
             ]
+        },
+        {
+            "id": "farmhack",
+            "versionBranch": "0.1.x",
+            "title": "FarmHack",
+            "subtitle": "Library for open sharing of ag solutions, methods and tools.",
+            "description": "Import of scraped tool data, claiming of imported tools, creating new tools, tool search, activity feed, and profiles.",
+            "icon": "https://github.com/lightningrodlabs/farmhack/releases/download/v0.1.0/farmhack_icon.png",
+            "tags": [
+                "tools",
+                "library",
+                "agriculture"
+            ],
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "url": "https://github.com/lightningrodlabs/farmhack/releases/download/v0.1.0/farmhack.webhapp",
+                    "hashes": {
+                        "happSha256": "9e4e89d573b4ea98f3906ae6cffbb53a0a9752ef3e5f299ca9330b964447438f",
+                        "webhappSha256": "30d9624b7ed8eb090b9aa3dd3599d8a2e615e53f87dd3985b33d6a1511ce1de5",
+                        "uiSha256": "a54300824a05fdfce27e9f45dfd7f2fee94477dda8793f9090b6d4291790bc64"
+                    },
+                    "changelog": "Initial MVP: import of scraped tool data, claiming of imported tools, creating new tools, tool search, activity feed, profiles.",
+                    "releasedAt": 1771161649834
+                }
+            ]
         }
     ]
 }
