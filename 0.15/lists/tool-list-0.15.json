@@ -838,6 +838,31 @@
             ]
         },
         {
+            "id": "matthme.presence",
+            "versionBranch": "0.14.x",
+            "title": "Presence",
+            "subtitle": "Video Calls",
+            "description": "Peer-to-peer video calls with screen sharing.",
+            "icon": "https://github.com/matthme/presence/blob/main/ui/icon.png?raw=true",
+            "tags": [
+                "video calls",
+                "screen sharing"
+            ],
+            "versions": [
+                {
+                    "version": "0.14.0",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.14.0/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+                        "webhappSha256": "0ce5140366c1a5746523f72356c98810969a61da4cb52c86c993acc7ee4e2d95",
+                        "uiSha256": "df707d5dab4c0836c70ed9e105eaf8cafb6a336454e55714c641ceed5bf25d39"
+                    },
+                    "changelog": "- Improves connection retry behavior\n- Fixes bugs in screen-sharing connections and re-connections\n- Fixes bugs in circle-mode view-ports and auto-resizing according to window shape\n- Separates screen-shares from people, and allows resizing pane",
+                    "releasedAt": 1771321499788
+                }
+            ]
+        },
+        {
             "id": "farmhack",
             "versionBranch": "0.1.x",
             "title": "FarmHack",
