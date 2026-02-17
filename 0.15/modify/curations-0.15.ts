@@ -117,6 +117,13 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "matthme.presence",
+          versionBranch: "0.14.x",
+          tags: ["video calls", "screen sharing"],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "spreadsheets",
           versionBranch: "0.2.x",
           tags: [
