@@ -827,6 +827,17 @@ export default defineDevCollectiveToolList({
           changelog: "- Improves connection retry behavior\n- Fixes bugs in screen-sharing connections and re-connections\n- Fixes bugs in circle-mode view-ports and auto-resizing according to window shape\n- Separates screen-shares from people, and allows resizing pane",
           releasedAt: 1771321499788,
         },
+        {
+          version: "0.14.1",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.1/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "e452f7013b9f962e28832abf9b1e8f5bef1848cffae635bfcae76d50986a9e5c",
+            uiSha256: "99dc0ffa680160ede52ff26be4cfd819c0bcb0dfab2e6b4acb9ac521e3bcbe16"
+          },
+          changelog: "Fixes:\n\n- improved connection reliability\n-fixed bugs that caused initial video connection to appear and then drop with no audio\nfixed bugs in how connection status indicators appear.\n\nFeatures\n\n-TURN relay indicator: yellow hub icon appears in connection details overlay when the ICE candidate pair uses a TURN relay server",
+          releasedAt: 1771442518302,
+        },
       ],
     },
     {
