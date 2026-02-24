@@ -267,9 +267,11 @@
                     "toolId": "datatub",
                     "versionBranch": "0.10.x",
                     "tags": [
-                        ""
-                    ],
-                    "visiblity": "low"
+                        "airtable",
+                        "databases",
+                        "collaboration",
+                        "real-time"
+                    ]
                 },
                 {
                     "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",

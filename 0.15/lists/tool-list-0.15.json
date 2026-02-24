@@ -833,6 +833,17 @@
                     },
                     "changelog": "Major UI improvements",
                     "releasedAt": 1769605958798
+                },
+                {
+                    "version": "0.10.7",
+                    "url": "https://github.com/lightningrodlabs/tables/releases/download/v0.10.7/tables.webhapp",
+                    "hashes": {
+                        "happSha256": "2fcdd2a7bb7189179e2898d122153bda05c56e12063179a8ee997feeb76b5de9",
+                        "webhappSha256": "e3b69a7a4a96f5e5413517ab80ca8dbf2ada7ab8448ede7471788f4f00bc6097",
+                        "uiSha256": "7869a7a6d728d7fa4dae30dc47ef23673f7a576f14cca58e58b99c788b228c64"
+                    },
+                    "changelog": "Add templates for demonstration of functionality",
+                    "releasedAt": 1771952574821
                 }
             ]
         },

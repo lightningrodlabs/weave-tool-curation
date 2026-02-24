@@ -246,8 +246,7 @@ export default defineCurationLists({
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "datatub",
           versionBranch: "0.10.x",
-          tags: [""],
-          visiblity: "low",
+          tags: ["airtable", "databases", "collaboration", "real-time"],
         },
         {
           toolListUrl:
