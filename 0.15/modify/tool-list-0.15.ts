@@ -30,6 +30,17 @@ export default defineDevCollectiveToolList({
                   },
                   "changelog": "improved peer online status UI and local first data get strategy",
                   "releasedAt": 1772139833288
+              },
+              {
+                  "version": "1.25.1",
+                  "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.25.1.webhapp",
+                  "hashes": {
+                      "happSha256": "bd52998993e9b269ce3b13d5070507637447018fcba93020ecb4e1752ce9398f",
+                      "webhappSha256": "381cb5e8506396967556dfc6bf47406bf38d595a0e12021667f781de6b1d3380",
+                      "uiSha256": "63bf1e077aa09bde8d72447ba43095a50757d4649f6168a20e5b4404b4afe39f"
+                  },
+                  "changelog": "Fixed multiple commits at init.",
+                  "releasedAt": 1772142342829
               }
           ]
       },
