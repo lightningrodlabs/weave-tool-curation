@@ -451,6 +451,30 @@ export default defineDevCollectiveToolList({
           "releasedAt": 1765909853883
         }
       ],
+      deprecation: "Superseded by version 0.17.x",
+    },
+    {
+      id: "kando",
+      versionBranch: "0.17.x",
+      title: "KanDo",
+      subtitle: "Real-time KanBan boards",
+      description:
+        "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+      icon: "https://theweave.social/images/kando_icon.png",
+      tags: ["kanban", "project management"],
+      versions: [
+        {
+          "version": "0.17.0",
+          "url": "https://github.com/holochain-apps/kando/releases/download/v0.17.0/kando.webhapp",
+          "hashes": {
+            "happSha256": "ba24515530be7d6c0e279ded61b2e1559ac3d950af68d0414b00811b38df2322",
+            "webhappSha256": "c434337bbae93b3d31018fe94cbd446956bca5d4976d46e633c4e00ca19c93f9",
+            "uiSha256": "dd9dd72f3f84a52b2cd651cffa38590bd4b83740d3aa68075ac3d8d4722076d9"
+          },
+          "changelog": "Networking & onboarding improvements, unified presence display, updated to Holochain 0.6.1",
+          "releasedAt": 1772411154618
+        }
+      ],
     },
   {
       id: "talking-stickies",
