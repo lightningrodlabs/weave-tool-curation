@@ -117,6 +117,17 @@ export default defineCurationLists({
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "kando",
+          versionBranch: "0.17.x",
+          tags: [
+            "collaboration",
+            "real-time",
+            "task management",
+          ],
+        },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "talking-stickies",
           versionBranch: "0.14.x",
           tags: [""],
