@@ -52,8 +52,18 @@ export default defineDevCollectiveToolList({
               },
               "changelog": "Fixed multiple zome calls at init. Added Hide Profile button.",
               "releasedAt": 1773671494748
+            },
+            {
+              "version": "1.25.3",
+              "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.25.3.webhapp",
+              "hashes": {
+                "happSha256": "bd52998993e9b269ce3b13d5070507637447018fcba93020ecb4e1752ce9398f",
+                "webhappSha256": "36723c59d53ea7aee1d4f65148f724d8f2126e65210bbad6f4b8d5f0d6363994",
+                "uiSha256": "477c66dd7e7bf3dd37c749d2aa066728271c0f35079fc0354249401484253105"
+              },
+              "changelog": "More optimizations.",
+              "releasedAt": 1773678951421
             }
-
           ]
       },
       {
