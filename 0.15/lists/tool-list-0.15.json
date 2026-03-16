@@ -41,6 +41,17 @@
                     },
                     "changelog": "Fixed multiple commits at init.",
                     "releasedAt": 1772142342829
+                },
+                {
+                    "version": "1.25.2",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.25.2.webhapp",
+                    "hashes": {
+                        "happSha256": "bd52998993e9b269ce3b13d5070507637447018fcba93020ecb4e1752ce9398f",
+                        "webhappSha256": "ebec701a6a0197274c3330e244ed51b45ca22207925f2c4cc4701ec4874bda32",
+                        "uiSha256": "ba20e8557f55a5eb63d7fb85c9c3c98fd3f3623a12d250b57caa04599fc4b9b7"
+                    },
+                    "changelog": "Fixed multiple zome calls at init. Added Hide Profile button.",
+                    "releasedAt": 1773671494748
                 }
             ]
         },
