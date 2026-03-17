@@ -1058,6 +1058,17 @@
                     },
                     "changelog": "Fixes:\n\n- improved connection initiation\n- improved connection status ui\n\nFeatures\n\n- ability to reset media tracks",
                     "releasedAt": 1771958141375
+                },
+                {
+                    "version": "0.14.3",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.14.3/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+                        "webhappSha256": "0c4b52aac71e0e83193dae9fc90d08fc6dd58f8515302e76d45cd8cc5416b7dc",
+                        "uiSha256": "7ce06803ded54c3ec9ef54730dafc5933e03e5dbcda761a398fed09fc0cdb174"
+                    },
+                    "changelog": "Debugging:\n\n-adds connection log-collection for debugging",
+                    "releasedAt": 1773782984284
                 }
             ]
         },
