@@ -11,6 +11,30 @@
     "tools": [
         {
             "id": "vines",
+            "versionBranch": "1.26.x",
+            "title": "Vines",
+            "subtitle": "Group conversations and DMs",
+            "description": "A conversation capacity for groups in The Weave.",
+            "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+            "tags": [
+                "chat"
+            ],
+            "versions": [
+                {
+                    "version": "1.26.0",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.26.0.webhapp",
+                    "hashes": {
+                        "happSha256": "e26fcb293177aa5f01e169d0d22dc9284bbda572804673a6264cecd2ffe3eaa3",
+                        "webhappSha256": "eba5dba5f3f8d43be0be3bcda6fa3124a3bf679b71e0e839c7a958dec2b9c231",
+                        "uiSha256": "d679016cdab8f14264e6f727b6042c02401c847f084e3c302757448a16e1f3ba"
+                    },
+                    "changelog": "Fixed startup hanging up issue. Re-enabled cross group vie.",
+                    "releasedAt": 1773759362362
+                }
+            ]
+        },
+        {
+            "id": "vines",
             "versionBranch": "1.25.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
