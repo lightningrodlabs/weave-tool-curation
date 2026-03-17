@@ -63,6 +63,17 @@ export default defineDevCollectiveToolList({
               },
               "changelog": "More optimizations.",
               "releasedAt": 1773678951421
+            },
+            {
+              "version": "1.25.4",
+              "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.25.4.webhapp",
+              "hashes": {
+                "happSha256": "bd52998993e9b269ce3b13d5070507637447018fcba93020ecb4e1752ce9398f",
+                "webhappSha256": "f01a49927e3c6d992a6834036024f62e6a8cd7dd22d8f26c9fc085e3f3899825",
+                "uiSha256": "9d1c7010eac62492fd46e2693758f4881ac14a411223eab5bf3348b930b82cf1"
+              },
+              "changelog": "Disabled cross-group view",
+              "releasedAt": 1773755508426
             }
           ]
       },
