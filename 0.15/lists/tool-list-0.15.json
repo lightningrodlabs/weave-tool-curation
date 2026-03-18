@@ -1069,6 +1069,17 @@
                     },
                     "changelog": "Debugging:\n\n-adds connection log-collection for debugging",
                     "releasedAt": 1773782984284
+                },
+                {
+                    "version": "0.14.4",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.14.4/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+                        "webhappSha256": "a225907afc72a78681f1ea821482f687411bda920e1ee2237977e8731ce4aa46",
+                        "uiSha256": "ad118a645483422f3c6ae2ed6018d10de2ea88da2b1e7c46116b421e1a8031ac"
+                    },
+                    "changelog": "Debugging: more connection details in log-collection",
+                    "releasedAt": 1773794280345
                 }
             ]
         },
