@@ -475,6 +475,17 @@
                     },
                     "changelog": "Bug fixes and performance improvements",
                     "releasedAt": 1769605659846
+                },
+                {
+                    "version": "0.6.8",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.8/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+                        "webhappSha256": "b8602c747ea963b589aa435d855eb1e646c6b0005951ec46fa4f137670ed5349",
+                        "uiSha256": "cbce791ddcc57a9ad762e38dcc329a517dc9627e42a71afe23c12ab820dbb13b"
+                    },
+                    "changelog": "Package updates and session liveness improvement",
+                    "releasedAt": 1774272428753
                 }
             ]
         },
