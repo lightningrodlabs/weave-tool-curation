@@ -486,6 +486,17 @@
                     },
                     "changelog": "Package updates and session liveness improvement",
                     "releasedAt": 1774272428753
+                },
+                {
+                    "version": "0.6.9",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.9/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+                        "webhappSha256": "63052c151cc162dbc2d2d09e73c82de5bc575c7181cffcaed89976301f6d759a",
+                        "uiSha256": "4632f6541212a652e81dadcfcc3d6a1ac5180cf92eb079a71b3ee0cb38471040"
+                    },
+                    "changelog": "Show when participants go offline and improve look and feel of rich text editor",
+                    "releasedAt": 1774276707709
                 }
             ]
         },
