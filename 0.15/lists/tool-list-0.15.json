@@ -497,6 +497,17 @@
                     },
                     "changelog": "Show when participants go offline and improve look and feel of rich text editor",
                     "releasedAt": 1774276707709
+                },
+                {
+                    "version": "0.6.10",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.10/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+                        "webhappSha256": "70e5ad9181079f2cb62c691ba50b81a0474dfd8be31d88e4edd44d8663ee0315",
+                        "uiSha256": "552cb5606bd286d0168ae1f3dbfb01e42f56bcab7e07649bd3d385e218b08a5b"
+                    },
+                    "changelog": "Bug fixes and performance improvements",
+                    "releasedAt": 1774351546594
                 }
             ]
         },
