@@ -643,6 +643,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Local-only fetching",
           "releasedAt": 1765910981103
+        },
+        {
+          "version": "0.15.2",
+          "url": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.15.2/talking-stickies.webhapp",
+          "hashes": {
+              "happSha256": "1c6e35da1ccf4ec67ab1d4a9bb0b6739d5d94b0f3b252b615c2f87f9de19df6d",
+              "webhappSha256": "aafd09d2845d34445ce103f76e2d6ff41dfcd9cb0cc833f049190aaaff56fa3a",
+              "uiSha256": "69437e1b88476680e435b9a47952b22c577daa455c3d0b10c7413fe0f8ff8c48"
+          },
+          "changelog": "Update syn version",
+          "releasedAt": 1774357230737
         }
       ],
     },
@@ -676,6 +687,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Local-only fetching",
           "releasedAt": 1765910712599
+        },
+        {
+          "version": "0.2.2",
+          "url": "https://github.com/lightningrodlabs/sweet/releases/download/v0.10.5/calcy.webhapp",
+          "hashes": {
+            "happSha256": "6f3a8a4c997edcdde7dd49130ccba294835477eeb8b6ccf3edc04f4a70730448",
+            "webhappSha256": "ac811efdf396b7ccb8e41656fc957f46ef6fde29c09910b994b1da0515933dc8",
+            "uiSha256": "72dd4fbc05d26b6f8d0c9b9b03d2c0dd84e8f33f3cab1f08b46d27a91181bc03"
+          },
+          "changelog": "Update syn version and improve live editing",
+          "releasedAt": 1774451361593
         }
       ],
     },
@@ -802,6 +824,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Bug fixes and performance improvements",
           "releasedAt": 1769605678200
+        },
+        {
+          "version": "0.4.5",
+          "url": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.5/slate.webhapp",
+          "hashes": {
+              "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+              "webhappSha256": "2bf02ad1901cbc6fd020842db2ec1b31156e9d1203ebad3a322214499b553d50",
+              "uiSha256": "e6ffca7faa2540c74008a53ebc0ed90779623aa977aca5a8e19a1c2e71fef224"
+          },
+          "changelog": "Update syn version",
+          "releasedAt": 1774356474504
         }
       ],
     },
@@ -1002,7 +1035,18 @@ export default defineDevCollectiveToolList({
           "changelog": "Add templates for demonstration of functionality",
           "releasedAt": 1771952574821
 
-        }
+        },
+        {
+          "version": "0.10.8",
+          "url": "https://github.com/lightningrodlabs/tables/releases/download/v0.10.8/tables.webhapp",
+          "hashes": {
+              "happSha256": "2fcdd2a7bb7189179e2898d122153bda05c56e12063179a8ee997feeb76b5de9",
+              "webhappSha256": "7747308ac9c3ea73d94f69e00d42060aa227ec81cf4887d674d88cd6e3b38c4a",
+              "uiSha256": "41690f11dabe2bcb72a750e816f73330238b2d9d3234be92e56a9d701d6c4ea2"
+          },
+          "changelog": "Update syn version",
+          "releasedAt": 1774354885074
+      }
       ],
     },
     {
