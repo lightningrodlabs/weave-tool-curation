@@ -30,6 +30,17 @@
                     },
                     "changelog": "Fixed upload file bug.",
                     "releasedAt": 1774012113898
+                },
+                {
+                    "version": "1.27.1",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.27.1.webhapp",
+                    "hashes": {
+                        "happSha256": "b18bc6516007f0f365510e969500927290f13df78befb5c867f50ef0dc50547c",
+                        "webhappSha256": "cbfbe71ddeafa62adb9e85265cfd4f10dc037ae4cb08b901cafebc721de65e01",
+                        "uiSha256": "8b01352d85bf4f144f92ea9977cd9971ecbb96272d855f9fac30b025383115b6"
+                    },
+                    "changelog": "Fixed issues with Files. Import panel on first load. Some performance improvements.",
+                    "releasedAt": 1774472094761
                 }
             ]
         },
