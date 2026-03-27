@@ -594,6 +594,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Networking & onboarding improvements, unified presence display, updated to Holochain 0.6.1",
           "releasedAt": 1772411154618
+        },
+        {
+          "version": "0.17.2",
+          "url": "https://github.com/holochain-apps/kando/releases/download/v0.17.2/kando.webhapp",
+          "hashes": {
+            "happSha256": "ba24515530be7d6c0e279ded61b2e1559ac3d950af68d0414b00811b38df2322",
+            "webhappSha256": "9cfb736b282fbb22929e2b725d0aae7c330faa4699bf6c034e371b9701b702f3",
+            "uiSha256": "7e052407b2e36f577df9d174417d94ca7bd183d281195d0a05d1e59c7a67013f"
+          },
+          "changelog": "Update packages and unify profiles with agents in and outside weave",
+          "releasedAt": 1774620314092
         }
       ],
     },
