@@ -1160,6 +1160,17 @@ export default defineDevCollectiveToolList({
           changelog: "Debugging: more connection details in log-collection",
           releasedAt: 1773794280345,
         },
+        {
+          version: "0.14.5",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.5/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "2eeb5d387d6b246b4ff05bc66076322e0cf5d26939c86e17c83541a48fc191ea",
+            uiSha256: "c71c2b5c7e50de34a9913a534f19c8513e5d138aab6710a765c2ab6dc9812388"
+          },
+          changelog: "- Adds Share-Asset feature\n- Improves UI to emphasize joining the main room\n- Moves settings from room window to main Pressence window",
+          releasedAt: 1775490873446,
+        },
       ],
     },
     {
