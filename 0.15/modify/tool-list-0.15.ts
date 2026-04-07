@@ -1171,6 +1171,17 @@ export default defineDevCollectiveToolList({
           changelog: "- Adds Share-Asset feature\n- Improves UI to emphasize joining the main room\n- Moves settings from room window to main Pressence window",
           releasedAt: 1775490873446,
         },
+        {
+          version: "0.14.6",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.6/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "ab1162ce34f0b6b8c982c1baeb06b27d355f3fff31f26b84e74af985894a1bb4",
+            uiSha256: "116cb5f3008ffe5f1e0b00f43e0814dea0a753474a2d7fb4dce6882740747194"
+          },
+          changelog: "- Adds Share-Asset feature\n- Improves UI to emphasize joining the main room\n- Moves settings from room window to main Pressence window",
+          releasedAt: 1775573322612,
+        },
       ],
     },
     {
