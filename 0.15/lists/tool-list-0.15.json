@@ -519,6 +519,17 @@
                     },
                     "changelog": "Bug fixes and performance improvements",
                     "releasedAt": 1774351546594
+                },
+                {
+                    "version": "0.6.11",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.11/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+                        "webhappSha256": "a745f6e099fe9641b731645faef86592798510d5484457762689fe661f73fed8",
+                        "uiSha256": "553a9113ec71efdb6b6e4daa703c53daffda4eb0ca4b6116d4f3392ca6e4bd02"
+                    },
+                    "changelog": "Allow tab use in Prosemirror.",
+                    "releasedAt": 1776179040278
                 }
             ]
         },
@@ -925,6 +936,17 @@
                     },
                     "changelog": "Update for Holochain 0.6.0 and Moss 0.15.0",
                     "releasedAt": 1764957314443
+                },
+                {
+                    "version": "0.9.3",
+                    "url": "https://github.com/holochain-apps/gamez/releases/download/v0.9.3/gamez.webhapp",
+                    "hashes": {
+                        "happSha256": "63f99687127a3d6c8e8684c8a95874360fe40ea7aebe6d1bcbaafb9c4bee9e5c",
+                        "webhappSha256": "a9c329fefece980dd1a129bdc7152b199ba5104a5aba478f55d354b0e380e4bd",
+                        "uiSha256": "0a75c4e80fb02920023a8d91eeaec16145e7d17a56fb871ad90885fbd18535ae"
+                    },
+                    "changelog": "Fix broken assets and element behavior",
+                    "releasedAt": 1775823879385
                 }
             ]
         },
@@ -998,6 +1020,17 @@
                         "uiSha256": "7ff2e4487af481e21f0f0ea4f82c6d680449efb5e44a5b86a49b4a007d0eae66"
                     },
                     "releasedAt": 1768227721179
+                },
+                {
+                    "version": "0.3.1",
+                    "url": "https://github.com/lightningrodlabs/converge/releases/download/0.3.1/converge.webhapp",
+                    "hashes": {
+                        "happSha256": "3a965d591dcc49ff97fdb4e2d1b4f9d193fe9092a260c9242eff9ad5527c6a2f",
+                        "webhappSha256": "69903c821a182351180176da13c7e83fa04efc40dae41be16f43650e6af8ee9e",
+                        "uiSha256": "76878a3100847ba0a93cc87c75a28a8025d73da83ba3b190da669c01fb0e278e"
+                    },
+                    "changelog": "Fixes & improvements",
+                    "releasedAt": 1776178781699
                 }
             ]
         },
@@ -1039,6 +1072,17 @@
                     },
                     "changelog": "Fixes & improvements",
                     "releasedAt": 1768227857175
+                },
+                {
+                    "version": "0.2.4",
+                    "url": "https://github.com/lightningrodlabs/whos-in/releases/download/v0.2.4/whosin.webhapp",
+                    "hashes": {
+                        "happSha256": "5c9b45ce578f1a6cfddcd8c231ccbe6bf21aac8322178f7b561d6cb529d309e1",
+                        "webhappSha256": "a3b1c3b377edcdfb8d6ac360f89704267be4361c193e8d82c9170edc9346e0a1",
+                        "uiSha256": "5dd6a2a51945266d2a08a18d11786aac1998276834944f502ae307f27845b960"
+                    },
+                    "changelog": "Fix weave asset create form.",
+                    "releasedAt": 1776181429004
                 }
             ]
         },
@@ -1048,7 +1092,7 @@
             "title": "DataTub",
             "subtitle": "Airtable-like data management",
             "description": "Data management, collaboration, and custom displays.",
-            "icon": "https://github.com/lightningrodlabs/tables/blob/v0.10.3/weave/datatub.png?raw=true",
+            "icon": "https://github.com/lightningrodlabs/tables/blob/main-0.6/weave/datatub2.png?raw=true",
             "tags": [
                 "data",
                 "management",
@@ -1109,6 +1153,17 @@
                     },
                     "changelog": "Update syn version",
                     "releasedAt": 1774354885074
+                },
+                {
+                    "version": "0.10.9",
+                    "url": "https://github.com/lightningrodlabs/tables/releases/download/v0.10.9/tables.webhapp",
+                    "hashes": {
+                        "happSha256": "2fcdd2a7bb7189179e2898d122153bda05c56e12063179a8ee997feeb76b5de9",
+                        "webhappSha256": "87923d2982d484743679d76a9cab35f77782954d820594b99efb5a91f3a0fc86",
+                        "uiSha256": "cfb3145b349676ca55b5984c764972d64413c4b087167836786fb9550306de27"
+                    },
+                    "changelog": "Update to current Weave compatibility",
+                    "releasedAt": 1775825680346
                 }
             ]
         },
