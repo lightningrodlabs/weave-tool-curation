@@ -42,6 +42,17 @@ export default defineDevCollectiveToolList({
             "changelog": "Fixed issues with Files. Import panel on first load. Some performance improvements.",
             "releasedAt": 1774472094761
           },
+          {
+              "version": "1.27.2",
+              "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.27.2.webhapp",
+              "hashes": {
+                  "happSha256": "b18bc6516007f0f365510e969500927290f13df78befb5c867f50ef0dc50547c",
+                  "webhappSha256": "3e013a27ad48a6d1c2b7d28b99fff14fdb782dc11c46171cc76360ee59e259f6",
+                  "uiSha256": "2f9d4f3557216cd85374873a509c1712685093b72c172d50773bf3354bf495b8"
+              },
+              "changelog": "Added import summary",
+              "releasedAt": 1776191489609
+          }
         ]
       },
       {
