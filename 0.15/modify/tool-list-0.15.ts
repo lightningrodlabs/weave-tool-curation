@@ -52,6 +52,17 @@ export default defineDevCollectiveToolList({
               },
               "changelog": "Added import summary",
               "releasedAt": 1776191489609
+          },
+          {
+              "version": "1.27.3",
+              "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.27.3.webhapp",
+              "hashes": {
+                  "happSha256": "b18bc6516007f0f365510e969500927290f13df78befb5c867f50ef0dc50547c",
+                  "webhappSha256": "142dbcea8cde1966a57b69d7d41ba01bf6d7728b4bd12f5bb1d2388e70419e05",
+                  "uiSha256": "847445d430ae2ccd2e3ce04099ba9d11efd334e45494489447bcf88b52e3ce96"
+              },
+              "changelog": "Added export summary. Channel re-ordering and allow messaging within thread Asset.",
+              "releasedAt": 1776975980464
           }
         ]
       },
