@@ -1267,7 +1267,7 @@ export default defineDevCollectiveToolList({
             webhappSha256: "14108386f831551c69bace5d98a447778b2e45869b7c324664f1d3218a37111b",
             uiSha256: "44764626dfce5b2f96f19721c1aad0e1b2546b0452af2755ba04b35d7c26f868"
           },
-          changelog: "Adds a module system for adding features.  Test modules include:\n\n- Asset sharing (not just screen)\n- Stack (raise hand and shows order)\n- Count-down timer.\n\nAdds Holochain-signals based audio (experimental).  If you webrtc video isn't working, click on the "show connection details" and flip the "Disable all WebRTC" switch and all your connections will be audio-only.\n\nFixes a number of connection bugs and adds more monitoring and visibility affordances when "show connection details" is enabled.",
+          changelog: "Adds a module system for adding features.  Test modules include:\n\n- Asset sharing (not just screen)\n- Stack (raise hand and shows order)\n- Count-down timer.\n\nAdds Holochain-signals based audio (experimental).  If you webrtc video isn't working, click on the \"show connection details\" and flip the \"Disable all WebRTC\" switch and all your connections will be audio-only.\n\nFixes a number of connection bugs and adds more monitoring and visibility affordances when \"show connection details\" is enabled.",
           releasedAt: 1777490508410,
         },
       ],
