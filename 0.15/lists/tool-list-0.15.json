@@ -552,6 +552,17 @@
                     },
                     "changelog": "Allow tab use in Prosemirror.",
                     "releasedAt": 1776179040278
+                },
+                {
+                    "version": "0.6.12",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.12/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+                        "webhappSha256": "ea8e0bb500313216b91624c08aca5aa4c5b72da14509764686a9fb338904e578",
+                        "uiSha256": "eb7ebab0ff1be663b0627f42756e137a138369fbf6fb7499625ac1039427f927"
+                    },
+                    "changelog": "Add undo/redo feature to markdown.",
+                    "releasedAt": 1778069253639
                 }
             ]
         },
@@ -1053,6 +1064,17 @@
                     },
                     "changelog": "Fixes & improvements",
                     "releasedAt": 1776178781699
+                },
+                {
+                    "version": "0.3.2",
+                    "url": "https://github.com/lightningrodlabs/converge/releases/download/0.3.2/converge.webhapp",
+                    "hashes": {
+                        "happSha256": "3a965d591dcc49ff97fdb4e2d1b4f9d193fe9092a260c9242eff9ad5527c6a2f",
+                        "webhappSha256": "449086e39b1f2fc603021f6541988f1d8415daf5b6f5cbfc96c4597ac5492525",
+                        "uiSha256": "b8532576f68da4b6de8442cdb7b96d5437e524aa57c4ac29ee45588cf45017a2"
+                    },
+                    "changelog": "Fix embedded view of deliberations.",
+                    "releasedAt": 1778069700485
                 }
             ]
         },
