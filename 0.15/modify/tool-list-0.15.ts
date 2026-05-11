@@ -13,6 +13,28 @@ export default defineDevCollectiveToolList({
   tools: [
       {
         id: "vines",
+        versionBranch: "1.28.x",
+        title: "Vines",
+        subtitle: "Group conversations and DMs",
+        description: "A conversation capacity for groups in The Weave.",
+        icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+        tags: ["chat"],
+        versions: [
+          {
+            "version": "1.28.0",
+            "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.28.0.webhapp",
+            "hashes": {
+              "happSha256": "c6efb4bf325483700c7aad91391e0fd38e7437a916ec182da51d6fec938cd772",
+              "webhappSha256": "52bcf9f23017ea6ce91c26f679222e6a3a267414fbceeaffbf30e7271e9c6e14",
+              "uiSha256": "426d8a4b0f154fa82ab20d40903c8e37b23a89c00a093efea947cb3f9759c177"
+            },
+            "changelog": "Deletable channel by moderator. Better message validation status UI.",
+            "releasedAt": 1778511016089
+          }
+        ]
+      },
+      {
+        id: "vines",
         versionBranch: "1.27.x",
         title: "Vines",
         subtitle: "Group conversations and DMs",
