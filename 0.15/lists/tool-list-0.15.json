@@ -30,6 +30,17 @@
                     },
                     "changelog": "Deletable channel by moderator. Better message validation status UI.",
                     "releasedAt": 1778511016089
+                },
+                {
+                    "version": "1.28.1",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.28.1.webhapp",
+                    "hashes": {
+                        "happSha256": "c6efb4bf325483700c7aad91391e0fd38e7437a916ec182da51d6fec938cd772",
+                        "webhappSha256": "007ab206064f7995115473efcf02156d8b741abfd95b6ffd401f20019476c249",
+                        "uiSha256": "f3289a94f25166f1a2703a30ce46c79e96798f586de0ea0056adeab41d942aae"
+                    },
+                    "changelog": "Fix importing from 1.27.x",
+                    "releasedAt": 1778528933718
                 }
             ]
         },
