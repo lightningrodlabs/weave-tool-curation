@@ -832,6 +832,17 @@
                     },
                     "changelog": "Update syn version and improve live editing",
                     "releasedAt": 1774451361593
+                },
+                {
+                    "version": "0.2.3",
+                    "url": "https://github.com/lightningrodlabs/sweet/releases/download/v0.10.6/calcy.webhapp",
+                    "hashes": {
+                        "happSha256": "6f3a8a4c997edcdde7dd49130ccba294835477eeb8b6ccf3edc04f4a70730448",
+                        "webhappSha256": "322d31115ad202954f46d22b093aa4dc92f44f23b7dda32876c8b103928b65b0",
+                        "uiSha256": "aa9eb1acfad1c7be5b7fbd9dcdb5b0a3b51779ac5ea02c9e2f0893102704d7a8"
+                    },
+                    "changelog": "Import CSV and better responsiveness",
+                    "releasedAt": 1778675573768
                 }
             ]
         },
