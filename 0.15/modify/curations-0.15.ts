@@ -300,6 +300,7 @@ export default defineCurationLists({
           toolId: "glass-bead-game",
           versionBranch: "0.3.x",
           tags: ["games"],
+          visiblity: "low",
         },
       ],
     },

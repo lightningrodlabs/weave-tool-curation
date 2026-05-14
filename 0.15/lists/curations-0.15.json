@@ -328,7 +328,8 @@
                     "versionBranch": "0.3.x",
                     "tags": [
                         "games"
-                    ]
+                    ],
+                    "visiblity": "low"
                 }
             ]
         }
