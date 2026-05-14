@@ -1409,6 +1409,30 @@
                     "releasedAt": 1771161649834
                 }
             ]
+        },
+        {
+            "id": "glass-bead-game",
+            "versionBranch": "0.3.x",
+            "title": "Glass Bead Game",
+            "subtitle": "A turn-based game of co-creation which, like brainstorming, facilitates the generation of creative ideas.",
+            "description": "The game focuses on making space for every player to contribute to the play, and encourages deep listening for collaborative meaning making.  It's also really fun.\n\nThis incarnation of the Glass Bead Game was developed originally by James and Gnoman for [weco.io](https://www.weco.io/s/all/about).",
+            "icon": "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.3.0/game.png",
+            "tags": [
+                "games"
+            ],
+            "versions": [
+                {
+                    "version": "0.3.0",
+                    "url": "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.3.0/glassbeadgame.webhapp",
+                    "hashes": {
+                        "happSha256": "8c47fd1a4391b04413c0aaca9d0be136e69181aada6aeb9861ec89d32ede4cd2",
+                        "webhappSha256": "38bf8c6b7f46c9098b82d547b34308d63ce49e0a36d833bee384ab0f1118792c",
+                        "uiSha256": "30944f3766612ca46b396755084f1a59ed13dbbba2122f167e138c562df7b4c2"
+                    },
+                    "changelog": "First Moss version",
+                    "releasedAt": 1778720371241
+                }
+            ]
         }
     ]
 }
