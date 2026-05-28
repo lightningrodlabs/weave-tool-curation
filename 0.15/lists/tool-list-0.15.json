@@ -708,6 +708,17 @@
                     },
                     "changelog": "Update packages and unify profiles with agents in and outside weave",
                     "releasedAt": 1774620314092
+                },
+                {
+                    "version": "0.17.3",
+                    "url": "https://github.com/holochain-apps/kando/releases/download/v0.17.3/kando.webhapp",
+                    "hashes": {
+                        "happSha256": "ba24515530be7d6c0e279ded61b2e1559ac3d950af68d0414b00811b38df2322",
+                        "webhappSha256": "256383ab63a0a722d1373dedb3ba3786ec6c3e6c6cba849b2749d0f7aed094c6",
+                        "uiSha256": "79965e1d14e7b467be715b202c70af4affca78c9ae59fe357592ceb76efe51ef"
+                    },
+                    "changelog": "Adds creating checklist items immediately in the new card dialog.",
+                    "releasedAt": 1779977923623
                 }
             ]
         },
