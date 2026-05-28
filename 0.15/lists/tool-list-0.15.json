@@ -14,7 +14,7 @@
             "versionBranch": "1.28.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -49,7 +49,7 @@
             "versionBranch": "1.27.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -106,7 +106,7 @@
             "versionBranch": "1.26.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -130,7 +130,7 @@
             "versionBranch": "1.25.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -198,7 +198,7 @@
             "versionBranch": "1.24.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -222,7 +222,7 @@
             "versionBranch": "1.23.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -246,7 +246,7 @@
             "versionBranch": "1.22.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -303,7 +303,7 @@
             "versionBranch": "1.21.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -327,7 +327,7 @@
             "versionBranch": "1.20.x",
             "title": "Vines",
             "subtitle": "Group conversations and DMs",
-            "description": "A conversation capacity for groups in The Weave.",
+            "description": "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
             "icon": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "chat"
@@ -351,7 +351,7 @@
             "versionBranch": "12.0.x",
             "title": "Acorn",
             "subtitle": "State-of-Affairs Trees for Project Management",
-            "description": "Project planning and management redefined for distributed teams. Agile project management made simple. Open-source. Peer-to-peer. Perfect for remote teams.",
+            "description": "## Overview\n\nAcorn is a peer-to-peer project management application designed as an agile alternative to scrum for distributed software teams. It uses \"State-of-Affairs Trees\" — visual outcome hierarchies — to plan, track, and coordinate work without a central server.\n\n## Features\n\n- Outcome trees that visualize goals and sub-goals\n- Assignments, tags, time estimates, and GitHub links per outcome\n- Achievement status tracking and progress visualization\n- Multiple project workspaces\n- Real-time updates between teammates\n- Open-source, peer-to-peer, no central server",
             "icon": "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png?raw=true",
             "tags": [
                 "project-management"
@@ -399,7 +399,7 @@
             "versionBranch": "1.4.x",
             "title": "Files",
             "subtitle": "File sharing & sending",
-            "description": "",
+            "description": "## Overview\n\nFiles lets group members share documents privately or publicly. It supports both one-to-one transfers and DHT-backed public shares, with full visibility into delivery state.\n\n## Features\n\n- Share files publicly with the whole group via the DHT\n- Send files privately to specific members\n- Accept or decline incoming transfers\n- Activity timeline of file history, distributions, and deliveries\n- Real-time notifications for new shares, completed transfers, and uploads\n- Source-chain storage usage tracking\n- Scan for incomplete parcels and re-upload missing files",
             "icon": "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "file",
@@ -424,7 +424,7 @@
             "versionBranch": "1.3.x",
             "title": "Files",
             "subtitle": "File sharing & sending",
-            "description": "",
+            "description": "## Overview\n\nFiles lets group members share documents privately or publicly. It supports both one-to-one transfers and DHT-backed public shares, with full visibility into delivery state.\n\n## Features\n\n- Share files publicly with the whole group via the DHT\n- Send files privately to specific members\n- Accept or decline incoming transfers\n- Activity timeline of file history, distributions, and deliveries\n- Real-time notifications for new shares, completed transfers, and uploads\n- Source-chain storage usage tracking\n- Scan for incomplete parcels and re-upload missing files",
             "icon": "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/icon.png",
             "tags": [
                 "file",
@@ -449,7 +449,7 @@
             "versionBranch": "0.6.x",
             "title": "Notebooks",
             "subtitle": "Collaborative MarkDown editor",
-            "description": "Real-time collaborative Markdown editing, includes version control.",
+            "description": "## Overview\n\nNotebooks is a real-time collaborative Markdown editor with built-in versioning. Multiple participants can edit the same document together with live cursors and choose between raw Markdown or a rich text view.\n\n## Features\n\n- Real-time multi-user editing with live participant cursors\n- Markdown and rich text (ProseMirror) editing modes\n- Rich text image support\n- Adjustable Markdown editor width\n- Undo/redo and tab key support in rich text\n- Participant online/offline indicators\n- Built-in version control of documents",
             "icon": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.0/notebooks_logo.png",
             "tags": [
                 "markdown",
@@ -606,7 +606,7 @@
             "versionBranch": "0.15.x",
             "title": "KanDo",
             "subtitle": "Real-time KanBan boards",
-            "description": "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+            "description": "## Overview\n\nKanDo is a real-time collaborative KanBan board for lightweight project tracking. Everyone in the group sees and edits the same board live, with rich card details for organizing work.\n\n## Features\n\n- Real-time multi-user board editing\n- Cards with comments, labels, categories, and checklists\n- Markdown support in card descriptions and comments\n- Filter cards by assigned member\n- Archived column toggle\n- Add checklist items directly from the new-card dialog\n- Unified profiles across Weave groups\n- Android-compatible build",
             "icon": "https://theweave.social/images/kando_icon.png",
             "tags": [
                 "kanban",
@@ -632,7 +632,7 @@
             "versionBranch": "0.16.x",
             "title": "KanDo",
             "subtitle": "Real-time KanBan boards",
-            "description": "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+            "description": "## Overview\n\nKanDo is a real-time collaborative KanBan board for lightweight project tracking. Everyone in the group sees and edits the same board live, with rich card details for organizing work.\n\n## Features\n\n- Real-time multi-user board editing\n- Cards with comments, labels, categories, and checklists\n- Markdown support in card descriptions and comments\n- Filter cards by assigned member\n- Archived column toggle\n- Add checklist items directly from the new-card dialog\n- Unified profiles across Weave groups\n- Android-compatible build",
             "icon": "https://theweave.social/images/kando_icon.png",
             "tags": [
                 "kanban",
@@ -680,7 +680,7 @@
             "versionBranch": "0.17.x",
             "title": "KanDo",
             "subtitle": "Real-time KanBan boards",
-            "description": "KanBan board based project-tracking. Features include, commenting, labels, categories, checklists, markdown support, and more.",
+            "description": "## Overview\n\nKanDo is a real-time collaborative KanBan board for lightweight project tracking. Everyone in the group sees and edits the same board live, with rich card details for organizing work.\n\n## Features\n\n- Real-time multi-user board editing\n- Cards with comments, labels, categories, and checklists\n- Markdown support in card descriptions and comments\n- Filter cards by assigned member\n- Archived column toggle\n- Add checklist items directly from the new-card dialog\n- Unified profiles across Weave groups\n- Android-compatible build",
             "icon": "https://theweave.social/images/kando_icon.png",
             "tags": [
                 "kanban",
@@ -738,7 +738,7 @@
             "versionBranch": "0.14.x",
             "title": "TalkingStickies",
             "subtitle": "Real-time stickies boards",
-            "description": "Ideation, retros, brain-storming, note-taking, anything with stickies!",
+            "description": "## Overview\n\nTalkingStickies is a real-time collaborative stickies board for ideation, retros, brainstorming, and shared note-taking. Drop stickies, organize them into groups, and watch collaborators move them around live.\n\n## Features\n\n- Real-time multi-user sticky boards\n- Multiple boards per group\n- Color-coded stickies and grouping\n- Live participant indicators\n- Lightweight, fast collaboration powered by Syn\n- Peer-to-peer, no central server",
             "icon": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
             "tags": [
                 "notes",
@@ -765,7 +765,7 @@
             "versionBranch": "0.15.x",
             "title": "TalkingStickies",
             "subtitle": "Real-time stickies boards",
-            "description": "Ideation, retros, brain-storming, note-taking, anything with stickies!",
+            "description": "## Overview\n\nTalkingStickies is a real-time collaborative stickies board for ideation, retros, brainstorming, and shared note-taking. Drop stickies, organize them into groups, and watch collaborators move them around live.\n\n## Features\n\n- Real-time multi-user sticky boards\n- Multiple boards per group\n- Color-coded stickies and grouping\n- Live participant indicators\n- Lightweight, fast collaboration powered by Syn\n- Peer-to-peer, no central server",
             "icon": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
             "tags": [
                 "notes",
@@ -814,7 +814,7 @@
             "versionBranch": "0.2.x",
             "title": "Spreadsheets",
             "subtitle": "Real-time collaborative spreadsheets",
-            "description": "Spreadsheets for real-time collaborative editing.",
+            "description": "## Overview\n\nSpreadsheets is a real-time collaborative spreadsheet tool. Edit cells together with live updates from other participants — no central server required.\n\n## Features\n\n- Real-time multi-user spreadsheet editing\n- Live cell-level synchronization\n- CSV import\n- Responsive UI suitable for shared sessions\n- Peer-to-peer collaboration powered by Syn",
             "icon": "https://github.com/lightningrodlabs/sweet/blob/spreadsheets-only/weave/xylem.png?raw=true",
             "tags": [
                 "spreadsheet",
@@ -873,7 +873,7 @@
             "versionBranch": "0.5.x",
             "title": "Emergence",
             "subtitle": "Conference and event management",
-            "description": "Conference and event management with session scheduling, space management, and collaborative notes.",
+            "description": "## Overview\n\nEmergence is a peer-to-peer tool for organizing conferences, unconferences, and events. It coordinates sessions, spaces, and attendees while letting participants take collaborative notes in-session.\n\n## Features\n\n- Session creation and scheduling across time slots\n- Physical space and room management\n- Attendee sign-ups and interest tracking per session\n- Collaborative note-taking on each session\n- Steward role for event coordinators\n- Designed for distributed, in-person events",
             "icon": "https://github.com/holochain-apps/emergence/releases/download/v0.5.0/emergence_icon.png",
             "tags": [
                 "conference",
@@ -912,7 +912,7 @@
             "versionBranch": "0.6.x",
             "title": "Carbon Farm Network App",
             "subtitle": "Custom supply chain management using hREA",
-            "description": "The Carbon Farm Network App is a custom supply chain management app built on the hREA framework. It allows users to plan, track and facilitate transactions within the network.",
+            "description": "## Overview\n\nThe Carbon Farm Network App is a supply chain coordination platform built on the hREA (Holochain Resource-Event-Agent) framework. It supports a purchasing cooperative of designers and small brands sourcing Climate Beneficial™ fibers from regenerative farms.\n\n## Features\n\n- Plan, track, and facilitate transactions across the network\n- hREA-based resource, event, and agent modeling\n- Multi-party supply chain traceability\n- Coordinated procurement for purchasing cooperatives\n- Integration with Carbon Farm Practices documentation\n- Peer-to-peer, with no central coordinator",
             "icon": "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/blob/afd20c2b27ff177f2d703e3b4fbbb3191a346146/logo.png?raw=true",
             "tags": [
                 "testing",
@@ -938,7 +938,7 @@
             "versionBranch": "0.4.x",
             "title": "Slate",
             "subtitle": "Real-time collaborative whiteboard",
-            "description": "A real-time collaborative whiteboard for sketching, drawing, and brainstorming together.",
+            "description": "## Overview\n\nSlate is a real-time collaborative whiteboard for sketching, diagramming, and brainstorming. Draw shapes, write text, and ideate together with live multi-user editing.\n\n## Features\n\n- Real-time multi-user editing with live collaborator updates\n- Free-form drawing, shapes, and text\n- Multiple boards per group\n- Improved syncing performance and collaborative cursors\n- Peer-to-peer, no central server\n- Lightweight syncing powered by Syn",
             "icon": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.0/icon.png",
             "tags": [
                 "collaboration",
@@ -1019,7 +1019,7 @@
             "versionBranch": "0.9.x",
             "title": "Gamez",
             "subtitle": "Customizable tabletop games",
-            "description": "A platform for creating and playing customizable tabletop games with friends.",
+            "description": "## Overview\n\nGamez is a flexible platform for designing and playing customizable tabletop games with friends. Build your own boards, pieces, and rules — or play games other people have made.\n\n## Features\n\n- Author custom board games with configurable boards and pieces\n- Real-time multi-player game state\n- Reusable game templates\n- Asset and element support for rich game pieces\n- Peer-to-peer play with no central server",
             "icon": "https://github.com/holochain-apps/gamez/releases/download/v0.9.2/icon.png",
             "tags": [
                 "games",
@@ -1056,7 +1056,7 @@
             "versionBranch": "0.2.x",
             "title": "Converge",
             "subtitle": "A group decision-making tool",
-            "description": "A platform for decision-making that shifts the focus from outcomes to criteria.",
+            "description": "## Overview\n\nConverge is a group decision-making tool inspired by Convergent Facilitation (from *The Highest Common Denominator* by Miki Kashtan). Instead of debating whole proposals, groups surface and align on the underlying criteria a good solution must meet — making it easier to reach decisions everyone can live with.\n\n## Features\n\n- Criteria-first deliberations\n- Proposal scoring against shared criteria\n- Background updating for live deliberations\n- Embeddable deliberation views\n- Designed for NVC, DCAN, and governance contexts\n- Peer-to-peer collaboration",
             "icon": "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
             "tags": [
                 "collaboration",
@@ -1098,7 +1098,7 @@
             "versionBranch": "0.3.x",
             "title": "Converge",
             "subtitle": "A group decision-making tool",
-            "description": "A platform for decision-making that shifts the focus from outcomes to criteria.",
+            "description": "## Overview\n\nConverge is a group decision-making tool inspired by Convergent Facilitation (from *The Highest Common Denominator* by Miki Kashtan). Instead of debating whole proposals, groups surface and align on the underlying criteria a good solution must meet — making it easier to reach decisions everyone can live with.\n\n## Features\n\n- Criteria-first deliberations\n- Proposal scoring against shared criteria\n- Background updating for live deliberations\n- Embeddable deliberation views\n- Designed for NVC, DCAN, and governance contexts\n- Peer-to-peer collaboration",
             "icon": "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
             "tags": [
                 "collaboration",
@@ -1151,7 +1151,7 @@
             "versionBranch": "0.2.x",
             "title": "Who's In?",
             "subtitle": "Scheduling events and tracking agreements",
-            "description": "Distributed event planning, task management, and agreement tracking.",
+            "description": "## Overview\n\nWho's In? is a distributed tool for event planning, task management, and tracking group commitments. It helps groups coordinate who's doing what, by when — without a central scheduler.\n\n## Features\n\n- Event scheduling with attendee sign-ups\n- Task assignments and tracking\n- Agreement and commitment tracking\n- Calendar-style coordination\n- Weave Asset integration for shared event objects\n- Peer-to-peer coordination across the group",
             "icon": "https://github.com/lightningrodlabs/whos-in/blob/0.1.2/we_dev/whosin.png?raw=true",
             "tags": [
                 "collaboration",
@@ -1203,7 +1203,7 @@
             "versionBranch": "0.10.x",
             "title": "DataTub",
             "subtitle": "Airtable-like data management",
-            "description": "Data management, collaboration, and custom displays.",
+            "description": "## Overview\n\nDataTub is an Airtable-style data management tool for collaborative tables. Build structured datasets with typed columns and arrange records in different views suitable for your team's workflow.\n\n## Features\n\n- Custom tables with typed columns\n- Multiple view types and custom displays\n- Real-time collaborative editing\n- Template gallery for common use cases\n- Major UI for arranging and filtering records\n- Peer-to-peer storage with no central database",
             "icon": "https://github.com/lightningrodlabs/tables/blob/main-0.6/weave/datatub2.png?raw=true",
             "tags": [
                 "data",
@@ -1284,7 +1284,7 @@
             "versionBranch": "0.13.x",
             "title": "Presence",
             "subtitle": "Video Calls",
-            "description": "Peer-to-peer video calls with screen sharing.",
+            "description": "## Overview\n\nPresence is a peer-to-peer video call and screen sharing tool. WebRTC connections are negotiated directly between participants, with TURN-relay support for restrictive networks and a Holochain-signal audio fallback when WebRTC fails.\n\n## Features\n\n- Multi-party video calls with screen sharing\n- Circle and rectangle viewport modes, plus hide-self\n- Separate, resizable screen-share pane\n- Connection status indicators and TURN-relay detection\n- Asset sharing into rooms\n- Pluggable module system (Stack for raise-hand ordering, count-down timer, etc.)\n- Reset media tracks on the fly\n- Holochain-signals-based audio fallback when WebRTC is blocked",
             "icon": "https://github.com/matthme/presence/blob/main/ui/icon.png?raw=true",
             "tags": [
                 "video calls",
@@ -1309,7 +1309,7 @@
             "versionBranch": "0.14.x",
             "title": "Presence",
             "subtitle": "Video Calls",
-            "description": "Peer-to-peer video calls with screen sharing.",
+            "description": "## Overview\n\nPresence is a peer-to-peer video call and screen sharing tool. WebRTC connections are negotiated directly between participants, with TURN-relay support for restrictive networks and a Holochain-signal audio fallback when WebRTC fails.\n\n## Features\n\n- Multi-party video calls with screen sharing\n- Circle and rectangle viewport modes, plus hide-self\n- Separate, resizable screen-share pane\n- Connection status indicators and TURN-relay detection\n- Asset sharing into rooms\n- Pluggable module system (Stack for raise-hand ordering, count-down timer, etc.)\n- Reset media tracks on the fly\n- Holochain-signals-based audio fallback when WebRTC is blocked",
             "icon": "https://github.com/matthme/presence/blob/main/ui/icon.png?raw=true",
             "tags": [
                 "video calls",
@@ -1411,7 +1411,7 @@
             "versionBranch": "0.1.x",
             "title": "FarmHack",
             "subtitle": "Library for open sharing of ag solutions, methods and tools.",
-            "description": "Import of scraped tool data, claiming of imported tools, creating new tools, tool search, activity feed, and profiles.",
+            "description": "## Overview\n\nFarmHack is an open, peer-to-peer library for sharing agricultural tools, methods, and solutions among farmers and ag innovators. Seeded with imported tool data, the library lets contributors claim entries, extend them, and add their own creations.\n\n## Features\n\n- Browse and search a community library of farm tools\n- Import of seeded/scraped tool data\n- Claim imported tools and add provenance\n- Create new tool entries with descriptions and resources\n- Activity feed showing community contributions\n- Member profiles",
             "icon": "https://github.com/lightningrodlabs/farmhack/releases/download/v0.1.0/farmhack_icon.png",
             "tags": [
                 "tools",
@@ -1437,7 +1437,7 @@
             "versionBranch": "0.3.x",
             "title": "Glass Bead Game",
             "subtitle": "A turn-based game of co-creation which, like brainstorming, facilitates the generation of creative ideas.",
-            "description": "The game focuses on making space for every player to contribute to the play, and encourages deep listening for collaborative meaning making.  It's also really fun.\n\nThis incarnation of the Glass Bead Game was developed originally by James and Gnoman for [weco.io](https://www.weco.io/s/all/about).",
+            "description": "## Overview\n\nThe Glass Bead Game is a turn-based game of co-creation that, like brainstorming, facilitates the generation of creative ideas. It focuses on making space for every player to contribute and encourages deep listening for collaborative meaning-making — and it's really fun.\n\nThis incarnation of the Glass Bead Game was originally developed by James and Gnoman for [weco.io](https://www.weco.io/s/all/about).\n\n## Features\n\n- Turn-based co-creative gameplay\n- Round structure that ensures every player contributes\n- Topic-driven creative play\n- Lightweight, low-stakes ideation tool\n- Designed to support deep listening and meaning-making\n- Multiplayer over Holochain — no host or central server",
             "icon": "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.3.0/game.png",
             "tags": [
                 "games"
