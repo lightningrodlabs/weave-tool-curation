@@ -715,6 +715,17 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "- Adds filter by assigned.\n- Moves \"Add Card\" to top of column.- Fixes regression where Archived column doesn't show when activated in settings.",
           "releasedAt": 1779995396625
+        },
+        {
+          "version": "0.17.5",
+          "url": "https://github.com/holochain-apps/kando/releases/download/v0.17.5/kando.webhapp",
+          "hashes": {
+            "happSha256": "ba24515530be7d6c0e279ded61b2e1559ac3d950af68d0414b00811b38df2322",
+            "webhappSha256": "3b61d6deee6d4e4974f82cec1f0ff7c88bf85e88d26f8f8921160f2f25cf957a",
+            "uiSha256": "abaa47c4515f8d369941d121e9a63c8a32fc132a6bb9478c0a05ed3472252718"
+          },
+          "changelog": "Upgrade to syn 0.601.4 (leadership/merge/commit-storm robustness fixes).",
+          "releasedAt": 1781387371000
         }
       ],
     },
