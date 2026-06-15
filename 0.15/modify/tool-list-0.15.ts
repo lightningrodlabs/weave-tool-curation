@@ -578,17 +578,6 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Add undo/redo feature to markdown.",
           "releasedAt": 1778069253639
-        },
-        {
-          "version": "0.6.13",
-          "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.13/notebooks.webhapp",
-          "hashes": {
-              "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
-              "webhappSha256": "e5e8b8d63e4ec187596d9716737a71f352c15d8874735e944f25a362c9a6613f",
-              "uiSha256": "6fb5f818bcd51f497cacba5ee127918e7fc2d3ce094f33d228183c51b1ead9f9"
-          },
-          "changelog": "- Adds read-only asset. - Fixes commit storms.",
-          "releasedAt": 1781534002499
         }
       ]
     },
