@@ -1358,6 +1358,17 @@ export default defineDevCollectiveToolList({
           changelog: "Adds a module system for adding features.  Test modules include:\n\n- Asset sharing (not just screen)\n- Stack (raise hand and shows order)\n- Count-down timer.\n\nAdds Holochain-signals based audio (experimental).  If you webrtc video isn't working, click on the \"show connection details\" and flip the \"Disable all WebRTC\" switch and all your connections will be audio-only.\n\nFixes a number of connection bugs and adds more monitoring and visibility affordances when \"show connection details\" is enabled.",
           releasedAt: 1777490508410,
         },
+        {
+          version: "0.14.8",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.8/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "7fb64e01dee9557d85780a4985bb0ed89f63b864347ff26380f9940dfd9e1368",
+            uiSha256: "847252e589cd252c60e39ff80448e57890ef567e27af58288b76b929f1948880"
+          },
+          changelog: "## Features\n\n-  adds room Asset, suitable for embedding.\n- adds new WebRTC carrier with many improvements over SimplePeer\n- adds Holochain Signals based video/audio carrier for situations without a TURN relay server\n- adds ability to connect to Cloudflare provisioned TURN sever\n- persisted call-settings menu with auto-join audio/video; gear settings menu\n- improved call debug logging\n\n## bug-fixes\n- many connection improvements\n- Area-maximizing grid layout for video panes; tolerate narrow/short landing page.\n- Additional STUN servers; single source of truth for default ICE servers",
+          releasedAt: 1781569309900,
+        },
       ],
     },
     {
