@@ -1,0 +1,31 @@
+{
+    "curator": {
+        "name": "Lightningrod Labs (Dev)",
+        "description": "In-development Tools from Lightningrod Labs. Versions in this list are unstable, may break, and may change or disappear without notice. Not for production use.",
+        "contact": {
+            "website": "https://lightningrodlabs.org"
+        },
+        "icon": "https://lightningrodlabs.org/lrl_logo.png"
+    },
+    "curationLists": {
+        "default": {
+            "name": "Dev Curation List",
+            "description": "Curation List of in-development Tools from Lightningrod Labs (Moss 0.16)",
+            "tags": [
+                "dev"
+            ],
+            "tools": [
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-dev-0.16.json",
+                    "toolId": "ziptest",
+                    "versionBranch": "0.5.x",
+                    "tags": [
+                        "testing",
+                        "dev"
+                    ],
+                    "visiblity": "low"
+                }
+            ]
+        }
+    }
+}

@@ -45,6 +45,21 @@ https://lightningrodlabs.org/weave-tool-curation/<version>/tool-list-<version>.j
 
 for example `https://lightningrodlabs.org/weave-tool-curation/0.15/curations-0.15.json`.
 
+## Dev curation lists
+
+Each version directory also contains a separate **dev** curation list for publishing
+in-development builds of Tools, deployed alongside the stable lists:
+
+```
+https://lightningrodlabs.org/weave-tool-curation/<version>/curations-dev-<version>.json
+https://lightningrodlabs.org/weave-tool-curation/<version>/tool-list-dev-<version>.json
+```
+
+The dev list is a **separate curation source** — it is not part of the default Lightningrod Labs
+curation. To use it, add the `curations-dev-<version>.json` URL as an additional curation list in
+Moss. Users who don't add it never see the dev Tools. Dev versions are unstable and may break or
+change without notice. See each version directory's `README.md` for how to edit the dev lists.
+
 **When adding a new Moss version directory, the `Move lists to static directory` step in
 [`publish.yaml`](./.github/workflows/publish.yaml) must be updated to copy it** — the step lists
 each version explicitly, so a new directory is not deployed until it is added there.

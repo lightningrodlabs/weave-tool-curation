@@ -6,7 +6,9 @@
     "test": "node --loader ts-node/esm ./validate-lists.js",
     "write-curation-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-curation-list.js",
     "write-collective-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-collective-list.js",
-    "write-lists": "npm run write-curation-list && npm run write-collective-list && npm run test"
+    "write-dev-curation-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-dev-curation-list.js",
+    "write-dev-collective-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-dev-collective-list.js",
+    "write-lists": "npm run write-curation-list && npm run write-collective-list && npm run write-dev-curation-list && npm run write-dev-collective-list && npm run test"
   },
   "author": "",
   "license": "ISC",
