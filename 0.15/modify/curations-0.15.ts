@@ -188,6 +188,20 @@ export default defineCurationLists({
         },
         {
           toolListUrl:
+            "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.15/lists/tool-list-0.15.json",
+          toolId: "matthme.rhymez",
+          versionBranch: "0.2.x",
+          tags: ["chat", "messages", "message", "threads", "channels"],
+        },
+        {
+          toolListUrl:
+            "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.15/lists/tool-list-0.15.json",
+          toolId: "matthme.wordcondenser",
+          versionBranch: "0.3.x",
+          tags: ["language", "words", "condensing"],
+        },
+        {
+          toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
           toolId: "emergence",
           versionBranch: "0.5.x",
