@@ -14,18 +14,7 @@
             "tags": [
                 "dev"
             ],
-            "tools": [
-                {
-                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-dev-0.16.json",
-                    "toolId": "ziptest",
-                    "versionBranch": "0.5.x",
-                    "tags": [
-                        "testing",
-                        "dev"
-                    ],
-                    "visiblity": "low"
-                }
-            ]
+            "tools": []
         }
     }
 }

@@ -19,7 +19,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "ziptest",
-          versionBranch: "0.5.x",
+          versionBranch: "0.6.x",
           tags: ["testing"],
           visiblity: "low",
         },

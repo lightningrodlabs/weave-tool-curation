@@ -16,16 +16,7 @@ export default defineCurationLists({
       description:
         "Curation List of in-development Tools from Lightningrod Labs (Moss 0.16)",
       tags: ["dev"],
-      tools: [
-        {
-          toolListUrl:
-            "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-dev-0.16.json",
-          toolId: "ziptest",
-          versionBranch: "0.5.x",
-          tags: ["testing", "dev"],
-          visiblity: "low",
-        },
-      ],
+      tools: [],
     },
   },
 });
