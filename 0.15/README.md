@@ -45,3 +45,27 @@ and they need to match with how Moss computes them.
 3. run `npm run test` to run basic validity checks for the generated json file.
 4. Make a PR with the new change
 
+## Dev Curation List
+
+Alongside the stable lists, this folder also contains a separate **dev** curation list and dev
+Tools list for publishing in-development builds:
+
+- Source: `./modify/curations-dev-0.15.ts` and `./modify/tool-list-dev-0.15.ts`
+- Generated: `./lists/curations-dev-0.15.json` and `./lists/tool-list-dev-0.15.json`
+- Deployed:
+  - `https://lightningrodlabs.org/weave-tool-curation/0.15/curations-dev-0.15.json`
+  - `https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-dev-0.15.json`
+
+The dev list is a **separate curation source**: it is not part of the default Lightningrod Labs
+curation. To see the dev Tools in Moss, add the dev curations URL above as an additional curation
+list in Moss. Users who do not add it never see the dev Tools.
+
+To modify the dev lists, edit the `*-dev-0.15.ts` files and run `npm run write-lists` (which
+regenerates and validates both the stable and dev lists), then make a PR.
+
+> [!WARNING]
+> Dev versions are unstable and may break or change without notice. Publish multiple
+> in-development builds under distinct semver versions (e.g. `0.5.0-dev.0`, `0.5.0-dev.1`). The dev
+> list intentionally relaxes the "same `happSha256` across a versionBranch" check that the stable
+> list enforces, since the happ legitimately changes between dev builds.
+

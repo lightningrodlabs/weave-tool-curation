@@ -1,0 +1,15 @@
+import { defineDevCollectiveToolList } from "@theweave/moss-types";
+
+export default defineDevCollectiveToolList({
+  developerCollective: {
+    id: "lightningrodlabs-dev",
+    name: "Lightningrod Labs (Dev)",
+    description:
+      "In-development builds from Lightningrod Labs. Unstable and subject to change.",
+    icon: "https://lightningrodlabs.org/lrl_logo.png",
+    contact: {
+      website: "https://lightningrodlabs.org",
+    },
+  },
+  tools: [],
+});

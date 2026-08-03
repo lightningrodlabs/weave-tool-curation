@@ -50,8 +50,12 @@ jobs:
           cp ./0.14/lists/tool-list-0.14.json ./static/0.14
           cp ./0.15/lists/curations-0.15.json ./static/0.15
           cp ./0.15/lists/tool-list-0.15.json ./static/0.15
+          cp ./0.15/lists/curations-dev-0.15.json ./static/0.15
+          cp ./0.15/lists/tool-list-dev-0.15.json ./static/0.15
           cp ./0.16/lists/curations-0.16.json ./static/0.16
           cp ./0.16/lists/tool-list-0.16.json ./static/0.16
+          cp ./0.16/lists/curations-dev-0.16.json ./static/0.16
+          cp ./0.16/lists/tool-list-dev-0.16.json ./static/0.16
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

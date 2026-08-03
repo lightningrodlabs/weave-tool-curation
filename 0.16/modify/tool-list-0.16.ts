@@ -13,7 +13,7 @@ export default defineDevCollectiveToolList({
   tools: [
     {
       id: "ziptest",
-      versionBranch: "0.5.x",
+      versionBranch: "0.6.x",
       title: "ZipTest",
       subtitle: "Simple performance testing",
       description:
@@ -22,18 +22,18 @@ export default defineDevCollectiveToolList({
       tags: ["testing"],
       versions: [
         {
-          version: "0.5.0-dev.0",
+          version: "0.6.0-dev.0",
           hashes: {
             happSha256:
-              "06d6957ff2812e16f3707315f6ea397260cc2bec690eaba9522b6f30755e8085",
+              "4da017a73dee5e857448b9075a801e23029ab58d4acee50a1f9ae6d7557bb8f3",
             webhappSha256:
-              "f49b368096c2ac4f40a78e1ce56d5cf507331efbe6779d927b17ac44650ee079",
+              "271367169b5ab3e8ec73ae8bd9118b841d000733a5315fbf39dbd0c7a27bde1e",
             uiSha256:
-              "8ed9f60e5eaa484bc350a133cfe4045ccb65b87593c742d44218c1244b1fe0c8",
+              "5482b628a3ebf2189ea27897471b6a5bb691f9c87290245524b7f3cece3090dd",
           },
-          url: "https://github.com/holochain/ziptest/releases/download/v0.5.0-dev.0/ziptest.webhapp",
-          changelog: "Update to holochain 0.7 line",
-          releasedAt: 1779219790524,
+          url: "https://github.com/holochain/ziptest/releases/download/v0.6.0-dev.0/ziptest.webhapp",
+          changelog: "Update to Holochain 0.7.0",
+          releasedAt: 1785789192013,
         },
       ],
     },
