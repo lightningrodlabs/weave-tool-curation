@@ -12,6 +12,31 @@ export default defineDevCollectiveToolList({
   },
   tools: [
     {
+      id: "matthme.presence",
+      versionBranch: "0.15.x",
+      title: "Presence",
+      subtitle: "Video Calls",
+      description: "## Overview\n\nPresence is a peer-to-peer video call and screen sharing tool. WebRTC connections are negotiated directly between participants, with TURN-relay support for restrictive networks and a Holochain-signal audio fallback when WebRTC fails.\n\n## Features\n\n- Multi-party video calls with screen sharing\n- Circle and rectangle viewport modes, plus hide-self\n- Separate, resizable screen-share pane\n- Connection status indicators and TURN-relay detection\n- Asset sharing into rooms\n- Pluggable module system (Stack for raise-hand ordering, count-down timer, etc.)\n- Reset media tracks on the fly\n- Holochain-signals-based audio fallback when WebRTC is blocked",
+      icon: "https://github.com/matthme/presence/blob/main/ui/icon.png?raw=true",
+      tags: ["video calls", "screen sharing"],
+      versions: [
+        {
+          version: "0.15.0",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.15.0/presence.webhapp",
+          hashes: {
+            happSha256:
+              "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
+            webhappSha256:
+              "4e55edf3de7cf232509f46be1757b89374551fcd543ed57a8db22f8dfde0c975",
+            uiSha256:
+              "d255e4bd71a8bd75f58b176c063821f33f128bf4116fa0132c33476cf8b2a948",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. Same feature set as 0.14.9. The Holochain 0.7 DNA upgrade changed the network: 0.15.0 agents cannot see or join rooms with agents on any 0.14.x version, so groups should upgrade together.",
+          releasedAt: 1786118333507,
+        },
+      ],
+    },
+    {
       id: "ziptest",
       versionBranch: "0.6.x",
       title: "ZipTest",
