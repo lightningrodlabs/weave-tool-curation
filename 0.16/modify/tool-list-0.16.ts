@@ -34,6 +34,20 @@ export default defineDevCollectiveToolList({
           changelog: "First release of the Holochain 0.7 line, for Moss 0.16. Same feature set as 0.14.9. The Holochain 0.7 DNA upgrade changed the network: 0.15.0 agents cannot see or join rooms with agents on any 0.14.x version, so groups should upgrade together.",
           releasedAt: 1786118333507,
         },
+        {
+          version: "0.15.1",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.15.1/presence.webhapp",
+          hashes: {
+            happSha256:
+              "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
+            webhappSha256:
+              "a8f4b56ec5d44f65fb9026f128510ff51a3bd2d9c1f9d5ba76cde096016b9ba1",
+            uiSha256:
+              "924a6ad8793ce2418746928c24231e803a15db523c2daab1389c05eb804b7caa",
+          },
+          changelog: "Connection reliability release, root-caused from field diagnostics of a session-wide connection thrash on 0.15.0. Fixes a WebRTC reconnect deadlock where two peers reconnecting at the same time could permanently discard each other's offers; reconnects now back off exponentially and a connection that exhausts its retries fails cleanly and gets rebuilt. Audio/video over Holochain signals adapts its send rate to the measured signal round-trip time and batches voice frames (capability-gated), and redundant ICE candidates are deduplicated — much less signal traffic on degraded networks. A total signal outage no longer empties the room: peers are held present for up to 30s, ending chime storms and tile flapping during network blips. Connection and diagnostics timeouts scale with signal round-trip time. Also updates the profiles library and switches zome post-commit handlers to local gets. Same DNA as 0.15.0 — joins existing rooms, and mixed 0.15.0/0.15.1 rooms keep working.",
+          releasedAt: 1786650680747,
+        },
       ],
     },
     {
