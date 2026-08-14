@@ -1402,6 +1402,17 @@ export default defineDevCollectiveToolList({
           changelog: "Reliability release. Screen sharing moves to the new WebRTC carrier (requires both ends >= 0.14.9; video with 0.14.8 peers still works; 0.14.7 and older fall back to Holochain-signals audio/video). Fixes one-way audio after signal gaps, screen-share maximize blanking the room, module-state flicker, stuck media capture retry, wrong-peer stats, rejoin cooldowns, chime debouncing, video tile re-attach, and several pane teardown leaks. Clearer connection-status reporting and self-declaring diagnostic exports.",
           releasedAt: 1786044323997,
         },
+        {
+          version: "0.14.10",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.10/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "2b8f2ddefd1567576acd87b0090d26932ae519915a4ae275ff80e6988866e729",
+            uiSha256: "75ea8dcc0a5dd785c80be0069634af5c5d84734a355f52cbacae21b41e9bb6ff"
+          },
+          changelog: "Connection reliability release, root-caused from field diagnostics of a session-wide connection thrash. Fixes a WebRTC reconnect deadlock where two peers reconnecting at the same time could permanently discard each other's offers; reconnects now back off exponentially and a connection that exhausts its retries fails cleanly and gets rebuilt. Audio/video over Holochain signals adapts its send rate to the measured signal round-trip time and batches voice frames (capability-gated), and redundant ICE candidates are deduplicated — much less signal traffic on degraded networks. A total signal outage no longer empties the room: peers are held present for up to 30s, ending chime storms and tile flapping during network blips. Connection and diagnostics timeouts scale with signal round-trip time. Fully interoperates with 0.14.9.",
+          releasedAt: 1786650670681,
+        },
       ],
     },
     {
