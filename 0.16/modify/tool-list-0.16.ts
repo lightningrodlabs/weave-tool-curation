@@ -99,6 +99,20 @@ export default defineDevCollectiveToolList({
           changelog: "First release. Experimental: an early build of the Holochain 0.7 line, for Moss 0.16. Same feature set as the 0.15 build, on a different DNA — the two lines are separate networks and cannot see each other.",
           releasedAt: 1787250536000,
         },
+        {
+          version: "0.1.1",
+          url: "https://github.com/lightningrodlabs/ark/releases/download/ark-v0.1.1-hc0.7/ark.webhapp",
+          hashes: {
+            happSha256:
+              "191336d70eaeedb0af1102b8284037c53a0c95ca19c8cd63815bff4e63fcb113",
+            webhappSha256:
+              "a23424488d9e3be7c7ab35d98a81defaff6acbc3bb52121a4348258879b141e7",
+            uiSha256:
+              "f177f121bf936b191ed690eb031fab72ab4fc49fc0892c91b4af0017d678e3d6",
+          },
+          changelog: "UI-only release. Fixes an import that failed on large archives in live Moss: picking a folder read every markdown file at once, which the packaged applet environment refuses at scale, and the failure was swallowed so the panel simply sat there. Reads are now bounded and retried, a failure names the file, and a long run of failures stops early instead of grinding. You can also now pick individual files rather than only a whole folder. Same happ as 0.1.0 — same DNA, same network, so 0.1.0 and 0.1.1 peers stay together.",
+          releasedAt: 1787255794000,
+        },
       ],
     },
   ],
