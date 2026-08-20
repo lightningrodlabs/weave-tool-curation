@@ -1459,5 +1459,30 @@ export default defineDevCollectiveToolList({
         }
       ],
     },
+    {
+      id: "ark",
+      versionBranch: "0.1.x",
+      title: "Ark",
+      subtitle: "An archive for a community's written record",
+      description: "## Overview\n\nArk is an archive for a community's written record — meeting minutes, decisions and reports — held by the group rather than on a server that one person administers. Documents are immutable, as everywhere in Holochain, but amendable: amending publishes a new version and keeps the old, so the record shows both what it says now and what it used to say.\n\n## Features\n\n- Folder tree held as links, separate from the documents, so reorganising never touches a document\n- Amendable documents with version history\n- Full-text search across the whole archive, in the browser — ranked results with snippets, quoted phrases, prefix terms and exclusions\n- Attachments, indexed alongside the documents that carry them\n- Import a directory of markdown with YAML front matter; export the archive back out as the same format\n- Paste from Google Docs, converted to markdown\n- Documents can be added to the Moss pocket and embedded elsewhere\n\n## Status\n\nExperimental. This is an early release and the DNA may change.",
+      icon: "https://github.com/lightningrodlabs/ark/blob/main/ui/icon.png?raw=true",
+      tags: ["archive", "documents", "minutes", "experimental"],
+      versions: [
+        {
+          version: "0.1.0",
+          url: "https://github.com/lightningrodlabs/ark/releases/download/ark-v0.1.0-hc0.6/ark.webhapp",
+          hashes: {
+            happSha256:
+              "42ec54d9a42d9ec9e3cddfaf84be0327fc8c9986482b8ab2b26dd9ddf73fc43c",
+            webhappSha256:
+              "4bf59a833d0e3bf2dce44fdfb46036e1043c504db20f053ccf9b54e1f5139118",
+            uiSha256:
+              "b9302bed70779d365ec5c0a983bad8ab6b67c56b50d16e52c75826b8adf62b72",
+          },
+          changelog: "First release. Experimental: an early build of the Holochain 0.6 line, for Moss 0.15. The DNA may change between releases, which would mean a new network rather than an upgrade of the existing one.",
+          releasedAt: 1787250535000,
+        },
+      ],
+    },
   ],
 });

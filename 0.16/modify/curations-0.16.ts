@@ -30,6 +30,13 @@ export default defineCurationLists({
           tags: ["testing"],
           visiblity: "low",
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
+          toolId: "ark",
+          versionBranch: "0.1.x",
+          tags: ["archive", "documents", "minutes", "experimental"],
+        },
       ],
     },
   },
