@@ -316,6 +316,13 @@ export default defineCurationLists({
           tags: ["games"],
           visiblity: "low",
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+          toolId: "ark",
+          versionBranch: "0.1.x",
+          tags: ["archive", "documents", "minutes", "experimental"],
+        },
       ],
     },
   },

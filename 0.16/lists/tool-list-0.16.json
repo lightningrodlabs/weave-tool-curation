@@ -68,6 +68,33 @@
                     "releasedAt": 1785789192013
                 }
             ]
+        },
+        {
+            "id": "ark",
+            "versionBranch": "0.1.x",
+            "title": "Ark",
+            "subtitle": "An archive for a community's written record",
+            "description": "## Overview\n\nArk is an archive for a community's written record — meeting minutes, decisions and reports — held by the group rather than on a server that one person administers. Documents are immutable, as everywhere in Holochain, but amendable: amending publishes a new version and keeps the old, so the record shows both what it says now and what it used to say.\n\n## Features\n\n- Folder tree held as links, separate from the documents, so reorganising never touches a document\n- Amendable documents with version history\n- Full-text search across the whole archive, in the browser — ranked results with snippets, quoted phrases, prefix terms and exclusions\n- Attachments, indexed alongside the documents that carry them\n- Import a directory of markdown with YAML front matter; export the archive back out as the same format\n- Paste from Google Docs, converted to markdown\n- Documents can be added to the Moss pocket and embedded elsewhere\n\n## Status\n\nExperimental. This is an early release and the DNA may change.",
+            "icon": "https://github.com/lightningrodlabs/ark/blob/main/ui/icon.png?raw=true",
+            "tags": [
+                "archive",
+                "documents",
+                "minutes",
+                "experimental"
+            ],
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "url": "https://github.com/lightningrodlabs/ark/releases/download/ark-v0.1.0-hc0.7/ark.webhapp",
+                    "hashes": {
+                        "happSha256": "191336d70eaeedb0af1102b8284037c53a0c95ca19c8cd63815bff4e63fcb113",
+                        "webhappSha256": "bb1689f94c8aacad2a399cee4df165574a4669d1fa747b57b5613f4bcda2f312",
+                        "uiSha256": "decec05a50521a48ccb2504103f9448a63a9622d9008e2c147eaa0d275e4f034"
+                    },
+                    "changelog": "First release. Experimental: an early build of the Holochain 0.7 line, for Moss 0.16. Same feature set as the 0.15 build, on a different DNA — the two lines are separate networks and cannot see each other.",
+                    "releasedAt": 1787250536000
+                }
+            ]
         }
     ]
 }
