@@ -1546,6 +1546,17 @@
                     },
                     "changelog": "UI-only release. Fixes an import that failed on large archives in live Moss: picking a folder read every markdown file at once, which the packaged applet environment refuses at scale, and the failure was swallowed so the panel simply sat there. Reads are now bounded and retried, a failure names the file, and a long run of failures stops early instead of grinding. You can also now pick individual files rather than only a whole folder. Same happ as 0.1.0 — same DNA, same network, so 0.1.0 and 0.1.1 peers stay together.",
                     "releasedAt": 1787255792000
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https://github.com/lightningrodlabs/ark/releases/download/ark-v0.1.2-hc0.6/ark.webhapp",
+                    "hashes": {
+                        "happSha256": "42ec54d9a42d9ec9e3cddfaf84be0327fc8c9986482b8ab2b26dd9ddf73fc43c",
+                        "webhappSha256": "377512b1fa37a509de9fa8bcbf36d86f79f565b6cdf7203aec643024108b55df",
+                        "uiSha256": "31d805c0e5478e5032b257b64470b3decde7ea49e9afb6de957ac3e7ff5950ad"
+                    },
+                    "changelog": "Search release. Results that matched only approximately are no longer returned unexplained: a query is answered exactly by default, and near matches appear only when nothing matched exactly — labelled, and with the word that actually matched highlighted in both the result and the document. A new Near matches setting offers Only when nothing matches (default), Always — which surfaces misspellings in the archive itself, kept separate and ordered after the exact hits — and Never. Search results now continue past the first fifty. The Filters control is a real toggle that shows when a filter is active. Same happ as 0.1.0 and 0.1.1 — same DNA, same network.",
+                    "releasedAt": 1787266338000
                 }
             ]
         }

@@ -113,6 +113,20 @@ export default defineDevCollectiveToolList({
           changelog: "UI-only release. Fixes an import that failed on large archives in live Moss: picking a folder read every markdown file at once, which the packaged applet environment refuses at scale, and the failure was swallowed so the panel simply sat there. Reads are now bounded and retried, a failure names the file, and a long run of failures stops early instead of grinding. You can also now pick individual files rather than only a whole folder. Same happ as 0.1.0 — same DNA, same network, so 0.1.0 and 0.1.1 peers stay together.",
           releasedAt: 1787255794000,
         },
+        {
+          version: "0.1.2",
+          url: "https://github.com/lightningrodlabs/ark/releases/download/ark-v0.1.2-hc0.7/ark.webhapp",
+          hashes: {
+            happSha256:
+              "191336d70eaeedb0af1102b8284037c53a0c95ca19c8cd63815bff4e63fcb113",
+            webhappSha256:
+              "db7d341bb5258cb1a1ffbf681c71934637ced1eb7a4bdb40ab1408f6164e866b",
+            uiSha256:
+              "204d7c50b5ca645f012d92600be5191c25070ea0357c6b23bb801e5b222f9f7a",
+          },
+          changelog: "Search release. Results that matched only approximately are no longer returned unexplained: a query is answered exactly by default, and near matches appear only when nothing matched exactly \u2014 labelled, and with the word that actually matched highlighted in both the result and the document. A new Near matches setting offers Only when nothing matches (default), Always \u2014 which surfaces misspellings in the archive itself, kept separate and ordered after the exact hits \u2014 and Never. Search results now continue past the first fifty. The Filters control is a real toggle that shows when a filter is active. Same happ as 0.1.0 and 0.1.1 \u2014 same DNA, same network.",
+          releasedAt: 1787266339000,
+        },
       ],
     },
   ],
