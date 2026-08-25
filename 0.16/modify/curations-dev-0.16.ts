@@ -16,7 +16,15 @@ export default defineCurationLists({
       description:
         "Curation List of in-development Tools from Lightningrod Labs (Moss 0.16)",
       tags: ["dev"],
-      tools: [],
+      tools: [
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-dev-0.16.json",
+          toolId: "oww-workshop",
+          versionBranch: "0.1.x",
+          tags: ["writing", "fiction", "peer review", "experimental"],
+        },
+      ],
     },
   },
 });
