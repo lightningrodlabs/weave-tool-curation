@@ -53,9 +53,9 @@ export default defineDevCollectiveToolList({
           url: "https://github.com/lightningrodlabs/presence/releases/download/v0.15.2/presence.webhapp",
           hashes: {
             happSha256:
-              "c1226d654e6590747462af365dced35f034434a56390c8d34e05822a9168fb9f",
+              "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
             webhappSha256:
-              "9a670b866bd8944d71bfa166c20b72bd9c04cc5145a869f97bc173e88080dd49",
+              "a199ce46934548d2f21ff6f955c5b33df61479a27a85f7c387bce1ca6e6320a9",
             uiSha256:
               "367e183cc1ccbb8a2ac2139b8d4f109cd5018d22d1fefcaf5530024c56568983",
           },
