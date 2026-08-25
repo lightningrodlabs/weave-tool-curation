@@ -48,6 +48,20 @@ export default defineDevCollectiveToolList({
           changelog: "Connection reliability release, root-caused from field diagnostics of a session-wide connection thrash on 0.15.0. Fixes a WebRTC reconnect deadlock where two peers reconnecting at the same time could permanently discard each other's offers; reconnects now back off exponentially and a connection that exhausts its retries fails cleanly and gets rebuilt. Audio/video over Holochain signals adapts its send rate to the measured signal round-trip time and batches voice frames (capability-gated), and redundant ICE candidates are deduplicated — much less signal traffic on degraded networks. A total signal outage no longer empties the room: peers are held present for up to 30s, ending chime storms and tile flapping during network blips. Connection and diagnostics timeouts scale with signal round-trip time. Also updates the profiles library and switches zome post-commit handlers to local gets. Same DNA as 0.15.0 — joins existing rooms, and mixed 0.15.0/0.15.1 rooms keep working.",
           releasedAt: 1786650680747,
         },
+        {
+          version: "0.15.2",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.15.2/presence.webhapp",
+          hashes: {
+            happSha256:
+              "c1226d654e6590747462af365dced35f034434a56390c8d34e05822a9168fb9f",
+            webhappSha256:
+              "9a670b866bd8944d71bfa166c20b72bd9c04cc5145a869f97bc173e88080dd49",
+            uiSha256:
+              "367e183cc1ccbb8a2ac2139b8d4f109cd5018d22d1fefcaf5530024c56568983",
+          },
+          changelog: "Packaging correctness release. A dependency-resolution fault made the 0.15.0 and 0.15.1 builds bundle an older WebRTC library, so the reconnection fixes announced in 0.15.1 (the mutual-reconnect deadlock fix, exponential backoff, ICE candidate deduplication, and clean retry-exhaustion failure) were not actually active in the field. 0.15.2 is the first build that really ships them, with a build-time guard so the bundled library version cannot silently diverge again. Also improves exported diagnostics: per-peer signals-video receive stats, and shared diagnostic snapshots carry 5x more history. Profile fix: the nickname now shows when a profile has no avatar image. Same DNA as 0.15.0/0.15.1 — joins existing rooms, and mixed 0.15.x rooms keep working.",
+          releasedAt: 1787677069129,
+        },
       ],
     },
     {
