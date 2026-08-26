@@ -53,6 +53,17 @@
                     },
                     "changelog": "Packaging correctness release. A dependency-resolution fault made the 0.15.0 and 0.15.1 builds bundle an older WebRTC library, so the reconnection fixes announced in 0.15.1 (the mutual-reconnect deadlock fix, exponential backoff, ICE candidate deduplication, and clean retry-exhaustion failure) were not actually active in the field. 0.15.2 is the first build that really ships them, with a build-time guard so the bundled library version cannot silently diverge again. Also improves exported diagnostics: per-peer signals-video receive stats, and shared diagnostic snapshots carry 5x more history. Profile fix: the nickname now shows when a profile has no avatar image. Same DNA as 0.15.0/0.15.1 — joins existing rooms, and mixed 0.15.x rooms keep working.",
                     "releasedAt": 1787677069129
+                },
+                {
+                    "version": "0.15.3",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.15.3/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
+                        "webhappSha256": "8d0d29f0bb69d0c995e73ce22f1307bb027f69c00232e848297de1011c6dc37a",
+                        "uiSha256": "02e1bb16113ef3313290ee2f251e1e55d526d9b7a677cdc04faa2600a5bc98bc"
+                    },
+                    "changelog": "Video display fix release. After a call switched from signal-carried video to a direct WebRTC connection, a frozen frame of the low-fi filmstrip video could stay painted over the live video, making the peer appear frozen until the pane was rebuilt. Two causes, both fixed: a stop/decode race let a stale filmstrip frame repaint after its clear and never be cleared again, and a CSS paint-order bug drew the filmstrip overlay above the video element, so any held filmstrip frame briefly covered live video even on the normal path. Live WebRTC video now paints above the filmstrip. UI-only change: same DNA as 0.15.0-0.15.2 and the app bundle is byte-identical to 0.15.2's, so this arrives as an in-place update and mixed 0.15.x rooms keep working.",
+                    "releasedAt": 1787766971909
                 }
             ]
         },
