@@ -64,6 +64,17 @@
                     },
                     "changelog": "Video display fix release. After a call switched from signal-carried video to a direct WebRTC connection, a frozen frame of the low-fi filmstrip video could stay painted over the live video, making the peer appear frozen until the pane was rebuilt. Two causes, both fixed: a stop/decode race let a stale filmstrip frame repaint after its clear and never be cleared again, and a CSS paint-order bug drew the filmstrip overlay above the video element, so any held filmstrip frame briefly covered live video even on the normal path. Live WebRTC video now paints above the filmstrip. UI-only change: same DNA as 0.15.0-0.15.2 and the app bundle is byte-identical to 0.15.2's, so this arrives as an in-place update and mixed 0.15.x rooms keep working.",
                     "releasedAt": 1787766971909
+                },
+                {
+                    "version": "0.15.4",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.15.4/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
+                        "webhappSha256": "a7d34c69915419cd09dea881ac7b229a21d68bb1f5794d4798e662c1ab8a2cbc",
+                        "uiSha256": "287a6112bf6ec60fa1fbc449587667c341784accacd48940073027a9c244fa4a"
+                    },
+                    "changelog": "Voice fix release. After switching from a direct WebRTC connection back to signal-carried audio, one direction of voice could stay silent for up to a minute (exactly as long as the previous signal-carried stint, worsening with each switch): the sender restarts its voice numbering on every capture stop, and the receiver's duplicate filter silently discarded the restarted stream until its numbers caught up. Voice frames now carry a capture-session marker, so a restarted stream is picked up immediately and stale packets from an old stream are dropped instead of replayed. UI-only change: same DNA and byte-identical app bundle as 0.15.2/0.15.3 — arrives as an in-place update; older 0.15.x peers interoperate (they simply keep the old behavior when sending).",
+                    "releasedAt": 1787775984535
                 }
             ]
         },
