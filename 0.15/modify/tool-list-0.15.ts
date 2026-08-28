@@ -1413,6 +1413,17 @@ export default defineDevCollectiveToolList({
           changelog: "Connection reliability release, root-caused from field diagnostics of a session-wide connection thrash. Fixes a WebRTC reconnect deadlock where two peers reconnecting at the same time could permanently discard each other's offers; reconnects now back off exponentially and a connection that exhausts its retries fails cleanly and gets rebuilt. Audio/video over Holochain signals adapts its send rate to the measured signal round-trip time and batches voice frames (capability-gated), and redundant ICE candidates are deduplicated — much less signal traffic on degraded networks. A total signal outage no longer empties the room: peers are held present for up to 30s, ending chime storms and tile flapping during network blips. Connection and diagnostics timeouts scale with signal round-trip time. Fully interoperates with 0.14.9.",
           releasedAt: 1786650670681,
         },
+        {
+          version: "0.14.11",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.11/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "9baafc4baca7c78bb8a3b46e48c61c2ac792cfcd30b93cbb832d2c66b22b5dd3",
+            uiSha256: "111acaab60abbdbc42428130f088e2b6caeefa5f9d631fb0095378122d6efc11"
+          },
+          changelog: "Connection and audio fix release. The connection-reliability fixes announced in 0.14.10 were never actually active in the field: a dependency-resolution fault made every build bundle an older WebRTC library, so the mutual-reconnect deadlock fix, exponential reconnect backoff, ICE candidate deduplication and clean retry-exhaustion failure only start working with this build (a build-time guard now prevents the divergence recurring). Also fixes voice going silent in one direction after switching from a direct WebRTC connection back to signal-carried audio — silence lasting as long as the previous signal-carried stint and worsening with each switch, because the receiver's duplicate filter discarded the sender's restarted stream; voice frames now carry a capture-session marker. A frozen low-fi filmstrip frame could also stay painted over live WebRTC video, making a peer appear frozen; live video now paints above the filmstrip. The nickname shows when a profile has no avatar image, and exported diagnostics carry signals-video receive stats and 5x more history.",
+          releasedAt: 1787930169357,
+        },
       ],
     },
     {
