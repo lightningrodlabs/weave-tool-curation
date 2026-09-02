@@ -90,6 +90,20 @@ export default defineDevCollectiveToolList({
           changelog: "Voice fix release. After switching from a direct WebRTC connection back to signal-carried audio, one direction of voice could stay silent for up to a minute (exactly as long as the previous signal-carried stint, worsening with each switch): the sender restarts its voice numbering on every capture stop, and the receiver's duplicate filter silently discarded the restarted stream until its numbers caught up. Voice frames now carry a capture-session marker, so a restarted stream is picked up immediately and stale packets from an old stream are dropped instead of replayed. UI-only change: same DNA and byte-identical app bundle as 0.15.2/0.15.3 — arrives as an in-place update; older 0.15.x peers interoperate (they simply keep the old behavior when sending).",
           releasedAt: 1787775984535,
         },
+        {
+          version: "0.15.5",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.15.5/presence.webhapp",
+          hashes: {
+            happSha256:
+              "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
+            webhappSha256:
+              "7674a30c8cee209ae2c5db339da9755ec4beb9ba6054a3f6fff52f4af54cbc01",
+            uiSha256:
+              "083fea1bfeb7e108c616e9477b7db3177f28634d68180e00c441ca1d62b051fc",
+          },
+          changelog: "Recovery and visibility release. A microphone or camera that died outside the app — OS revoke, unplug, another app taking the device — used to stay dead until you left and rejoined the room; capture state is now reconciled against what you asked for on every presence tick and the device is re-opened automatically. Video no longer fails to start with a peer whose capabilities were still in flight when you joined. And whatever the app cannot deliver is now shown instead of failing silently: mic/camera buttons badge an unavailable device and say whether it is still retrying, peer tiles say what connection is being established, and a room banner appears while the Holochain signal carrier is down.",
+          releasedAt: 1788355222979,
+        },
       ],
     },
     {
