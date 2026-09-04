@@ -104,6 +104,20 @@ export default defineDevCollectiveToolList({
           changelog: "Recovery and visibility release. A microphone or camera that died outside the app — OS revoke, unplug, another app taking the device — used to stay dead until you left and rejoined the room; capture state is now reconciled against what you asked for on every presence tick and the device is re-opened automatically. Video no longer fails to start with a peer whose capabilities were still in flight when you joined. And whatever the app cannot deliver is now shown instead of failing silently: mic/camera buttons badge an unavailable device and say whether it is still retrying, peer tiles say what connection is being established, and a room banner appears while the Holochain signal carrier is down.",
           releasedAt: 1788355222979,
         },
+        {
+          version: "0.15.6",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.15.6/presence.webhapp",
+          hashes: {
+            happSha256:
+              "e707d8960e209e58043ea54cdf8347b5e5ba2b797613bbf41fca7e905d8823db",
+            webhappSha256:
+              "22cbef8c3e0e5b6d70cd20d99c72a9bb50ec98516e704242577ec2249129ceb2",
+            uiSha256:
+              "4d3764bf471423a1c5113b46adc35def0e2f80870ef0359358c094b413844a1f",
+          },
+          changelog: "Maintenance release. No user-visible changes: this ships a large internal restructuring of the connection and presence code — one per-peer state record in place of eighteen parallel maps, and the media, presence, screen-share, diagnostics and device concerns each moved into their own module — which makes future connection fixes safer to make and easier to review. Same DNA and byte-identical app bundle as 0.15.0-0.15.5 — arrives as an in-place update, joins existing rooms, and interoperates with every 0.15.x peer in both directions.",
+          releasedAt: 1788553508356,
+        },
       ],
     },
     {
