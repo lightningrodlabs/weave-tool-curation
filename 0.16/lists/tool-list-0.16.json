@@ -172,6 +172,31 @@
                     "releasedAt": 1787266339000
                 }
             ]
+        },
+        {
+            "id": "notebooks",
+            "versionBranch": "0.7.x",
+            "title": "Notebooks",
+            "subtitle": "Collaborative MarkDown editor",
+            "description": "## Overview\n\nNotebooks is a real-time collaborative Markdown editor with built-in versioning. Multiple participants can edit the same document together with live cursors and choose between raw Markdown or a rich text view.\n\n## Features\n\n- Real-time multi-user editing with live participant cursors\n- Markdown and rich text (ProseMirror) editing modes\n- Rich text image support\n- Adjustable Markdown editor width\n- Undo/redo and tab key support in rich text\n- Participant online/offline indicators\n- Built-in version control of documents",
+            "icon": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.0/notebooks_logo.png",
+            "tags": [
+                "markdown",
+                "real-time editor"
+            ],
+            "versions": [
+                {
+                    "version": "0.7.0",
+                    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.7.0/notebooks.webhapp",
+                    "hashes": {
+                        "happSha256": "3939d93004e996412c616c2582e01b20368372402ba50c86a2d1c7188ba5141a",
+                        "webhappSha256": "9955c6acd66ef84532337f83487e9f8f5d4ec6e2d763c2a86d179f366008210f",
+                        "uiSha256": "8d7b122007f0b21f873db490b832f4bff4acc3d8369a6ee3bfc57ebf5af12100"
+                    },
+                    "changelog": "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.7.x agents cannot see notes from any 0.6.x version, so groups should upgrade together. Use Settings → Export/Import to carry notes across.",
+                    "releasedAt": 1788807604000
+                }
+            ]
         }
     ]
 }
