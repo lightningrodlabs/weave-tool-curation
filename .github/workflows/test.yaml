@@ -18,16 +18,16 @@ jobs:
         with:
           node-version: 20
 
-      - name: "Test Moss 0.13 lists"
+      - name: "Test Moss 0.15 lists"
         run: |
-          cd ./0.13
+          cd ./0.15
           npm install
           npm run test
           cd ..
 
-      - name: "Test Moss 0.14 lists"
+      - name: "Test Moss 0.16 lists"
         run: |
-          cd ./0.14
+          cd ./0.16
           npm install
           npm run test
           cd ..
