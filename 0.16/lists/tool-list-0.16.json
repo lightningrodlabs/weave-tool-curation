@@ -250,6 +250,33 @@
                     "releasedAt": 1788812120000
                 }
             ]
+        },
+        {
+            "id": "talking-stickies",
+            "versionBranch": "0.16.x",
+            "title": "TalkingStickies",
+            "subtitle": "Real-time stickies boards",
+            "description": "## Overview\n\nTalkingStickies is a real-time collaborative stickies board for ideation, retros, brainstorming, and shared note-taking. Drop stickies, organize them into groups, and watch collaborators move them around live.\n\n## Features\n\n- Real-time multi-user sticky boards\n- Multiple boards per group\n- Color-coded stickies and grouping\n- Live participant indicators\n- Lightweight, fast collaboration powered by Syn\n- Peer-to-peer, no central server",
+            "icon": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
+            "tags": [
+                "notes",
+                "stickies",
+                "ideation",
+                "boards"
+            ],
+            "versions": [
+                {
+                    "version": "0.16.0",
+                    "url": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.16.0/talking-stickies.webhapp",
+                    "hashes": {
+                        "happSha256": "54b29d444ac5dbccd810c0680fe00db89c98757e09d0a639aeaa0bcd67c8f00a",
+                        "webhappSha256": "1dcfd725ffd5637ec0757d6d761a8f540bc718c8eea9893ed1ee79cd3cbdd201",
+                        "uiSha256": "cb8f7d2d3ab59c64eb3901db29b3858333c96d0a69419c96e0302336410b0ed7"
+                    },
+                    "changelog": "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.16.x agents cannot see boards or stickies from any 0.15.x version, so groups should upgrade together. Use the board menu’s Export and the About dialog’s Import to carry boards across. Also fixes Moss search, which threw on every query on the 0.15.x line.",
+                    "releasedAt": 1788812986000
+                }
+            ]
         }
     ]
 }
