@@ -225,6 +225,31 @@
                     "releasedAt": 1788809424000
                 }
             ]
+        },
+        {
+            "id": "kando",
+            "versionBranch": "0.18.x",
+            "title": "KanDo",
+            "subtitle": "Real-time KanBan boards",
+            "description": "## Overview\n\nKanDo is a real-time collaborative KanBan board for lightweight project tracking. Everyone in the group sees and edits the same board live, with rich card details for organizing work.\n\n## Features\n\n- Real-time multi-user board editing\n- Cards with comments, labels, categories, and checklists\n- Markdown support in card descriptions and comments\n- Filter cards by assigned member\n- Archived column toggle\n- Add checklist items directly from the new-card dialog\n- Unified profiles across Weave groups\n- Android-compatible build",
+            "icon": "https://theweave.social/images/kando_icon.png",
+            "tags": [
+                "kanban",
+                "project management"
+            ],
+            "versions": [
+                {
+                    "version": "0.18.0",
+                    "url": "https://github.com/holochain-apps/kando/releases/download/v0.18.0/kando.webhapp",
+                    "hashes": {
+                        "happSha256": "f29edf473aed3d4f659f135bf95735c99c6e7b3484730400cc64e97fe2a5199a",
+                        "webhappSha256": "81661ef9582eba015e2cbb7f96953ff73786fe9dfec4b6e450abcafa3cce12d2",
+                        "uiSha256": "a47112ef4a195f83622d001937ebd0c8f973eb3496d71fbacf0168f084844b9c"
+                    },
+                    "changelog": "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.18.x agents cannot see boards from any 0.17.x version, so groups should upgrade together. Use Settings → Export All Boards / Import Boards to carry boards across.",
+                    "releasedAt": 1788812120000
+                }
+            ]
         }
     ]
 }

@@ -52,6 +52,13 @@ export default defineCurationLists({
           tags: ["conference", "events", "scheduling", "notes", "collaboration"],
           visiblity: "low",
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
+          toolId: "kando",
+          versionBranch: "0.18.x",
+          tags: ["kanban", "project management"],
+        },
       ],
     },
   },
