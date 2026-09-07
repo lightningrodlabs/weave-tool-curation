@@ -222,5 +222,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "emergence",
+      versionBranch: "0.6.x",
+      title: "Emergence",
+      subtitle: "Conference and event management",
+      description: "## Overview\n\nEmergence is a peer-to-peer tool for organizing conferences, unconferences, and events. It coordinates sessions, spaces, and attendees while letting participants take collaborative notes in-session.\n\n## Features\n\n- Session creation and scheduling across time slots\n- Physical space and room management\n- Attendee sign-ups and interest tracking per session\n- Collaborative note-taking on each session\n- Steward role for event coordinators\n- Designed for distributed, in-person events",
+      icon: "https://github.com/holochain-apps/emergence/releases/download/v0.5.0/emergence_icon.png",
+      tags: ["conference", "events", "scheduling", "notes", "collaboration"],
+      versions: [
+        {
+          version: "0.6.0",
+          url: "https://github.com/holochain-apps/emergence/releases/download/v0.6.0/emergence.webhapp",
+          hashes: {
+            happSha256:
+              "45d72b1f50afae97e950938c18dba8ec1d1f549da521754b80c081a6ea794c28",
+            webhappSha256: "70d4994ca01a733fcd6e1225e908cb11cd09df119161266c5ce8e90cf95f0c37",
+            uiSha256: "9082ddb50b6a51a5cb87a03ee7ab5a53e4007302df7b0d79331d887aaa77e942",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.6.x agents cannot see sessions, spaces or notes from any 0.5.x version, so groups should upgrade together. Use the Admin panel\u2019s Import/Export to carry event data across.",
+          releasedAt: 1788809424000,
+        },
+      ],
+    },
   ],
 });
