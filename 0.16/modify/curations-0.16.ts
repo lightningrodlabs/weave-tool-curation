@@ -42,7 +42,7 @@ export default defineCurationLists({
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "notebooks",
           versionBranch: "0.7.x",
-          tags: ["collaborative text editing"],
+          tags: ["markdown", "real-time editor"],
         },
       ],
     },

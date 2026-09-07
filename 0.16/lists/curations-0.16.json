@@ -47,7 +47,8 @@
                     "toolId": "notebooks",
                     "versionBranch": "0.7.x",
                     "tags": [
-                        "collaborative text editing"
+                        "markdown",
+                        "real-time editor"
                     ]
                 }
             ]
