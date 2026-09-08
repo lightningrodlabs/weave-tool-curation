@@ -416,6 +416,30 @@
                     "releasedAt": 1788904771000
                 }
             ]
+        },
+        {
+            "id": "glass-bead-game",
+            "versionBranch": "0.4.x",
+            "title": "Glass Bead Game",
+            "subtitle": "A turn-based game of co-creation which, like brainstorming, facilitates the generation of creative ideas.",
+            "description": "## Overview\n\nThe Glass Bead Game is a turn-based game of co-creation that, like brainstorming, facilitates the generation of creative ideas. It focuses on making space for every player to contribute and encourages deep listening for collaborative meaning-making — and it's really fun.\n\nThis incarnation of the Glass Bead Game was originally developed by James and Gnoman for [weco.io](https://www.weco.io/s/all/about).\n\n## Features\n\n- Turn-based co-creative gameplay\n- Round structure that ensures every player contributes\n- Topic-driven creative play\n- Lightweight, low-stakes ideation tool\n- Designed to support deep listening and meaning-making\n- Multiplayer over Holochain — no host or central server",
+            "icon": "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.3.0/game.png",
+            "tags": [
+                "games"
+            ],
+            "versions": [
+                {
+                    "version": "0.4.0",
+                    "url": "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.4.0/glassbeadgame.webhapp",
+                    "hashes": {
+                        "happSha256": "45999d1a812c7de718f49a974fe667ca1d8ca1d8599cc4e468b0fdc85faeac68",
+                        "webhappSha256": "33086a5b7a48ce71970b40047646a97c1251e1665918df3a60d31e5dbe0224a9",
+                        "uiSha256": "d0eb769a34d822f22d4fff73355aeb13edabe4a72e0ca58625822b4bdaf7f0af"
+                    },
+                    "changelog": "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.4.x agents cannot see games from any 0.3.x version, so groups should upgrade together.",
+                    "releasedAt": 1788905178000
+                }
+            ]
         }
     ]
 }
