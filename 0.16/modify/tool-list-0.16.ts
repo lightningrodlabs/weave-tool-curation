@@ -314,5 +314,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "whosin",
+      versionBranch: "0.3.x",
+      title: "Who's In?",
+      subtitle: "Scheduling events and tracking agreements",
+      description: "## Overview\n\nWho's In? is a distributed tool for event planning, task management, and tracking group commitments. It helps groups coordinate who's doing what, by when \u2014 without a central scheduler.\n\n## Features\n\n- Event scheduling with attendee sign-ups\n- Task assignments and tracking\n- Agreement and commitment tracking\n- Calendar-style coordination\n- Weave Asset integration for shared event objects\n- Peer-to-peer coordination across the group",
+      icon: "https://github.com/lightningrodlabs/whos-in/blob/0.1.2/we_dev/whosin.png?raw=true",
+      tags: ["collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"],
+      versions: [
+        {
+          version: "0.3.0",
+          url: "https://github.com/lightningrodlabs/whos-in/releases/download/v0.3.0/whosin.webhapp",
+          hashes: {
+            happSha256:
+              "ae5481b224e24c90cc478543604031a09d0b85ac0ee3b948a88d450dc1cce445",
+            webhappSha256: "e76a07ecbef4b1cd8765b9b4092597abed71e45af4a24ed2a36d38d265ea857e",
+            uiSha256: "09324cac30c9c673144e017570fca171287a180e91f45bde80a09c1f2f8ab0c5",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.3.x agents cannot see coordinations from any 0.2.x version, so groups should upgrade together. Also fixes a startup error that could leave you without a starter availability record, and rebuilds the cross-group view as a read-only merged calendar of your own coordinations across groups.",
+          releasedAt: 1788895155000,
+        },
+      ],
+    },
   ],
 });
