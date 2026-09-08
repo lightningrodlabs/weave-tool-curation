@@ -291,5 +291,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "gamez",
+      versionBranch: "0.10.x",
+      title: "Gamez",
+      subtitle: "Customizable tabletop games",
+      description: "## Overview\n\nGamez is a flexible platform for designing and playing customizable tabletop games with friends. Build your own boards, pieces, and rules \u2014 or play games other people have made.\n\n## Features\n\n- Author custom board games with configurable boards and pieces\n- Real-time multi-player game state\n- Reusable game templates\n- Asset and element support for rich game pieces\n- Peer-to-peer play with no central server",
+      icon: "https://github.com/holochain-apps/gamez/releases/download/v0.9.2/icon.png",
+      tags: ["games", "entertainment", "tabletop"],
+      versions: [
+        {
+          version: "0.10.0",
+          url: "https://github.com/holochain-apps/gamez/releases/download/v0.10.0/gamez.webhapp",
+          hashes: {
+            happSha256:
+              "5fdbe24f794e54b866814997d0ea8bd5aec63f20dbdc22fa5b85fe2dfd7e346a",
+            webhappSha256: "30208d4a392bc5469596ff0748d3234c83c90f23c70446b5f3050a81309e4af2",
+            uiSha256: "ea9a878a33d8762050d809dae7f479b3137d1ad19b373ee5930bc4d5b41872c2",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.10.x agents cannot see game spaces from any 0.9.x version, so groups should upgrade together. Use the Export command in a game\u2019s \u22ef menu on the old install and Import at the top right of the Library panel on the new one to carry a game space across. Board-definition validation is also enforced for the first time on this line; it was silently inactive on 0.9.x.",
+          releasedAt: 1788882247000,
+        },
+      ],
+    },
   ],
 });
