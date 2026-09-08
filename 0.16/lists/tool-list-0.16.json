@@ -390,6 +390,32 @@
                     "releasedAt": 1788900389000
                 }
             ]
+        },
+        {
+            "id": "datatub",
+            "versionBranch": "0.11.x",
+            "title": "DataTub",
+            "subtitle": "Airtable-like data management",
+            "description": "## Overview\n\nDataTub is an Airtable-style data management tool for collaborative tables. Build structured datasets with typed columns and arrange records in different views suitable for your team's workflow.\n\n## Features\n\n- Custom tables with typed columns\n- Multiple view types and custom displays\n- Real-time collaborative editing\n- Template gallery for common use cases\n- Major UI for arranging and filtering records\n- Peer-to-peer storage with no central database",
+            "icon": "https://github.com/lightningrodlabs/tables/blob/main-0.6/weave/datatub2.png?raw=true",
+            "tags": [
+                "data",
+                "management",
+                "collaboration"
+            ],
+            "versions": [
+                {
+                    "version": "0.11.0",
+                    "url": "https://github.com/lightningrodlabs/tables/releases/download/v0.11.0/tables.webhapp",
+                    "hashes": {
+                        "happSha256": "8c4e9a5d29eb3f59cd0a93a8f40c7a64fafe61a56a505eae623c9a99027e6840",
+                        "webhappSha256": "b56d11256ab4153b815e347aa4e9afc40ded765b714385cbebbe4e1b56507322",
+                        "uiSha256": "82bcbf49fcd47c42ad122b934ff6a9fd502355cb9b9c49a60e6817ca5438a5a9"
+                    },
+                    "changelog": "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.11.x agents cannot see tables from any 0.10.x version, so groups should upgrade together. Use a board’s ⋯ menu → Export, and Import on the 0.11.x side, to carry data across.",
+                    "releasedAt": 1788904771000
+                }
+            ]
         }
     ]
 }
