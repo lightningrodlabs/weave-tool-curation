@@ -80,6 +80,13 @@ export default defineCurationLists({
           versionBranch: "0.3.x",
           tags: ["collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"],
         },
+        {
+          toolListUrl:
+            "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
+          toolId: "spreadsheets",
+          versionBranch: "0.3.x",
+          tags: ["spreadsheet", "collaboration", "real-time"],
+        },
       ],
     },
   },
