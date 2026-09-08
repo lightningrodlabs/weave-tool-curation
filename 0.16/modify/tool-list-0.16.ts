@@ -360,5 +360,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "converge",
+      versionBranch: "0.4.x",
+      title: "Converge",
+      subtitle: "A group decision-making tool",
+      description: "## Overview\n\nConverge is a group decision-making tool inspired by Convergent Facilitation (from *The Highest Common Denominator* by Miki Kashtan). Instead of debating whole proposals, groups surface and align on the underlying criteria a good solution must meet \u2014 making it easier to reach decisions everyone can live with.\n\n## Features\n\n- Criteria-first deliberations\n- Proposal scoring against shared criteria\n- Background updating for live deliberations\n- Embeddable deliberation views\n- Designed for NVC, DCAN, and governance contexts\n- Peer-to-peer collaboration",
+      icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
+      tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
+      versions: [
+        {
+          version: "0.4.0",
+          url: "https://github.com/lightningrodlabs/converge/releases/download/v0.4.0/converge.webhapp",
+          hashes: {
+            happSha256:
+              "e3af9d78f6d8d29b2b8da40e0f6fe996fc28b7b1c868fa44f0ed317f2dadf7a7",
+            webhappSha256: "7ecbad1f46ae6f9f4fb95a5bc3890d457c03ddd773fd86f33b48691354db2c26",
+            uiSha256: "cb851db7d57cd1bed3323dbc0e2fb1123ada4ec7c0151d601a6c3d0e0942e284",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.4.x agents cannot see deliberations from any 0.3.x version, so groups should upgrade together. Editing and deleting now work: the integrity zome previously rejected every entry update and delete, so the edit and delete buttons failed with a validation error.",
+          releasedAt: 1788900389000,
+        },
+      ],
+    },
   ],
 });
