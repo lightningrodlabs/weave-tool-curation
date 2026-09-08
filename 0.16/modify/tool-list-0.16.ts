@@ -337,5 +337,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "spreadsheets",
+      versionBranch: "0.3.x",
+      title: "Spreadsheets",
+      subtitle: "Real-time collaborative spreadsheets",
+      description: "## Overview\n\nSpreadsheets is a real-time collaborative spreadsheet tool. Edit cells together with live updates from other participants \u2014 no central server required.\n\n## Features\n\n- Real-time multi-user spreadsheet editing\n- Live cell-level synchronization\n- CSV import\n- Responsive UI suitable for shared sessions\n- Peer-to-peer collaboration powered by Syn",
+      icon: "https://github.com/lightningrodlabs/sweet/blob/spreadsheets-only/weave/xylem.png?raw=true",
+      tags: ["spreadsheet", "collaboration", "real-time"],
+      versions: [
+        {
+          version: "0.3.0",
+          url: "https://github.com/lightningrodlabs/sweet/releases/download/v0.3.0/calcy.webhapp",
+          hashes: {
+            happSha256:
+              "95d8d4fe8c5457a436e825da8ca8a565df8f24f870b147e2c6043a44ee981e22",
+            webhappSha256: "1fca718d91b72c8a4ff822976069ac97bbe052483f5e35d913c312ff065c5151",
+            uiSha256: "5a4ea8c3c7f5ffb264db8ff7f37756403a9713c7a81e0d9cfa056ad30b440dcd",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.3.x agents cannot see boards from any 0.2.x version, so groups should upgrade together. Use a board\u2019s \u22ef menu \u2192 Export, or the About dialog\u2019s Export All Documents, then Import Boards on the 0.3.x side. Also upgrades the Univer spreadsheet engine, and fixes Moss search and the board export dialog.",
+          releasedAt: 1788899432000,
+        },
+      ],
+    },
   ],
 });
