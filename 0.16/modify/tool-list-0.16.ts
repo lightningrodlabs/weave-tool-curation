@@ -429,5 +429,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "files",
+      versionBranch: "1.7.x",
+      title: "Files",
+      subtitle: "File sharing & sending",
+      description: "## Overview\n\nFiles lets group members share documents privately or publicly. It supports both one-to-one transfers and DHT-backed public shares, with full visibility into delivery state.\n\n## Features\n\n- Share files publicly with the whole group via the DHT\n- Send files privately to specific members\n- Accept or decline incoming transfers\n- Personal tags on any file, group tags when sharing\n- Sortable file list with a single actions menu per file\n- Activity timeline of file history, distributions, and deliveries\n- Real-time notifications for new shares, completed transfers, and uploads\n- Source-chain storage usage tracking\n- Scan for incomplete parcels and re-upload missing files",
+      icon: "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/icon.png",
+      tags: ["file", "storage"],
+      versions: [
+        {
+          version: "1.7.0",
+          url: "https://github.com/lightningrodlabs/files/releases/download/v1.7.0/files-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "39a19e21a77cb86d0d3d7b1af1f6e49ae84a1c1969e9a5f7c856f817ec959634",
+            webhappSha256: "b4f5efa5e1807b64255b7b6e6a9bc501d90dc38bbc61c3819722544d7e58ceac",
+            uiSha256: "0294de99fd8a00af46571b91b0c9d312e31c41ac3f65cfbbf0bd3a464f3e701a",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 1.7.x agents cannot see files shared from any 1.4.x version, so groups should upgrade together, and files do not carry across — re-share anything the group still needs. This release also merges group and personal tags into one column and lets a personal tag go on any file including one shared by someone else, makes the file list sortable, puts every file action behind one menu, and renames Unshare to Archive.",
+          releasedAt: 1788976457688,
+        },
+      ],
+    },
   ],
 });
