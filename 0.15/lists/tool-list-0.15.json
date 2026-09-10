@@ -41,6 +41,17 @@
                     },
                     "changelog": "Fix importing from 1.27.x",
                     "releasedAt": 1778528933718
+                },
+                {
+                    "version": "1.28.2",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.28.2.webhapp",
+                    "hashes": {
+                        "happSha256": "c6efb4bf325483700c7aad91391e0fd38e7437a916ec182da51d6fec938cd772",
+                        "webhappSha256": "ea5ddab797470525d38e93d4ffe256233ec10f5f413fd4521aabf7f754e66396",
+                        "uiSha256": "49c16895654e5c331e7c6ec61d24ea497295a61cd7a48614162b0593649c2e78"
+                    },
+                    "changelog": "Image viewer with a title, close button and download; download buttons on attachments; reply and react from a channel's asset view; message lists stay on the newest message without fighting the reader; far fewer network calls when opening a channel; embeds size and resize properly; peers and network health moved into the Settings menu; search results newest first; a first-run question before the import options; and a new Files list with one actions menu per row and sortable columns.",
+                    "releasedAt": 1789075911000
                 }
             ]
         },
