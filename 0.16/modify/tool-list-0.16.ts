@@ -452,5 +452,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "vines",
+      versionBranch: "1.29.x",
+      title: "Vines",
+      subtitle: "Group conversations and DMs",
+      description: "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
+      icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+      tags: ["chat"],
+      versions: [
+        {
+          version: "1.29.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/v1.29.0/vines-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "919db6de4be6a42a548f2f3b0132ed925c350309459f1773006e4553bf29f5bf",
+            webhappSha256: "135c1c92d5840bfe4673635576456fd02de9a8a2731ca6f6e4f4eefc9342c165",
+            uiSha256: "91ee8abb302a86fba98571de4cbd523ca23a7ad8af8e437c4efe00eb16bb5783",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 1.29.x agents cannot see conversations from any 1.28.x version, so groups should upgrade together, and conversations do not carry across by themselves — export channels in 1.28.x and import them into 1.29.0. This release also adds an image viewer with a title, close button and download, download buttons on attachments, replying and reacting from a channel's asset view, message lists that stay on the newest message without fighting the reader, far fewer network calls when opening a channel, peers and network health in the Settings menu, search results newest first, and a first-run question before the import options.",
+          releasedAt: 1789066148000,
+        },
+      ],
+    },
   ],
 });
