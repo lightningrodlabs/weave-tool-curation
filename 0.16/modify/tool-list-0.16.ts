@@ -498,5 +498,28 @@ export default defineDevCollectiveToolList({
         },
       ],
     },
+    {
+      id: "slate",
+      versionBranch: "0.5.x",
+      title: "Slate",
+      subtitle: "Real-time collaborative whiteboard",
+      description: "## Overview\n\nSlate is a real-time collaborative whiteboard for sketching, diagramming, and brainstorming. Draw shapes, write text, and ideate together with live multi-user editing.\n\n## Features\n\n- Real-time multi-user editing: every change propagates, including undo, deletions and style edits\n- Concurrent edits to the same element merge property by property\n- Free-form drawing, shapes, and text, built on Excalidraw\n- Multiple boards per group\n- Peer-to-peer, no central server\n- Lightweight syncing powered by Syn",
+      icon: "https://github.com/lightningrodlabs/slate/releases/download/v0.4.0/icon.png",
+      tags: ["collaboration", "real-time", "drawing"],
+      versions: [
+        {
+          version: "0.5.0",
+          url: "https://github.com/lightningrodlabs/slate/releases/download/v0.5.0/slate.webhapp",
+          hashes: {
+            happSha256:
+              "a7ee901bb9435b3f9125da390fe6f1cda0c4cd522736b2b801a7582b021ebcf6",
+            webhappSha256: "3775aa186b5d02ffff1f3b920b249c62f7810eb29ccfafab32a4d186af1a7cbd",
+            uiSha256: "7034e73ba23bd7cf98950505503c11205ed7f5a77440616c8700f245dc8edeb8",
+          },
+          changelog: "First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.5.x agents cannot see boards from any 0.4.x version, so groups should upgrade together. Use the About dialog's Export All Boards / Import Boards to carry boards across. Canvas upgraded to Excalidraw 0.18 and synchronization rebuilt: undo, deletions and style changes now propagate, concurrent edits to the same element merge instead of overwriting each other, and pencil strokes no longer flood the document.",
+          releasedAt: 1789149387000,
+        },
+      ],
+    },
   ],
 });
