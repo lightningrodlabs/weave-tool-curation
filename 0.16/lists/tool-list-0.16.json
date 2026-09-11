@@ -541,6 +541,30 @@
                     "releasedAt": 1789149387000
                 }
             ]
+        },
+        {
+            "id": "acorn",
+            "versionBranch": "13.0.x",
+            "title": "Acorn",
+            "subtitle": "State-of-Affairs Trees for Project Management",
+            "description": "## Overview\n\nAcorn is a peer-to-peer project management application designed as an agile alternative to scrum for distributed software teams. It uses \"State-of-Affairs Trees\" — visual outcome hierarchies — to plan, track, and coordinate work without a central server.\n\n## Features\n\n- Outcome trees that visualize goals and sub-goals\n- Assignments, tags, time estimates, and GitHub links per outcome\n- Achievement status tracking and progress visualization\n- Multiple project workspaces\n- Real-time updates between teammates\n- Open-source, peer-to-peer, no central server",
+            "icon": "https://github.com/lightningrodlabs/acorn/blob/v11.1.0-alpha/weave-tool/acorn-app-icon-512px.png?raw=true",
+            "tags": [
+                "project-management"
+            ],
+            "versions": [
+                {
+                    "version": "13.0.0",
+                    "url": "https://github.com/lightningrodlabs/acorn/releases/download/v13.0.0/acorn.webhapp",
+                    "hashes": {
+                        "happSha256": "5efe3ec814c8bbd70cfcaef07819749c5aa5fe1f9e7e67e5ca09b47dfbb3901d",
+                        "webhappSha256": "49cd1e4eeb62c0ca2f5baa6960847c61cd2e35bc662c6851430b76f6de703302",
+                        "uiSha256": "7140b7a82b717fe53e98b042fe8609977bf090ee462169cb942ad1ac5c878098"
+                    },
+                    "changelog": "First release of the Holochain 0.7 line, for Moss 0.16. New network: 13.0.x agents cannot see projects from any 12.x version, so groups should upgrade together, and projects do not carry across by themselves -- export projects in 12.x and import them into 13.0. This release also keeps edits and presence live between teammates without a reload, makes entry points reliable to set and clear while editing a card, lets you edit and delete your own comments, keeps the newest comment in view, and makes \"Switch to\" in a card's asset view open that card in Acorn.",
+                    "releasedAt": 1789160648000
+                }
+            ]
         }
     ]
 }
