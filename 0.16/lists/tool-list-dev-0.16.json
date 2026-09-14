@@ -38,7 +38,34 @@
         },
         {
             "id": "effing",
+            "versionBranch": "0.3.x",
+            "title": "effing",
+            "subtitle": "track where your daily capacity goes",
+            "description": "## Overview\n\nA tool for tracking where your daily capacity goes — and, on the other half of the window, the same picture for your group. Your day reads top to bottom. In the morning you say how the day looks, and that sets your budget. Through the day you log what drains it, what recharges it, and what you deliberately **give** to the commons, which also adds points to the group's shared **Fund**. In the evening you say whether what you logged matched what actually happened.\n\n## Features\n\n- Morning, day and evening in one pane: pick how the day looks and your budget follows, log as you go, then look back\n- Budget levels, evening answers and built-in categories you can rename, add and remove\n- Private tags: log against a word only you can see, while the group sees only that you logged\n- Your week at a glance\n- The group half: everyone's status, the activity feed, and the Fund's balance\n- Boosts: hand someone a point of budget from your own balance, or up to 10 from the Fund, always with a message\n- Three voices, Neutral, Devil and Angel, chosen on your own device, each with its own opinion of the others\n\n## Status\n\nIn development. Dev builds: the DNA may change between versions and networks may be reset without notice.",
+            "icon": "https://github.com/lightningrodlabs/weave-tool-curation/releases/download/dev-artifacts/effing-icon.png",
+            "tags": [
+                "wellbeing",
+                "mutual aid",
+                "experimental"
+            ],
+            "versions": [
+                {
+                    "version": "0.3.0",
+                    "url": "https://github.com/lightningrodlabs/weave-tool-curation/releases/download/dev-artifacts/effing-0.3.0.webhapp",
+                    "hashes": {
+                        "happSha256": "eb6d4cebd8d154d85e625ebd08286f8a801f0da9e05f33372fdca39516d1eecf",
+                        "webhappSha256": "e804ce4893fabeea1693cd29eca641e256f86ba40c66664af624a21080fabd9f",
+                        "uiSha256": "710bce1336a4eb7d4fec39f912696e8bcde839696fb9f9a6efe707b876af461d"
+                    },
+                    "changelog": "New network: the DNA changed, so 0.1.x and 0.3.x are separate networks and nothing carries over. Groups should upgrade together.\n\n- The day reads top to bottom as Morning, Day and Evening instead of two tabs, and a budget level picked in the morning sets that day's budget.\n- The evening asks whether what you logged matched the day, instead of how much you have left.\n- Settings has tabs for voice, budget and tags. Budget levels, evening answers and built-in categories can be renamed, added and removed.\n- Private tags keep their word on your own device; the group sees only that you logged.\n- The voice setting is now Neutral, Devil or Angel.\n- A member's status comes from their balance alone. The evening check-in no longer marks anyone as out.",
+                    "releasedAt": 1789413165148
+                }
+            ]
+        },
+        {
+            "id": "effing",
             "versionBranch": "0.1.x",
+            "deprecation": "Superseded by version 0.3.x",
             "title": "effing",
             "subtitle": "track where your daily capacity goes",
             "description": "## Overview\n\nA tool for tracking where your daily capacity goes — and, on the other half of the window, the same picture for your group. You set a daily budget, log what drains it and what recharges it, and what you deliberately **give** to the commons. A give debits your budget like a drain, but also mints an equal number of points into the group's shared **Fund**. You check in at the end of the day, and see your week.\n\n## Features\n\n- A daily budget with drains, recharges, gives and an end-of-day check-in\n- Your week at a glance\n- The group half: everyone's status, the activity feed, and the Fund's balance\n- Boosts: hand someone a point of budget when they're running low — +1 from your own balance, or up to 10 drawn from the Fund the group's own gives built, always with a message\n- Each person chooses the app's voice (censored or not) on their own device\n\n## Status\n\nIn development. Dev builds: the DNA may change between versions and networks may be reset without notice.",
