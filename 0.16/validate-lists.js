@@ -6,6 +6,54 @@ import toolListObject from "./modify/tool-list-0.16.ts";
 import devCurationListObject from "./modify/curations-dev-0.16.ts";
 import devToolListObject from "./modify/tool-list-dev-0.16.ts";
 
+// Moss renders a Tool's description and each version's changelog as markdown,
+// side by side in the same details card: the description fills the Overview
+// tab and the changelogs fill the Versions tab, where a version's number is
+// the section heading. The checks below keep every Tool's prose shaped the
+// same way so the two tabs read as one document.
+//
+// Description: level-2 sections only, opening with "## Overview" and
+// including "## Features". Further "## " sections (e.g. "## Status") may
+// follow.
+// Changelog: prose and lists, no headings — the version number is already the
+// heading the changelog sits under.
+function validateProse(toolListObject) {
+  toolListObject.tools.forEach((tool) => {
+    const description = tool.description ?? "";
+    const headings = Array.from(
+      description.matchAll(/^(#{1,6})[ \t]+(.+?)[ \t]*$/gm)
+    );
+
+    const wrongLevel = headings.find((match) => match[1] !== "##");
+    if (wrongLevel)
+      throw new Error(
+        `Description of tool '${tool.title}' uses a level-${wrongLevel[1].length} heading '${wrongLevel[2]}'. Tool descriptions use level-2 headings ("## ") only.`
+      );
+
+    const sections = headings.map((match) => match[2]);
+    if (sections[0] !== "Overview")
+      throw new Error(
+        `Description of tool '${tool.title}' must open with a "## Overview" section (found ${
+          sections.length ? `'${sections[0]}'` : "no headings"
+        }).`
+      );
+    if (!sections.includes("Features"))
+      throw new Error(
+        `Description of tool '${tool.title}' must include a "## Features" section.`
+      );
+
+    tool.versions.forEach((versionInfo) => {
+      const changelogHeading = /^#{1,6}[ \t]+(.+?)[ \t]*$/m.exec(
+        versionInfo.changelog ?? ""
+      );
+      if (changelogHeading)
+        throw new Error(
+          `Changelog of tool '${tool.title} ${versionInfo.version}' contains the heading '${changelogHeading[1]}'. Changelogs are prose and lists only — the version number is the heading they sit under.`
+        );
+    });
+  });
+}
+
 function validatePair({
   label,
   curationListObject,
@@ -95,6 +143,8 @@ function validatePair({
     throw new Error(
       "Tool list contains at least two Tools that have the same id and versionBranch. This is not allowed."
     );
+
+  validateProse(toolListObject);
 
   // Verify that happ sha256 are the same for tools in the same versionBranch
   if (enforceSameHappPerBranch) {

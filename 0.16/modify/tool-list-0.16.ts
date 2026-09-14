@@ -126,7 +126,7 @@ export default defineDevCollectiveToolList({
       title: "ZipTest",
       subtitle: "Simple performance testing",
       description:
-        "Send batches of signals and watch acks com back.  Create entries and watch how long it takes for them to propagate.",
+        "## Overview\n\nZipTest measures how well a Holochain network carries traffic between the peers of a group. Run a batch of remote signals and watch the acknowledgements come back, or create a batch of entries and watch how long they take to propagate to everyone else.\n\n## Features\n\n- Signal tests with a configurable message count and delay, reporting how many were sent, how many were acknowledged, and how many each peer received\n- Entry tests that create batches of entries and track how long they take to propagate across the group\n- Results broken down per peer, so a slow link between two group members is visible\n\n## Status\n\nExperimental. ZipTest is a diagnostic tool for measuring a network, not a collaboration tool.",
       icon: "https://github.com/holochain/ziptest/releases/download/ziptest-v0.3.0/ziptest_icon.png",
       tags: ["testing"],
       versions: [
