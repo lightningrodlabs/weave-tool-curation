@@ -45,6 +45,44 @@ and they need to match with how Moss computes them.
 3. run `npm run test` to run basic validity checks for the generated json file.
 4. Make a PR with the new change
 
+## Writing a Tool's description and changelogs
+
+Moss renders a Tool's `description` and its versions' `changelog` fields as markdown, side by
+side in the same details card: the description fills the **Overview** tab, the changelogs fill the
+**Versions** tab. The two tabs share one typographic treatment, so the prose has to share one
+shape or the card reads as two different documents. `npm run test` enforces the rules below.
+
+**Description** — level-2 headings only, opening with `## Overview` and including `## Features`:
+
+```
+## Overview
+
+One or two paragraphs saying what the Tool is and who it is for.
+
+## Features
+
+- One line per capability
+- Written as a capability, not as a release note
+
+## Status
+
+Optional. Use it to say a Tool is experimental, or that its DNA may still change.
+```
+
+Further `## ` sections may follow `## Overview` and `## Features`. Deeper headings (`###`) are
+rejected: the description is a short card, not a manual.
+
+**Changelog** — prose and, where a release really has several independent parts, bullet lists.
+No headings: in the Versions tab the version number is already the heading a changelog sits
+under, so a `## Features` inside one competes with it. Say what changed and what it means for
+someone upgrading, for example:
+
+```
+First release of the Holochain 0.7 line, for Moss 0.16. New network: 0.5.x agents cannot see
+boards from any 0.4.x version, so groups should upgrade together. Use the About dialog's Export
+All Boards / Import Boards to carry boards across.
+```
+
 ## Dev Curation List
 
 Alongside the stable lists, this folder also contains a separate **dev** curation list and dev

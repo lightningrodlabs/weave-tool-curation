@@ -25,6 +25,11 @@ instructions:
 
 See each directory's `README.md` for how to add, modify and validate that version's lists.
 
+Moss renders a Tool's `description` and changelogs as markdown in one details card, so from the
+`0.16/` line onwards both follow a fixed shape, enforced by that directory's `npm run test` — see
+[Writing a Tool's description and changelogs](./0.16/README.md#writing-a-tools-description-and-changelogs).
+Earlier lines predate the convention and are left as published.
+
 ## How the lists are published
 
 The lists are served as static JSON over GitHub Pages at `https://lightningrodlabs.org/weave-tool-curation/`.
