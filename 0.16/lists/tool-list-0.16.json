@@ -101,6 +101,31 @@
             ]
         },
         {
+            "id": "matthme.presence",
+            "versionBranch": "0.16.x",
+            "title": "Presence",
+            "subtitle": "Video Calls",
+            "description": "## Overview\n\nPresence is a peer-to-peer video call and screen sharing tool. WebRTC connections are negotiated directly between participants, with TURN-relay support for restrictive networks and a Holochain-signal audio fallback when WebRTC fails.\n\n## Features\n\n- Multi-party video calls with screen sharing\n- Circle and rectangle viewport modes, plus hide-self\n- Separate, resizable screen-share pane\n- Connection status indicators and TURN-relay detection\n- Asset sharing into rooms\n- Pluggable module system (Stack for raise-hand ordering, count-down timer, etc.)\n- Reset media tracks on the fly\n- Holochain-signals-based audio fallback when WebRTC is blocked",
+            "icon": "https://github.com/matthme/presence/blob/main/ui/icon.png?raw=true",
+            "tags": [
+                "video calls",
+                "screen sharing"
+            ],
+            "versions": [
+                {
+                    "version": "0.16.0",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.16.0/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "8308bf4f503e149d769a2088d614e7c7fdc216228307a96e100e086dbdd99079",
+                        "webhappSha256": "dab90c473ca38fcc1f74541f731fb9fae1eac00118773ac620af2c2ee4221c60",
+                        "uiSha256": "9ac2748e6c95e3fbd84159c5d2b55047b14e8f3144519e8245f1fe51688b672c"
+                    },
+                    "changelog": "First release of a new Presence line, for Moss 0.16. Requires Moss 0.16.0-dev.7 or later. Presence 0.16.x is a separate Tool from 0.15.x in Moss and does not connect to 0.15.x rooms: a group adds Presence 0.16 as a new Tool, and its members join the rooms there.\n\nWhat is new:\n\n- Stable tile order: each person keeps the same place in the grid, in the order people first joined the room. Everyone sees the same order, and it stays the same from call to call.\n- Include audio playing on your computer, for example a video, in what the room hears from you: choose \"Include audio from…\" in the list of microphones. This works with your microphone off.\n- AI transcription on your own computer: Moss turns your speech into text locally, and Presence sends the text to the others in the room. Needs the Moss transcription service.\n- Transcripts of your past visits to a room: open them from the room card in the lobby, or from the screen before you enter a room.\n\nOn an older Moss, the computer-audio and transcription options do not appear.",
+                    "releasedAt": 1790361317000
+                }
+            ]
+        },
+        {
             "id": "ziptest",
             "versionBranch": "0.6.x",
             "title": "ZipTest",
