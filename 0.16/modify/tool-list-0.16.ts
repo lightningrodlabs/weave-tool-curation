@@ -143,6 +143,20 @@ export default defineDevCollectiveToolList({
           changelog: "First release of a new Presence line, for Moss 0.16. Requires Moss 0.16.0-dev.7 or later. Presence 0.16.x is a separate Tool from 0.15.x in Moss and does not connect to 0.15.x rooms: a group adds Presence 0.16 as a new Tool, and its members join the rooms there.\n\nWhat is new:\n\n- Stable tile order: each person keeps the same place in the grid, in the order people first joined the room. Everyone sees the same order, and it stays the same from call to call.\n- Include audio playing on your computer, for example a video, in what the room hears from you: choose \"Include audio from…\" in the list of microphones. This works with your microphone off.\n- AI transcription on your own computer: Moss turns your speech into text locally, and Presence sends the text to the others in the room. Needs the Moss transcription service.\n- Transcripts of your past visits to a room: open them from the room card in the lobby, or from the screen before you enter a room.\n\nOn an older Moss, the computer-audio and transcription options do not appear.",
           releasedAt: 1790361317000,
         },
+        {
+          version: "0.16.1",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.16.1/presence.webhapp",
+          hashes: {
+            happSha256:
+              "8308bf4f503e149d769a2088d614e7c7fdc216228307a96e100e086dbdd99079",
+            webhappSha256:
+              "63e8851c406b900809c844458e3ff6f71bf16f1ebd2bd89c716089c8e657d58c",
+            uiSha256:
+              "5b5f8aeb0f0b60540e112f38402a47599f368554d913b75f31898d73c5373414",
+          },
+          changelog: "Update to Presence 0.16.0, for Moss 0.16. Same rooms and same network as 0.16.0.\n\nWhat is new:\n\n- A person's tile says what you can hear and see. It no longer says \"establishing connection\" or \"reconnecting\" while you can hear them. It shows \"no audio — reconnecting…\" when you have not heard them for a few seconds, and \"can't connect — try Reconnect\" after 30 seconds.\n- A tile shows \"connecting video…\" while video is starting, and \"video paused — slow connection\" when someone's camera is on but their connection is too slow to send video. Your camera button shows the same notice when your connection is too slow to send yours.\n- In circle view, tiles no longer turn into ovals for a moment while a connection starts or recovers.\n- The sound level bar no longer stays stuck at the last level when someone turns their microphone off; it is hidden while their microphone is off.\n\nDuring the update: someone still on 0.16.0 sees a 0.16.1 person's tile as black video, instead of their picture, while that person's camera is off. This goes away when both are on 0.16.1.",
+          releasedAt: 1790948998000,
+        },
       ],
     },
     {
