@@ -144,6 +144,17 @@
                     },
                     "changelog": "Update to Presence 0.16.1. Same rooms and same network as 0.16.0 and 0.16.1.\n\nWhat is new:\n\n- Slow connections are given time to finish. When a video connection takes a long time to set up, for example over a long distance or a congested network, Presence no longer gives up on it while it is still making progress and starts over. Audio and the low-bandwidth video keep working the whole time. A connection that is truly stuck is still restarted on the same schedule as before.\n- Exported logs record how long each connection attempt took and how it ended, so slow or failed connections can be diagnosed.\n\nA connection that keeps retrying without ever succeeding now waits until the connection layer gives up (up to several minutes on a very slow link) before Presence starts a fresh attempt; audio and low-bandwidth video continue meanwhile.",
                     "releasedAt": 1790955080000
+                },
+                {
+                    "version": "0.16.3",
+                    "url": "https://github.com/lightningrodlabs/presence/releases/download/v0.16.3/presence.webhapp",
+                    "hashes": {
+                        "happSha256": "8308bf4f503e149d769a2088d614e7c7fdc216228307a96e100e086dbdd99079",
+                        "webhappSha256": "3f134a55a0ec11dd164f6078a76b25324b660aa3d69daadbc9dd23b265804644",
+                        "uiSha256": "a1065cdf0b5d750c7a0f75b8a47f97b551793468c076be598d15e5633fa79cb2"
+                    },
+                    "changelog": "Update to Presence 0.16.2. Same rooms and same network as every earlier 0.16 version.\n\nWhat is new, all in the window that lists a room's saved transcripts:\n\n- It opens centered in the window. Opened from the home page, it could appear partly off screen.\n- Transcript text is left-aligned. It was centered when opened from the home page.\n- Escape works: while reading a transcript it goes back to the list, like the Back button, and from the list it closes the window.",
+                    "releasedAt": 1791294878000
                 }
             ]
         },
