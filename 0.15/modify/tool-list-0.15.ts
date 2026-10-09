@@ -1435,6 +1435,17 @@ export default defineDevCollectiveToolList({
           changelog: "Connection and audio fix release. The connection-reliability fixes announced in 0.14.10 were never actually active in the field: a dependency-resolution fault made every build bundle an older WebRTC library, so the mutual-reconnect deadlock fix, exponential reconnect backoff, ICE candidate deduplication and clean retry-exhaustion failure only start working with this build (a build-time guard now prevents the divergence recurring). Also fixes voice going silent in one direction after switching from a direct WebRTC connection back to signal-carried audio — silence lasting as long as the previous signal-carried stint and worsening with each switch, because the receiver's duplicate filter discarded the sender's restarted stream; voice frames now carry a capture-session marker. A frozen low-fi filmstrip frame could also stay painted over live WebRTC video, making a peer appear frozen; live video now paints above the filmstrip. The nickname shows when a profile has no avatar image, and exported diagnostics carry signals-video receive stats and 5x more history.",
           releasedAt: 1787930169357,
         },
+        {
+          version: "0.14.12",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.14.12/presence.webhapp",
+          hashes: {
+            happSha256: "ae12f5923442acfe498243d5a74333a7f018609d514231f43b8ec0c471743ea8",
+            webhappSha256: "09575945f1ce30be0e8bee55dcfcddadc681cc8e3f1566eb87fd67df6b68e603",
+            uiSha256: "8d8454c1a45b679ec9c114f91986503d4c9453b77300cda507865a21b9ba6cbb"
+          },
+          changelog: "Update to Presence 0.14.12. Same rooms and same network as every earlier 0.14 version.\n\nWhat is new:\n\n- Draw on a shared screen or a shared asset. Every share tile has a tool strip at its bottom-left: a pen, eight colors, undo my last stroke, clear mine, and, on your own share, clear all. Anyone in the room can draw, and everyone sees every drawing in the author's color. Someone who joins later sees the drawings that exist. Drawings stay until their author removes them, the sharer clears them, or, for a share from 0.14.12 or later, the share stops.\n- On a screen share, a stroke is placed relative to the video image, so people whose tiles letterbox the share differently see the mark on the same spot. On a shared asset, it is placed relative to the tile.\n- Tiles keep their place. The room grid has one stable order, the same on every screen, so a peer whose connection flickers no longer jumps to the end and back. On this version the order is by participant key, not join order.\n- A circle tile no longer grows taller than wide while its video connection is being set up.\n\nPeople on 0.14.8 to 0.14.11 see no drawings, and a share from one of those versions cannot be cleared by its owner, nor does restarting it clear the drawings made on it. They stay until an author draws, undoes or clears. Everything else keeps working together as before.",
+          releasedAt: 1791585372000,
+        },
       ],
     },
     {
