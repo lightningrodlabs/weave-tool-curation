@@ -185,6 +185,20 @@ export default defineDevCollectiveToolList({
           changelog: "Update to Presence 0.16.2. Same rooms and same network as every earlier 0.16 version.\n\nWhat is new, all in the window that lists a room's saved transcripts:\n\n- It opens centered in the window. Opened from the home page, it could appear partly off screen.\n- Transcript text is left-aligned. It was centered when opened from the home page.\n- Escape works: while reading a transcript it goes back to the list, like the Back button, and from the list it closes the window.",
           releasedAt: 1791294878000,
         },
+        {
+          version: "0.16.4",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.16.4/presence.webhapp",
+          hashes: {
+            happSha256:
+              "8308bf4f503e149d769a2088d614e7c7fdc216228307a96e100e086dbdd99079",
+            webhappSha256:
+              "898c157f04856aa855eb9068ef5b08d2402bd2cc263a93a7b23eb2ef662b57aa",
+            uiSha256:
+              "c0e1e998480bb5c860380c3dfc7cca3c7a5cd986ed7742a9d1f251e47eb9dd11",
+          },
+          changelog: "Update to Presence 0.16.3. Same rooms and same network as every earlier 0.16 version.\n\nWhat is new:\n\n- Draw on a shared screen or a shared asset. Every share tile has a tool strip at its bottom-left: a pen, eight colors, undo my last stroke, clear mine, and, on your own share, clear all. Anyone in the room can draw, and everyone sees every drawing in the author's color. Someone who joins later sees the drawings that exist. Drawings stay until their author removes them, the sharer clears them, or the share stops.\n- On a screen share, a stroke is placed relative to the video image, so people whose tiles letterbox the share differently see the mark on the same spot. On a shared asset, it is placed relative to the tile.\n\nPeople on 0.16.0 to 0.16.3 see no drawings, and a share from one of those versions cannot be cleared by its owner. Everything else keeps working together as before.",
+          releasedAt: 1791580197000,
+        },
       ],
     },
     {
