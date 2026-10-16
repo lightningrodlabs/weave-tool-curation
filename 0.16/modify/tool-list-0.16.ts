@@ -580,6 +580,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "datatub",
+      versionBranch: "0.12.x",
+      title: "DataTub",
+      subtitle: "Airtable-like data management",
+      description: "## Overview\n\nDataTub is an Airtable-style data management tool for collaborative tables. Build structured datasets with typed columns and arrange records in different views suitable for your team\u0027s workflow.\n\n## Features\n\n- Custom tables with typed columns\n- Multiple view types and custom displays\n- Real-time collaborative editing\n- Template gallery for common use cases\n- Major UI for arranging and filtering records\n- Peer-to-peer storage with no central database",
+      icon: "https://github.com/lightningrodlabs/tables/blob/main-0.6/weave/datatub2.png?raw=true",
+      tags: ["data", "management", "collaboration"],
+      versions: [
+        {
+          version: "0.12.0",
+          url: "https://github.com/lightningrodlabs/tables/releases/download/v0.12.0/tables.webhapp",
+          hashes: {
+            happSha256:
+              "d9851c6cd15dcb20352db180ad6e2fccd492a3a92b0133d64939b4effbc8fd7d",
+            webhappSha256: "ac17a7ca9a9b0e53fb98578fe56741ace0f4a09e9ef67aae9be95f8c5bc68dad",
+            uiSha256: "b946277ba4e6c566afc0a22a92ef04cd9efec26fea395b7b76c9376e64e85dbf",
+          },
+          changelog: "DataTub on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.12.x agents cannot see tables from 0.11.x or earlier, so groups should upgrade together. Use a board\u2019s \u22ef menu \u2192 Export, and Import on the 0.12.x side, to carry data across.",
+          releasedAt: 1792180006000,
+        },
+      ],
+    },
+    {
       id: "glass-bead-game",
       versionBranch: "0.4.x",
       title: "Glass Bead Game",
