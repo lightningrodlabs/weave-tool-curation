@@ -451,6 +451,32 @@
             ]
         },
         {
+            "id": "gamez",
+            "versionBranch": "0.11.x",
+            "title": "Gamez",
+            "subtitle": "Customizable tabletop games",
+            "description": "## Overview\n\nGamez is a flexible platform for designing and playing customizable tabletop games with friends. Build your own boards, pieces, and rules — or play games other people have made.\n\n## Features\n\n- Author custom board games with configurable boards and pieces\n- Real-time multi-player game state\n- Reusable game templates\n- Asset and element support for rich game pieces\n- Peer-to-peer play with no central server",
+            "icon": "https://github.com/holochain-apps/gamez/releases/download/v0.9.2/icon.png",
+            "tags": [
+                "games",
+                "entertainment",
+                "tabletop"
+            ],
+            "versions": [
+                {
+                    "version": "0.11.0",
+                    "url": "https://github.com/holochain-apps/gamez/releases/download/v0.11.0/gamez.webhapp",
+                    "hashes": {
+                        "happSha256": "a8492b6d8fe9b7de8b6b86a9a15aa72b3fe698d9f35ac720183e88670c9fb0ce",
+                        "webhappSha256": "ad3b3d64e7fb390a202214596cc195719c8e986b684dbcc9383bd8bd8e0f10c0",
+                        "uiSha256": "808133821657ac3d442ff0bd9a79110400a65655f67fbae4e35e7ef083c4f367"
+                    },
+                    "changelog": "Gamez on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.11.x agents cannot see game spaces from 0.10.x or earlier, so groups should upgrade together. Use the Export command in a game’s ⋯ menu on the old install and Import at the top right of the Library panel on the new one to carry a game space across.",
+                    "releasedAt": 1792181451000
+                }
+            ]
+        },
+        {
             "id": "whosin",
             "versionBranch": "0.3.x",
             "title": "Who's In?",
