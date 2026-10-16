@@ -507,6 +507,36 @@
             ]
         },
         {
+            "id": "whosin",
+            "versionBranch": "0.4.x",
+            "title": "Who's In?",
+            "subtitle": "Scheduling events and tracking agreements",
+            "description": "## Overview\n\nWho's In? is a distributed tool for event planning, task management, and tracking group commitments. It helps groups coordinate who's doing what, by when — without a central scheduler.\n\n## Features\n\n- Event scheduling with attendee sign-ups\n- Task assignments and tracking\n- Agreement and commitment tracking\n- Calendar-style coordination\n- Weave Asset integration for shared event objects\n- Peer-to-peer coordination across the group",
+            "icon": "https://github.com/lightningrodlabs/whos-in/blob/0.1.2/we_dev/whosin.png?raw=true",
+            "tags": [
+                "collaboration",
+                "scheduling",
+                "calendar",
+                "events",
+                "task management",
+                "governance",
+                "collective action"
+            ],
+            "versions": [
+                {
+                    "version": "0.4.0",
+                    "url": "https://github.com/lightningrodlabs/whos-in/releases/download/v0.4.0/whosin.webhapp",
+                    "hashes": {
+                        "happSha256": "e195943c41cb415412c49cdf64168f7880dfeb38d8b0a8974428acb87daceb18",
+                        "webhappSha256": "c7482934f8794a2b012efeeec33e46a7a87312a525b5ac0b07a45d13eca298b6",
+                        "uiSha256": "0acd4fa6d269afe9b95f97a7ded04dbf67cbd0f5af4883b9ea5ca205ceac52f0"
+                    },
+                    "changelog": "Who's In on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.4.x agents cannot see coordinations from 0.3.x or earlier, so groups should upgrade together. There is no export/import, so coordinations do not carry across.",
+                    "releasedAt": 1792187220000
+                }
+            ]
+        },
+        {
             "id": "spreadsheets",
             "versionBranch": "0.3.x",
             "title": "Spreadsheets",

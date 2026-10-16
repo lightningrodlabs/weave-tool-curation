@@ -84,7 +84,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "whosin",
-          versionBranch: "0.3.x",
+          versionBranch: "0.4.x",
           tags: ["collaboration", "scheduling", "calendar", "events", "task management", "governance", "collective action"],
         },
         {
