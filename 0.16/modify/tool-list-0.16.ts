@@ -580,6 +580,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "converge",
+      versionBranch: "0.5.x",
+      title: "Converge",
+      subtitle: "A group decision-making tool",
+      description: "## Overview\n\nConverge is a group decision-making tool inspired by Convergent Facilitation (from *The Highest Common Denominator* by Miki Kashtan). Instead of debating whole proposals, groups surface and align on the underlying criteria a good solution must meet \u2014 making it easier to reach decisions everyone can live with.\n\n## Features\n\n- Criteria-first deliberations\n- Proposal scoring against shared criteria\n- Background updating for live deliberations\n- Embeddable deliberation views\n- Designed for NVC, DCAN, and governance contexts\n- Peer-to-peer collaboration",
+      icon: "https://github.com/lightningrodlabs/converge/blob/main/weave/converge.png?raw=true",
+      tags: ["collaboration", "problem-solving", "brainstorming", "convergent facilitation", "nvc", "dcan", "governance", "decision making"],
+      versions: [
+        {
+          version: "0.5.0",
+          url: "https://github.com/lightningrodlabs/converge/releases/download/v0.5.0/converge.webhapp",
+          hashes: {
+            happSha256:
+              "a9415ae769bd2e544ba9b8256e6a0296e7c010041b7157a92493e7b79dec7d7a",
+            webhappSha256: "5b9ab73c242c9489ed4b75ec060d2ba31701e44bf38fcbc41713297084fa2801",
+            uiSha256: "b0a9e38f9a702a4bf375b45e887478e80a589f3250de1579f21d3d0e47bcdccf",
+          },
+          changelog: "Converge on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.5.x agents cannot see deliberations from 0.4.x or earlier, so groups should upgrade together. Converge has no export/import, so deliberations do not carry across.",
+          releasedAt: 1792183706000,
+        },
+      ],
+    },
+    {
       id: "datatub",
       versionBranch: "0.11.x",
       title: "DataTub",
