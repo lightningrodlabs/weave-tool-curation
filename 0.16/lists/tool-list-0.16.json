@@ -373,6 +373,33 @@
             ]
         },
         {
+            "id": "talking-stickies",
+            "versionBranch": "0.17.x",
+            "title": "TalkingStickies",
+            "subtitle": "Real-time stickies boards",
+            "description": "## Overview\n\nTalkingStickies is a real-time collaborative stickies board for ideation, retros, brainstorming, and shared note-taking. Drop stickies, organize them into groups, and watch collaborators move them around live.\n\n## Features\n\n- Real-time multi-user sticky boards\n- Multiple boards per group\n- Color-coded stickies and grouping\n- Live participant indicators\n- Lightweight, fast collaboration powered by Syn\n- Peer-to-peer, no central server",
+            "icon": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.12.0-rc.0/talking-stickies_icon.png",
+            "tags": [
+                "notes",
+                "stickies",
+                "ideation",
+                "boards"
+            ],
+            "versions": [
+                {
+                    "version": "0.17.0",
+                    "url": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.17.0/talking-stickies.webhapp",
+                    "hashes": {
+                        "happSha256": "3aa4e7a3cbc8ffc2ca2cac436fe6f168e283632295354cc3a3689fddaa9ab529",
+                        "webhappSha256": "eb24aad117b8b354b8254f9d7740eca7db694fb8cf7873ceaa20ad60ec90aa7d",
+                        "uiSha256": "329978d269b1e5d172173463ddbe6081538418c9c39cd7bbdc60c8635d6da871"
+                    },
+                    "changelog": "TalkingStickies on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.17.x agents cannot see boards or stickies from 0.16.x or earlier, so groups should upgrade together. Use the board menu’s Export and the About dialog’s Import to carry boards across.",
+                    "releasedAt": 1792178178000
+                }
+            ]
+        },
+        {
             "id": "gamez",
             "versionBranch": "0.10.x",
             "title": "Gamez",

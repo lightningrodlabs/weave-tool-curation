@@ -70,7 +70,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "talking-stickies",
-          versionBranch: "0.16.x",
+          versionBranch: "0.17.x",
           tags: ["notes", "stickies", "ideation", "boards"],
         },
         {
