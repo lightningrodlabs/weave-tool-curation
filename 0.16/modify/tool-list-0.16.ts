@@ -304,6 +304,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "notebooks",
+      versionBranch: "0.8.x",
+      title: "Notebooks",
+      subtitle: "Collaborative MarkDown editor",
+      description: "## Overview\n\nNotebooks is a real-time collaborative Markdown editor with built-in versioning. Multiple participants can edit the same document together with live cursors and choose between raw Markdown or a rich text view.\n\n## Features\n\n- Real-time multi-user editing with live participant cursors\n- Markdown and rich text (ProseMirror) editing modes\n- Comments on any span of text, with replies, resolution, @-mentions and assignment\n- Moss notifications when you are mentioned or assigned\n- Search across all notes, and within a note, jumping to each hit\n- Rich text image support\n- Adjustable Markdown editor width\n- Undo/redo and tab key support in rich text\n- Participant online/offline indicators\n- Built-in version control of documents",
+      icon: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.0/notebooks_logo.png",
+      tags: ["markdown", "real-time editor"],
+      versions: [
+        {
+          version: "0.8.0",
+          url: "https://github.com/lightningrodlabs/notebooks/releases/download/v0.8.0/notebooks.webhapp",
+          hashes: {
+            happSha256:
+              "31b8f460bd662c5ec56e55936c04906404ac1a7ba742f8248505ed271b405d22",
+            webhappSha256: "929fc6cd9abcf86dbea53aa0d3acae5e13730ae1084b388182779d1636a1be3b",
+            uiSha256: "a47ccc998df15ba85b96e462970af9e0263310d04874da5b66d99f3f55d48773",
+          },
+          changelog: "Notebooks on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.8.x agents cannot see notes from 0.7.x or earlier, so groups should upgrade together. Use Settings \u2192 Export/Import to carry notes across; imports accept exports from every earlier release.\n\n- Comments: select text and add a comment, reply, resolve or reopen, @-mention people and assign comments to them. Mentions and assignments arrive as Moss notifications that open the note. Comments travel with Export/Import.\n- Search: find text across all notes from the list, or within the open note from its toolbar; each hit jumps into the editor.\n- Notes are stored as Automerge text, so concurrent edits merge character by character.",
+          releasedAt: 1792170913000,
+        },
+      ],
+    },
+    {
       id: "emergence",
       versionBranch: "0.6.x",
       title: "Emergence",

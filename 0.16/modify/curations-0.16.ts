@@ -41,7 +41,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "notebooks",
-          versionBranch: "0.7.x",
+          versionBranch: "0.8.x",
           tags: ["markdown", "real-time editor"],
         },
         {
