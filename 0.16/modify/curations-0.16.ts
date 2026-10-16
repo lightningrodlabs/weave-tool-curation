@@ -98,7 +98,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "glass-bead-game",
-          versionBranch: "0.4.x",
+          versionBranch: "0.5.x",
           tags: ["games"],
         },
         {

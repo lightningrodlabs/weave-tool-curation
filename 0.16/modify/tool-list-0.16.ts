@@ -672,6 +672,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "glass-bead-game",
+      versionBranch: "0.5.x",
+      title: "Glass Bead Game",
+      subtitle: "A turn-based game of co-creation which, like brainstorming, facilitates the generation of creative ideas.",
+      description: "## Overview\n\nThe Glass Bead Game is a turn-based game of co-creation that, like brainstorming, facilitates the generation of creative ideas. It focuses on making space for every player to contribute and encourages deep listening for collaborative meaning-making \u2014 and it's really fun.\n\nThis incarnation of the Glass Bead Game was originally developed by James and Gnoman for [weco.io](https://www.weco.io/s/all/about).\n\n## Features\n\n- Turn-based co-creative gameplay\n- Round structure that ensures every player contributes\n- Topic-driven creative play\n- Lightweight, low-stakes ideation tool\n- Designed to support deep listening and meaning-making\n- Multiplayer over Holochain \u2014 no host or central server",
+      icon: "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.3.0/game.png",
+      tags: ["games"],
+      versions: [
+        {
+          version: "0.5.0",
+          url: "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.5.0/glassbeadgame.webhapp",
+          hashes: {
+            happSha256:
+              "99dcc62d252ae8e8b30fe6c7b2a3f74b4daef3b7ad8a9a9fa363a25761573fc8",
+            webhappSha256: "3fa15cf4d6b0686d31c8cdefe5c6300d1b30d81207dbe4a3e73f40ef050d9198",
+            uiSha256: "863d546e49bf6a6d02097a161be75866d2236c269e3da4b494a0d3747cf07616",
+          },
+          changelog: "Glass Bead Game on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.5.x agents cannot see games from 0.4.x or earlier, so groups should upgrade together. There is no export/import, so games do not carry across.",
+          releasedAt: 1792183927000,
+        },
+      ],
+    },
+    {
       id: "files",
       versionBranch: "1.7.x",
       title: "Files",
