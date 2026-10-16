@@ -741,6 +741,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "slate",
+      versionBranch: "0.6.x",
+      title: "Slate",
+      subtitle: "Real-time collaborative whiteboard",
+      description: "## Overview\n\nSlate is a real-time collaborative whiteboard for sketching, diagramming, and brainstorming. Draw shapes, write text, and ideate together with live multi-user editing.\n\n## Features\n\n- Real-time multi-user editing: every change propagates, including undo, deletions and style edits\n- Concurrent edits to the same element merge property by property\n- Free-form drawing, shapes, and text, built on Excalidraw\n- Multiple boards per group\n- Peer-to-peer, no central server\n- Lightweight syncing powered by Syn",
+      icon: "https://github.com/lightningrodlabs/slate/releases/download/v0.4.0/icon.png",
+      tags: ["collaboration", "real-time", "drawing"],
+      versions: [
+        {
+          version: "0.6.0",
+          url: "https://github.com/lightningrodlabs/slate/releases/download/v0.6.0/slate.webhapp",
+          hashes: {
+            happSha256:
+              "de01cec7b15b63fa46c3ca839301e6ff4987fac21a570a6b518a1b873e4ed181",
+            webhappSha256: "db10c2668a0315073e16880df253c9d0963c370aedbd24272f07a90468cf08ea",
+            uiSha256: "7346fb926f2df2e0d426f791afed77f916ac05fc3d9514f2552a96018139934a",
+          },
+          changelog: "Slate on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.6.x agents cannot see boards from 0.5.x or earlier, so groups should upgrade together. Use the About dialog's Export All Boards / Import Boards to carry boards across.",
+          releasedAt: 1792182720000,
+        },
+      ],
+    },
+    {
       id: "acorn",
       versionBranch: "13.0.x",
       title: "Acorn",
