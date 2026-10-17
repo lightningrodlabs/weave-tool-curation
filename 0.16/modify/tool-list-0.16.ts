@@ -373,6 +373,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "emergence",
+      versionBranch: "0.7.x",
+      title: "Emergence",
+      subtitle: "Conference and event management",
+      description: "## Overview\n\nEmergence is a peer-to-peer tool for organizing conferences, unconferences, and events. It coordinates sessions, spaces, and attendees while letting participants take collaborative notes in-session.\n\n## Features\n\n- Session creation and scheduling across time slots\n- Physical space and room management\n- Attendee sign-ups and interest tracking per session\n- Collaborative note-taking on each session\n- Steward role for event coordinators\n- Designed for distributed, in-person events",
+      icon: "https://github.com/holochain-apps/emergence/releases/download/v0.5.0/emergence_icon.png",
+      tags: ["conference", "events", "scheduling", "notes", "collaboration"],
+      versions: [
+        {
+          version: "0.7.0",
+          url: "https://github.com/holochain-apps/emergence/releases/download/v0.7.0/emergence.webhapp",
+          hashes: {
+            happSha256:
+              "d058cc33b6375e4f4b3ff313cf5149d5d09667c0a3380f9f3af9af6b2913e485",
+            webhappSha256: "2def6e3ae3ea8b964ca22f723278dc4bdd5f77734ccd2fb87374076e36ccf8a6",
+            uiSha256: "a8f88626b7395b2c701fe28e1873307a53c9afc80946f26099899369b5c3947e",
+          },
+          changelog: "Emergence on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.7.x agents cannot see data from 0.6.x or earlier, so groups should upgrade together. Use the Admin pane\u2019s Export on the 0.6.x install and its Import on 0.7.x to carry contents across. Import re-authors everything as the importing agent.",
+          releasedAt: 1792242621000,
+        },
+      ],
+    },
+    {
       id: "kando",
       versionBranch: "0.18.x",
       title: "KanDo",
