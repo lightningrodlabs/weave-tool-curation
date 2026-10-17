@@ -126,7 +126,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "vines",
-          versionBranch: "1.29.x",
+          versionBranch: "1.30.x",
           tags: ["chat"],
         },
         {

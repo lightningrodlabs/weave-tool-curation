@@ -880,6 +880,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "vines",
+      versionBranch: "1.30.x",
+      title: "Vines",
+      subtitle: "Group conversations and DMs",
+      description: "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
+      icon: "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/icon.png",
+      tags: ["chat"],
+      versions: [
+        {
+          version: "1.30.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/v1.30.0/vines-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "2a88e1302ab17e8b40db38b7b004e8ce6791de1db7ec165854e9774acf365a7b",
+            webhappSha256: "e444190260841f269575bd67503605894c44b9d3fb3bd4779c191875621fddd4",
+            uiSha256: "2a2492182ef4afb7fe668f8aa6802565f9b46ac14413a72e5ae5cdbbc6091960",
+          },
+          changelog: "Vines on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 1.30.x agents cannot see threads from 1.29.x or earlier, so groups should upgrade together. Use Export on the 1.29.x install and Import on 1.30.x to carry content across.",
+          releasedAt: 1792245091000,
+        },
+      ],
+    },
+    {
       id: "farmhack",
       versionBranch: "0.2.x",
       title: "FarmHack",
