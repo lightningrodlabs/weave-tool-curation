@@ -787,6 +787,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "farmhack",
+      versionBranch: "0.3.x",
+      title: "FarmHack",
+      subtitle: "Library for open sharing of ag solutions, methods and tools.",
+      description: "## Overview\n\nFarmHack is an open, peer-to-peer library for sharing agricultural tools, methods, and solutions among farmers and ag innovators. Seeded with imported tool data, the library lets contributors claim entries, extend them, and add their own creations.\n\n## Features\n\n- Browse and search a community library of farm tools\n- Import of seeded/scraped tool data\n- Claim imported tools and add provenance\n- Create new tool entries with descriptions and resources\n- Activity feed showing community contributions\n- Member profiles",
+      icon: "https://github.com/lightningrodlabs/farmhack/releases/download/v0.1.0/farmhack_icon.png",
+      tags: ["tools", "library", "agriculture"],
+      versions: [
+        {
+          version: "0.3.0",
+          url: "https://github.com/lightningrodlabs/farmhack/releases/download/v0.3.0/farmhack.webhapp",
+          hashes: {
+            happSha256:
+              "c3212f6f9ec901c2fbabbed494cb60eb863152fed6754d439f286409f2684a80",
+            webhappSha256: "c5dcd58851b36f3e749842e1c24338aca6bdb62be75f808ec4abd5700288e6f1",
+            uiSha256: "60910048dd12c4cb3959459e02f515cdf9bbd13d988c1411494f707e3ff3adfc",
+          },
+          changelog: "FarmHack on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.3.x agents cannot see tools, notes or relations from 0.2.x or earlier, so groups should upgrade together. Use the Admin pane\u2019s Export on the 0.2.x install and its Import on 0.3.x to carry contents across. Import re-authors everything as the importing agent.",
+          releasedAt: 1792188161000,
+        },
+      ],
+    },
+    {
       id: "slate",
       versionBranch: "0.5.x",
       title: "Slate",
