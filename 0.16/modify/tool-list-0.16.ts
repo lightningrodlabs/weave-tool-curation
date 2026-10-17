@@ -251,6 +251,30 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "ziptest",
+      versionBranch: "0.7.x",
+      title: "ZipTest",
+      subtitle: "Simple performance testing",
+      description:
+        "## Overview\n\nZipTest measures how well a Holochain network carries traffic between the peers of a group. Run a batch of remote signals and watch the acknowledgements come back, or create a batch of entries and watch how long they take to propagate to everyone else.\n\n## Features\n\n- Signal tests with a configurable message count and delay, reporting how many were sent, how many were acknowledged, and how many each peer received\n- Entry tests that create batches of entries and track how long they take to propagate across the group\n- Results broken down per peer, so a slow link between two group members is visible\n\n## Status\n\nExperimental. ZipTest is a diagnostic tool for measuring a network, not a collaboration tool.",
+      icon: "https://github.com/holochain/ziptest/releases/download/ziptest-v0.3.0/ziptest_icon.png",
+      tags: ["testing"],
+      versions: [
+        {
+          version: "0.7.0",
+          url: "https://github.com/holochain/ziptest/releases/download/v0.7.0/ziptest.webhapp",
+          hashes: {
+            happSha256:
+              "60b36e75bdd3676a623eec8a554a036f7c9cce88564b8872c9c3fb140a60528a",
+            webhappSha256: "e25571ec6fb757b63ec215fa0e6f1ac565448bc5f83644a19ea9f3855d52c147",
+            uiSha256: "2f75a51dd0140cf9005c4b7d8b19dd09405f938b69895cf31b1bb5a1060cee89",
+          },
+          changelog: "ZipTest on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.7.x agents cannot see test bunches or streams from 0.6.x or earlier, so groups should upgrade together. There is no export/import, so nothing carries across.",
+          releasedAt: 1792243290000,
+        },
+      ],
+    },
+    {
       id: "ark",
       versionBranch: "0.1.x",
       title: "Ark",
