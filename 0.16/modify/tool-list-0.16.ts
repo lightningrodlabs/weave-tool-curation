@@ -811,6 +811,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "files",
+      versionBranch: "1.8.x",
+      title: "Files",
+      subtitle: "File sharing & sending",
+      description: "## Overview\n\nFiles lets group members share documents privately or publicly. It supports both one-to-one transfers and DHT-backed public shares, with full visibility into delivery state.\n\n## Features\n\n- Share files publicly with the whole group via the DHT\n- Send files privately to specific members\n- Accept or decline incoming transfers\n- Personal tags on any file, group tags when sharing\n- Sortable file list with a single actions menu per file\n- Activity timeline of file history, distributions, and deliveries\n- Real-time notifications for new shares, completed transfers, and uploads\n- Source-chain storage usage tracking\n- Scan for incomplete parcels and re-upload missing files",
+      icon: "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/icon.png",
+      tags: ["file", "storage"],
+      versions: [
+        {
+          version: "1.8.0",
+          url: "https://github.com/lightningrodlabs/files/releases/download/v1.8.0/files-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "c8c59ee5f86073fb50e2b1cde2331d2bf266a0889c422fd416b0ee76860d9e70",
+            webhappSha256: "684755dedc05158168b9e26dfcba4dd56a53b2719ef0c3beec74809db5db17a0",
+            uiSha256: "5b89ba866fc2f5a2d34e52db4f70444b701d562d0a2e62365eb73fc675a93fde",
+          },
+          changelog: "Files on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 1.8.x agents cannot see files from 1.7.x or earlier, so groups should upgrade together. There is no export/import, so files have to be shared again.",
+          releasedAt: 1792244070000,
+        },
+      ],
+    },
+    {
       id: "vines",
       versionBranch: "1.29.x",
       title: "Vines",

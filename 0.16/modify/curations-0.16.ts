@@ -119,7 +119,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "files",
-          versionBranch: "1.7.x",
+          versionBranch: "1.8.x",
           tags: ["file", "storage"],
         },
         {
