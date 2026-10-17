@@ -133,7 +133,7 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-0.16.json",
           toolId: "acorn",
-          versionBranch: "13.0.x",
+          versionBranch: "14.0.x",
           tags: ["project-management"],
         },
         {
