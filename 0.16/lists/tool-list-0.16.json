@@ -749,7 +749,7 @@
                         "webhappSha256": "5b9ab73c242c9489ed4b75ec060d2ba31701e44bf38fcbc41713297084fa2801",
                         "uiSha256": "b0a9e38f9a702a4bf375b45e887478e80a589f3250de1579f21d3d0e47bcdccf"
                     },
-                    "changelog": "Converge on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.5.x agents cannot see deliberations from 0.4.x or earlier, so groups should upgrade together. Converge has no export/import, so deliberations do not carry across.",
+                    "changelog": "Converge on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.5.x agents cannot see deliberations from 0.4.x or earlier, so groups should upgrade together. There is no export/import, so deliberations do not carry across.",
                     "releasedAt": 1792183706000
                 }
             ]
@@ -801,7 +801,7 @@
                         "webhappSha256": "ac17a7ca9a9b0e53fb98578fe56741ace0f4a09e9ef67aae9be95f8c5bc68dad",
                         "uiSha256": "b946277ba4e6c566afc0a22a92ef04cd9efec26fea395b7b76c9376e64e85dbf"
                     },
-                    "changelog": "DataTub on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.12.x agents cannot see tables from 0.11.x or earlier, so groups should upgrade together. Use a board’s ⋯ menu → Export, and Import on the 0.12.x side, to carry data across.",
+                    "changelog": "DataTub on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.12.x agents cannot see tables from 0.11.x or earlier, so groups should upgrade together. Use a board’s ⋯ menu → Export on 0.11.x, and the About dialog’s Import from json on 0.12.x, to carry data across.",
                     "releasedAt": 1792180006000
                 }
             ]
@@ -1051,7 +1051,7 @@
                         "webhappSha256": "db10c2668a0315073e16880df253c9d0963c370aedbd24272f07a90468cf08ea",
                         "uiSha256": "7346fb926f2df2e0d426f791afed77f916ac05fc3d9514f2552a96018139934a"
                     },
-                    "changelog": "Slate on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.6.x agents cannot see boards from 0.5.x or earlier, so groups should upgrade together. Use the About dialog's Export All Boards / Import Boards to carry boards across.",
+                    "changelog": "Slate on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.6.x agents cannot see boards from 0.5.x or earlier, so groups should upgrade together. Use the About dialog’s Export All Boards / Import Canvases to carry boards across.",
                     "releasedAt": 1792182720000
                 }
             ]
