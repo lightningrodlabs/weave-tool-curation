@@ -328,6 +328,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "ark",
+      versionBranch: "0.2.x",
+      title: "Ark",
+      subtitle: "An archive for a community's written record",
+      description: "## Overview\n\nArk is an archive for a community's written record — meeting minutes, decisions and reports — held by the group rather than on a server that one person administers. Documents are immutable, as everywhere in Holochain, but amendable: amending publishes a new version and keeps the old, so the record shows both what it says now and what it used to say.\n\n## Features\n\n- Folder tree held as links, separate from the documents, so reorganising never touches a document\n- Amendable documents with version history\n- Full-text search across the whole archive, in the browser — ranked results with snippets, quoted phrases, prefix terms and exclusions\n- Attachments, indexed alongside the documents that carry them\n- Import a directory of markdown with YAML front matter; export the archive back out as the same format\n- Paste from Google Docs, converted to markdown\n- Documents can be added to the Moss pocket and embedded elsewhere\n\n## Status\n\nExperimental. This is an early release and the DNA may change.",
+      icon: "https://github.com/lightningrodlabs/ark/blob/main/ui/icon.png?raw=true",
+      tags: ["archive", "documents", "minutes", "experimental"],
+      versions: [
+        {
+          version: "0.2.0",
+          url: "https://github.com/lightningrodlabs/ark/releases/download/v0.2.0/ark.webhapp",
+          hashes: {
+            happSha256:
+              "6884dd985f23bbf18f33ea71f7ab5f97ff19d939cc939ca7c6500c6ebedfb563",
+            webhappSha256: "5e386fea1ff4a9302bb91fdc1f63506ad9462e6552eedc848707b80fe8cbb42c",
+            uiSha256: "6430c49e3a9146052dfd169073b2193da92e78c045e95236d06a47040f7684df",
+          },
+          changelog: "Ark on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.2.x agents cannot see documents from 0.1.x, so groups should upgrade together. Use Export on the 0.1.x install and Import on 0.2.x to carry documents across.",
+          releasedAt: 1792244434000,
+        },
+      ],
+    },
+    {
       id: "notebooks",
       versionBranch: "0.7.x",
       title: "Notebooks",
