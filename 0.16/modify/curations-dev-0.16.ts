@@ -21,14 +21,14 @@ export default defineCurationLists({
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-dev-0.16.json",
           toolId: "oww-workshop",
-          versionBranch: "0.1.x",
+          versionBranch: "0.2.x",
           tags: ["writing", "fiction", "peer review", "experimental"],
         },
         {
           toolListUrl:
             "https://lightningrodlabs.org/weave-tool-curation/0.16/tool-list-dev-0.16.json",
           toolId: "effing",
-          versionBranch: "0.1.x",
+          versionBranch: "0.4.x",
           tags: ["wellbeing", "mutual aid", "experimental"],
         },
       ],

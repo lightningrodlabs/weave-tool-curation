@@ -14,7 +14,34 @@ export default defineDevCollectiveToolList({
   tools: [
     {
       id: "oww-workshop",
+      versionBranch: "0.2.x",
+      title: "Online Writing Workshop",
+      subtitle: "peer review for fiction writers",
+      description: "## Overview\n\nThe Online Writing Workshop, ported to Holochain: members post fiction, review each other's work with inline spot comments and ratings, and earn the points that let them post more. The workshop's taxonomy, economy and features are configured in-app by the tool's installer and the stewards they appoint.\n\n## Features\n\n- Post submissions (short stories, chapters, synopses) with a genre/type/audience taxonomy\n- Reviews with text-anchored spot comments, per-criterion ratings and a publishable poll\n- A points economy: reviews earn points, posting spends them; under-reviewed pieces offer a bonus\n- Reviewer levels (the bees) for prolific reviewers\n- Workshop settings: taxonomy, rating criteria, economy numbers and feature switches, all editable in-app\n\n## Status\n\nIn development. Dev builds: the DNA may change between versions and networks may be reset without notice.",
+      icon: "https://github.com/lightningrodlabs/weave-tool-curation/releases/download/dev-artifacts/oww-icon.png",
+      tags: ["writing", "fiction", "peer review", "experimental"],
+      versions: [
+        {
+          version: "0.2.0",
+          url: "https://github.com/lightningrodlabs/weave-tool-curation/releases/download/dev-artifacts/oww-workshop-0.2.0.webhapp",
+          hashes: {
+            happSha256:
+              "077694536307bd791f3e23a58618fb355386d74246ed6acc0081ab39219b0698",
+            webhappSha256:
+              "81dcf65e76081bc999f4175384ed7491f2480a26108304670904bf9178e481f3",
+            uiSha256:
+              "39d2d73ec2ad179fd0133739728efe3d9aaa5928f999c154b390682db5d0f90b",
+          },
+          changelog:
+            "Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: the DNA changed, so 0.1.x and 0.2.x are separate networks and nothing carries over. Groups should upgrade together.",
+          releasedAt: 1792791375866,
+        },
+      ],
+    },
+    {
+      id: "oww-workshop",
       versionBranch: "0.1.x",
+      deprecation: "Superseded by version 0.2.x",
       title: "Online Writing Workshop",
       subtitle: "peer review for fiction writers",
       description: "## Overview\n\nThe Online Writing Workshop, ported to Holochain: members post fiction, review each other's work with inline spot comments and ratings, and earn the points that let them post more. The workshop's taxonomy, economy and features are configured in-app by the tool's installer and the stewards they appoint.\n\n## Features\n\n- Post submissions (short stories, chapters, synopses) with a genre/type/audience taxonomy\n- Reviews with text-anchored spot comments, per-criterion ratings and a publishable poll\n- A points economy: reviews earn points, posting spends them; under-reviewed pieces offer a bonus\n- Reviewer levels (the bees) for prolific reviewers\n- Workshop settings: taxonomy, rating criteria, economy numbers and feature switches, all editable in-app\n\n## Status\n\nIn development. Dev builds: the DNA may change between versions and networks may be reset without notice.",
@@ -40,7 +67,34 @@ export default defineDevCollectiveToolList({
     },
     {
       id: "effing",
+      versionBranch: "0.4.x",
+      title: "effing",
+      subtitle: "track where your daily capacity goes",
+      description: "## Overview\n\nA tool for tracking where your daily capacity goes — and, on the other half of the window, the same picture for your group. Your day reads top to bottom. In the morning you say how the day looks, and that sets your budget. Through the day you log what drains it, what recharges it, and what you deliberately **give** to the commons, which also adds points to the group's shared **Fund**. In the evening you say whether what you logged matched what actually happened.\n\n## Features\n\n- Morning, day and evening in one pane: pick how the day looks and your budget follows, log as you go, then look back\n- Budget levels, evening answers and built-in categories you can rename, add and remove\n- Private tags: log against a word only you can see, while the group sees only that you logged\n- Your week at a glance\n- The group half: everyone's status, the activity feed, and the Fund's balance\n- Boosts: hand someone a point of budget from your own balance, or up to 10 from the Fund, always with a message\n- Three voices, Neutral, Devil and Angel, chosen on your own device, each with its own opinion of the others\n\n## Status\n\nIn development. Dev builds: the DNA may change between versions and networks may be reset without notice.",
+      icon: "https://github.com/lightningrodlabs/weave-tool-curation/releases/download/dev-artifacts/effing-icon.png",
+      tags: ["wellbeing", "mutual aid", "experimental"],
+      versions: [
+        {
+          version: "0.4.0",
+          url: "https://github.com/lightningrodlabs/weave-tool-curation/releases/download/dev-artifacts/effing-0.4.0.webhapp",
+          hashes: {
+            happSha256:
+              "9a1bdfe482f639b9312c320a34bcbfbf3b3e7378eaa23930211341a26cd8aecb",
+            webhappSha256:
+              "b09783ee8d8d2c0968f6856ce1f8dce684e11c65db5fd15a86bceecac1292968",
+            uiSha256:
+              "c5d9127133bddea4244e6dee1002484f36346324d6df74daf7da75943930d254",
+          },
+          changelog:
+            "0.3.0 rebuilt on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: the DNA changed, so 0.3.x and 0.4.x are separate networks and nothing carries over. Groups should upgrade together.",
+          releasedAt: 1792791375866,
+        },
+      ],
+    },
+    {
+      id: "effing",
       versionBranch: "0.3.x",
+      deprecation: "Superseded by version 0.4.x",
       title: "effing",
       subtitle: "track where your daily capacity goes",
       description: "## Overview\n\nA tool for tracking where your daily capacity goes — and, on the other half of the window, the same picture for your group. Your day reads top to bottom. In the morning you say how the day looks, and that sets your budget. Through the day you log what drains it, what recharges it, and what you deliberately **give** to the commons, which also adds points to the group's shared **Fund**. In the evening you say whether what you logged matched what actually happened.\n\n## Features\n\n- Morning, day and evening in one pane: pick how the day looks and your budget follows, log as you go, then look back\n- Budget levels, evening answers and built-in categories you can rename, add and remove\n- Private tags: log against a word only you can see, while the group sees only that you logged\n- Your week at a glance\n- The group half: everyone's status, the activity feed, and the Fund's balance\n- Boosts: hand someone a point of budget from your own balance, or up to 10 from the Fund, always with a message\n- Three voices, Neutral, Devil and Angel, chosen on your own device, each with its own opinion of the others\n\n## Status\n\nIn development. Dev builds: the DNA may change between versions and networks may be reset without notice.",
