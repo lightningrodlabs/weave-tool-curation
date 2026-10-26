@@ -222,6 +222,18 @@ export default defineDevCollectiveToolList({
           changelog: "Presence on Holochain 0.7.1, for Moss 0.16.0-rc.1 and later. New network: 0.17.x agents cannot see rooms from 0.16.x or earlier, so groups should upgrade together. Call signalling now uses Holochain direct signals, which cut message latency by about a factor of three.",
           releasedAt: 1792241443000,
         },
+        {
+          version: "0.17.1",
+          url: "https://github.com/lightningrodlabs/presence/releases/download/v0.17.1/presence.webhapp",
+          hashes: {
+            happSha256:
+              "c743e150f26cd432cf8fcda57444a0f87a1d7c7bfc289b87f2869055fcfbd6c7",
+            webhappSha256: "e52c9753ab98c95b4950ee22c1d6b89c29bf4e74fe244742ed543cd67b4f02ed",
+            uiSha256: "6f1850b7be45c0a6f8e3c335e9df34e07bb8eef45c5cbffad01a84de92aa8423",
+          },
+          changelog: "Update to Presence 0.17.1. The microphone menu gains an Audio Output section for choosing which speaker or headset plays the call, the shared voice and the join and leave chimes. On Moss builds that report whether system-audio capture is available, the Include audio from… entry no longer appears where it cannot work.",
+          releasedAt: 1793032250000,
+        },
       ],
     },
     {
