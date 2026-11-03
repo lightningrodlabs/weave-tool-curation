@@ -984,6 +984,17 @@
                     },
                     "changelog": "New network on Holochain 0.7.1: 1.31.x agents cannot see threads from 1.30.x or earlier, so groups should upgrade together. Use Export on the 1.30.x install and Import on 1.31.x to carry content across. This release adds:\n\n- Stewarded instances. When you add Vines to a group in Moss 0.16.0-rc.4 or later, you can make it stewarded and pick stewards; then only stewards create categories and channels or move channels between them.\n- Files, voice messages, Weave Asset links and editing in DMs. DM files are stored privately and delivered to the other person.\n- Moving a channel to another category by dragging it.\n- A new look: a soft-paper theme, a new logo, collapsible sidebar sections that keep unread channels in view, and resizable panels.",
                     "releasedAt": 1793733269000
+                },
+                {
+                    "version": "1.31.1",
+                    "url": "https://github.com/lightningrodlabs/vines/releases/download/v1.31.1/vines-we_applet.webhapp",
+                    "hashes": {
+                        "happSha256": "c05daa8e188a86eb3dfc6529259c28a1852a2776a2eb0fd9bd49af73c645d7b4",
+                        "webhappSha256": "7bda74549dd4e4fe2baff9d716937c33450d4d46eda7fb80ae9508fabca18d92",
+                        "uiSha256": "3831f54c0280aff2f45ca48a2c9dc6e38529184131ecc044a2afca2dc0819610"
+                    },
+                    "changelog": "Same network as 1.31.0, so it upgrades in place. The Stewarded switch is replaced by a choice of who shapes the structure: everyone, the group's stewards, the installer, or either of those two plus members you pick. Channels can now be renamed from their menu; in a stewarded instance only an author who is also a steward can rename.",
+                    "releasedAt": 1793737842000
                 }
             ]
         },
