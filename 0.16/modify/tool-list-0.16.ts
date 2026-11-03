@@ -915,6 +915,29 @@ export default defineDevCollectiveToolList({
       ],
     },
     {
+      id: "vines",
+      versionBranch: "1.31.x",
+      title: "Vines",
+      subtitle: "Group conversations and DMs",
+      description: "## Overview\n\nVines is a flexible, channel-based chat and direct-messaging tool for groups. It offers a familiar Discord/Slack-style conversation experience reimagined for peer-to-peer use, with rich asset-aware messaging.\n\n## Features\n\n- Group channels and direct messages\n- Threaded replies and emoji reactions\n- File uploads and Weave Asset attachments, in channels and DMs\n- Voice messages and editable messages in DMs\n- Stewarded instances, where only stewards shape categories and channels\n- Channels dragged between categories and reordered\n- Discord import for migrating existing conversations\n- Channel moderation and deletion by moderators\n- Multi-language localizations (de, es, fr, it, ja, nl, pt, tr)\n- Peer online status and message delivery indicators\n- Network health panel and import/export summaries",
+      icon: "https://github.com/lightningrodlabs/vines/releases/download/v1.31.0/icon.png",
+      tags: ["chat"],
+      versions: [
+        {
+          version: "1.31.0",
+          url: "https://github.com/lightningrodlabs/vines/releases/download/v1.31.0/vines-we_applet.webhapp",
+          hashes: {
+            happSha256:
+              "c05daa8e188a86eb3dfc6529259c28a1852a2776a2eb0fd9bd49af73c645d7b4",
+            webhappSha256: "7d27122486f0c7de3d2ceb79b7305e233f57663deec686bbedf377bc14cfc7a1",
+            uiSha256: "be36417c5491fc80caf4297899c36d503c52ad897d3a03b1cb3408c613986392",
+          },
+          changelog: "New network on Holochain 0.7.1: 1.31.x agents cannot see threads from 1.30.x or earlier, so groups should upgrade together. Use Export on the 1.30.x install and Import on 1.31.x to carry content across. This release adds:\n\n- Stewarded instances. When you add Vines to a group in Moss 0.16.0-rc.4 or later, you can make it stewarded and pick stewards; then only stewards create categories and channels or move channels between them.\n- Files, voice messages, Weave Asset links and editing in DMs. DM files are stored privately and delivered to the other person.\n- Moving a channel to another category by dragging it.\n- A new look: a soft-paper theme, a new logo, collapsible sidebar sections that keep unread channels in view, and resizable panels.",
+          releasedAt: 1793733269000,
+        },
+      ],
+    },
+    {
       id: "farmhack",
       versionBranch: "0.2.x",
       title: "FarmHack",
